@@ -193,7 +193,7 @@
         </header>
 
         <div class="post-content">
-            <h3 id="使用谷歌云搭建google-drive离线下载服务器"><a href="#使用谷歌云搭建google-drive离线下载服务器" class="headerlink" title="使用谷歌云搭建google drive离线下载服务器"></a>使用谷歌云搭建google drive离线下载服务器</h3><h4 id="1-在google云中创建一个实例"><a href="#1-在google云中创建一个实例" class="headerlink" title="1.在google云中创建一个实例"></a>1.在google云中创建一个实例</h4><p>选择香港或者台湾地区，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端</p>
+            <h4 id="1-在google云中创建一个实例"><a href="#1-在google云中创建一个实例" class="headerlink" title="1.在google云中创建一个实例"></a>1.在google云中创建一个实例</h4><p>选择香港或者台湾地区，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端</p>
 <h4 id="2-安装rclone"><a href="#2-安装rclone" class="headerlink" title="2.安装rclone"></a>2.安装rclone</h4><p>我们使用官方的脚本进行安装</p>
 <p>首先我们需要安装解压工具</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install unzip</span><br></pre></td></tr></table></figure>
@@ -243,6 +243,83 @@
 <p>最后输入q退出配置</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">e/n/d/r/c/s/q&gt; q</span><br></pre></td></tr></table></figure>
 
+
+
+
+
+<h4 id="4-挂载磁盘"><a href="#4-挂载磁盘" class="headerlink" title="4.挂载磁盘"></a>4.挂载磁盘</h4><p>创建一个文件夹来挂载磁盘</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/googledrive</span><br></pre></td></tr></table></figure>
+
+<p>在挂载之前，我们要先安装fuse</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install fuse</span><br></pre></td></tr></table></figure>
+
+<p>然后输入挂载命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone mount gdShare:/ /mnt/googledrive/ --allow-other --allow-non-empty --vfs-cache-mode writes &amp;</span><br></pre></td></tr></table></figure>
+
+<p>输入命令查看是否挂载成功</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># df -h</span></span><br><span class="line">Filesystem      Size  Used Avail Use% Mounted on</span><br><span class="line">devtmpfs        285M     0  285M   0% /dev</span><br><span class="line">tmpfs           294M     0  294M   0% /dev/shm</span><br><span class="line">tmpfs           294M  4.4M  289M   2% /run</span><br><span class="line">tmpfs           294M     0  294M   0% /sys/fs/cgroup</span><br><span class="line">/dev/sda2        20G  2.2G   18G  11% /</span><br><span class="line">/dev/sda1       200M   12M  189M   6% /boot/efi</span><br><span class="line">tmpfs            59M     0   59M   0% /run/user/1000</span><br><span class="line">gdShare:         15G  848K   15G   1% /mnt/googledrive</span><br></pre></td></tr></table></figure>
+
+<p>可以看到gdShare已经在上面了</p>
+<h4 id="5-设置开机自动挂载"><a href="#5-设置开机自动挂载" class="headerlink" title="5.设置开机自动挂载"></a>5.设置开机自动挂载</h4><p>每次开关机服务器，rclone都要重新手动挂载，为了方便，我们设置自动挂载命令</p>
+<p>首先新建一个rclone.service文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /usr/lib/systemd/system/rclone.service</span><br></pre></td></tr></table></figure>
+
+<p>写入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=rclone</span><br><span class="line">    </span><br><span class="line">[Service]</span><br><span class="line">User=root</span><br><span class="line">ExecStart=/usr/bin/rclone mount gdShare:/ /mnt/googledrive/ --allow-other --allow-non-empty --vfs-cache-mode writes</span><br><span class="line">Restart=on-abort</span><br><span class="line">    </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<p>保存退出后</p>
+<p>重载daemon,让新的服务文件生效</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure>
+
+<p>然后我们就可以通过systemctl来启动clone了</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start rclone</span><br></pre></td></tr></table></figure>
+
+<p>设置开机自启</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> rclone</span><br></pre></td></tr></table></figure>
+
+<p>重启你的服务器，然后看一下rclone的服务启动了没有，再查看一下谷歌硬盘有没有挂载成功：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br><span class="line">systemctl status rclone</span><br><span class="line">df -h</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="6-安装Aria2"><a href="#6-安装Aria2" class="headerlink" title="6.安装Aria2"></a>6.安装Aria2</h4><p>我们这里要使用到wget，所以先安装wget</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install wget</span><br></pre></td></tr></table></figure>
+
+<p>然后我们使用P3TERX的一键安装版本</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N git.io/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; ./aria2.sh</span><br></pre></td></tr></table></figure>
+
+<p>首先我们输入1，安装Aria2，然后这个脚本会自动安装并启动Aria2</p>
+<h4 id="7-配置自动上传脚本"><a href="#7-配置自动上传脚本" class="headerlink" title="7.配置自动上传脚本"></a>7.配置自动上传脚本</h4><p>我们创建一个脚本</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim rcloneupload.sh</span><br></pre></td></tr></table></figure>
+
+
+
+<p>填入以下内容,记得RemoteDIR和LocalDIR根据自己的实际情况进行设置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line">GID=<span class="string">"<span class="variable">$1</span>"</span>;</span><br><span class="line">FileNum=<span class="string">"<span class="variable">$2</span>"</span>;</span><br><span class="line">File=<span class="string">"<span class="variable">$3</span>"</span>;</span><br><span class="line">MinSize=<span class="string">"5"</span>  <span class="comment">#限制最低上传大小，默认5k</span></span><br><span class="line">MaxSize=<span class="string">"157286400"</span>  <span class="comment">#限制最高文件大小(单位k)，默认15G</span></span><br><span class="line">RemoteDIR=<span class="string">"/mnt/googledrive/"</span>;  <span class="comment">#rclone挂载的本地文件夹，最后面保留 /</span></span><br><span class="line">LocalDIR=<span class="string">"/root/download/"</span>;  <span class="comment">#Aria2下载目录，最后面保留 /</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ -z $(<span class="built_in">echo</span> <span class="string">"<span class="variable">$FileNum</span>"</span> |grep -o <span class="string">'[0-9]*'</span> |head -n1) ]]; <span class="keyword">then</span> FileNum=<span class="string">'0'</span>; <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="string">"<span class="variable">$FileNum</span>"</span> -le <span class="string">'0'</span> ]]; <span class="keyword">then</span> <span class="built_in">exit</span> 0; <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="string">"<span class="variable">$#</span>"</span> != <span class="string">'3'</span> ]]; <span class="keyword">then</span> <span class="built_in">exit</span> 0; <span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">LoadFile</span></span>()&#123;</span><br><span class="line">  IFS_BAK=<span class="variable">$IFS</span></span><br><span class="line">  IFS=$<span class="string">'\n'</span></span><br><span class="line">  <span class="keyword">if</span> [[ ! -d <span class="string">"<span class="variable">$LocalDIR</span>"</span> ]]; <span class="keyword">then</span> <span class="built_in">return</span>; <span class="keyword">fi</span></span><br><span class="line">  <span class="keyword">if</span> [[ -e <span class="string">"<span class="variable">$File</span>"</span> ]]; <span class="keyword">then</span></span><br><span class="line">    FileLoad=<span class="string">"<span class="variable">$&#123;File/#$LocalDIR&#125;</span>"</span></span><br><span class="line">    <span class="keyword">while</span> <span class="literal">true</span></span><br><span class="line">      <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$FileLoad</span>"</span> == <span class="string">'/'</span> ]]; <span class="keyword">then</span> <span class="built_in">return</span>; <span class="keyword">fi</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">"<span class="variable">$FileLoad</span>"</span> |grep -q <span class="string">'/'</span>;</span><br><span class="line">        <span class="keyword">if</span> [[ <span class="string">"$?"</span> == <span class="string">"0"</span> ]]; <span class="keyword">then</span></span><br><span class="line">          FileLoad=$(dirname <span class="string">"<span class="variable">$FileLoad</span>"</span>);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">          <span class="built_in">break</span>;</span><br><span class="line">        <span class="keyword">fi</span>;</span><br><span class="line">      <span class="keyword">done</span>;</span><br><span class="line">    <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$FileLoad</span>"</span> == <span class="string">"<span class="variable">$LocalDIR</span>"</span> ]]; <span class="keyword">then</span> <span class="built_in">return</span>; <span class="keyword">fi</span></span><br><span class="line">    EXEC=<span class="string">"<span class="variable">$(command -v mv)</span>"</span></span><br><span class="line">    <span class="keyword">if</span> [[ -z <span class="string">"<span class="variable">$EXEC</span>"</span> ]]; <span class="keyword">then</span> <span class="built_in">return</span>; <span class="keyword">fi</span></span><br><span class="line">    Option=<span class="string">" -f"</span>;</span><br><span class="line">    <span class="built_in">cd</span> <span class="string">"<span class="variable">$LocalDIR</span>"</span>;</span><br><span class="line">    <span class="keyword">if</span> [[ -e <span class="string">"<span class="variable">$FileLoad</span>"</span> ]]; <span class="keyword">then</span></span><br><span class="line">      ItemSize=$(du -s <span class="string">"<span class="variable">$FileLoad</span>"</span> |cut -f1 |grep -o <span class="string">'[0-9]*'</span> |head -n1)</span><br><span class="line">      <span class="keyword">if</span> [[ -z <span class="string">"<span class="variable">$ItemSize</span>"</span> ]]; <span class="keyword">then</span> <span class="built_in">return</span>; <span class="keyword">fi</span></span><br><span class="line">      <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$ItemSize</span>"</span> -le <span class="string">"<span class="variable">$MinSize</span>"</span> ]]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> -ne <span class="string">"\033[33m<span class="variable">$FileLoad</span> \033[0mtoo small to spik.\n"</span>;</span><br><span class="line">        <span class="built_in">return</span>;</span><br><span class="line">      <span class="keyword">fi</span></span><br><span class="line">      <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$ItemSize</span>"</span> -ge <span class="string">"<span class="variable">$MaxSize</span>"</span> ]]; <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> -ne <span class="string">"\033[33m<span class="variable">$FileLoad</span> \033[0mtoo large to spik.\n"</span>;</span><br><span class="line">        <span class="built_in">return</span>;</span><br><span class="line">      <span class="keyword">fi</span></span><br><span class="line">      <span class="built_in">eval</span> <span class="string">"<span class="variable">$&#123;EXEC&#125;</span><span class="variable">$&#123;Option&#125;</span>"</span> \<span class="string">'"$&#123;FileLoad&#125;"\'</span> <span class="string">"<span class="variable">$&#123;RemoteDIR&#125;</span>"</span>;</span><br><span class="line">      <span class="keyword">if</span> [[ $? == <span class="string">'0'</span> ]]; <span class="keyword">then</span></span><br><span class="line">        rm -rf <span class="string">"<span class="variable">$FileLoad</span>"</span>;</span><br><span class="line">      <span class="keyword">fi</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line">  <span class="keyword">fi</span></span><br><span class="line">  IFS=<span class="variable">$IFS_BAK</span></span><br><span class="line">&#125;</span><br><span class="line">LoadFile;</span><br></pre></td></tr></table></figure>
+
+<p>给脚本添加可执行权限</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x rcloneupload.sh</span><br></pre></td></tr></table></figure>
+
+<p>然后再编辑Aria2配置文件，设置下载完成后执行的命令为rcloneupload.sh</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /root/.aria2/aria2.conf</span><br></pre></td></tr></table></figure>
+
+<p>内容如下所示</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载完成后执行的命令</span></span><br><span class="line"><span class="comment"># 此项未定义则执行下载停止后执行的命令（on-download-stop）</span></span><br><span class="line">on-download-complete=/root/rcloneupload.sh</span><br></pre></td></tr></table></figure>
+
+<p>最后重启aria2即可</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service aria2 restart</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="8-使用可视化面板进行操作"><a href="#8-使用可视化面板进行操作" class="headerlink" title="8.使用可视化面板进行操作"></a>8.使用可视化面板进行操作</h4><p>Aria2只是一个命令行程序，我们在这里需要配合前端面板才能获得更好的操作体验，AriaNg就是一个很不错的前端面板，但是，在这里我使用的是一个本地程序，他可以支持Windows和macOS，不需要用浏览器</p>
+<p>项目地址如下</p>
+<p><a href="https://github.com/mayswind/AriaNg-Native" target="_blank" rel="noopener">https://github.com/mayswind/AriaNg-Native</a></p>
+<p>下载合适的版本后，我们安装打开首先设置RPC，地址也就是你Aria2的服务器ip，协议我们选择http，请求方法为POST，密钥也就是我们在服务端生成的密钥</p>
+<p><img src="/Users/loyiomacbook/loyelee.github.io/themes/Chic/source/image/image-20200428210525736.png" alt="image-20200428210525736"></p>
 
         </div>
 
