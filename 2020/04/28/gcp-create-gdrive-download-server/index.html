@@ -250,7 +250,7 @@
 <h4 id="4-挂载磁盘"><a href="#4-挂载磁盘" class="headerlink" title="4.挂载磁盘"></a>4.挂载磁盘</h4><p>创建一个文件夹来挂载磁盘</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/googledrive</span><br></pre></td></tr></table></figure>
 
-<p>在挂载之前，我们要先安装fuse</p>
+<p>在挂载之前，我们要先安装fuse文件系统</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install fuse</span><br></pre></td></tr></table></figure>
 
 <p>然后输入挂载命令</p>
@@ -291,6 +291,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N git.io/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; ./aria2.sh</span><br></pre></td></tr></table></figure>
 
 <p>首先我们输入1，安装Aria2，然后这个脚本会自动安装并启动Aria2</p>
+<p>安装时间可能比较长，会卡在一个地方很久，请不要中断安装，等待即可</p>
 <h4 id="7-配置自动上传脚本"><a href="#7-配置自动上传脚本" class="headerlink" title="7.配置自动上传脚本"></a>7.配置自动上传脚本</h4><p>我们创建一个脚本</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim rcloneupload.sh</span><br></pre></td></tr></table></figure>
 
@@ -320,6 +321,9 @@
 <p><a href="https://github.com/mayswind/AriaNg-Native" target="_blank" rel="noopener">https://github.com/mayswind/AriaNg-Native</a></p>
 <p>下载合适的版本后，我们安装打开首先设置RPC，地址也就是你Aria2的服务器ip，协议我们选择http，请求方法为POST，密钥也就是我们在服务端生成的密钥</p>
 <p><img src="/image/image-20200428210525736.png" alt="image-20200428210525736"></p>
+<p>视频教程请访问</p>
+<p>Youtube <a href="https://youtu.be/GFtZHti6P78" target="_blank" rel="noopener">https://youtu.be/GFtZHti6P78</a></p>
+<p>Bilibili <a href="https://b23.tv/Efpg4F" target="_blank" rel="noopener">https://b23.tv/Efpg4F</a></p>
 
         </div>
 
