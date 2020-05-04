@@ -2,37 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.loyio.me/2020/05/04/hexo-next-theme-nondisplay-fullpassage/</loc>
+    <loc>https://blog.loyio.me/2020/05/03/quantumnltx-config/</loc>
     
-    <lastmod>2020-05-04T05:28:18.577Z</lastmod>
+    <lastmod>2020-05-04T05:49:17.303Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.loyio.me/2020/05/04/hexo-blog-seo/</loc>
     
-    <lastmod>2020-05-04T02:26:06.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.loyio.me/2020/04/28/gcp-create-gdrive-download-server/</loc>
-    
-    <lastmod>2020-05-03T13:26:58.617Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.loyio.me/2020/05/03/quantumnltx-config/</loc>
-    
-    <lastmod>2020-05-03T13:26:28.413Z</lastmod>
+    <lastmod>2020-05-04T05:49:02.973Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.loyio.me/2020/05/01/hexo-add-new-tags/</loc>
     
-    <lastmod>2020-05-01T13:57:01.848Z</lastmod>
+    <lastmod>2020-05-04T05:48:52.215Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.loyio.me/2020/05/01/hexo-add-new-category/</loc>
+    
+    <lastmod>2020-05-04T05:48:35.644Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.loyio.me/2020/04/28/gcp-create-gdrive-download-server/</loc>
+    
+    <lastmod>2020-05-04T05:48:15.112Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.loyio.me/2020/05/01/arcade-game-record/</loc>
+    
+    <lastmod>2020-05-04T05:47:49.754Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.loyio.me/2020/05/04/hexo-next-theme-nondisplay-fullpassage/</loc>
+    
+    <lastmod>2020-05-04T05:46:42.951Z</lastmod>
     
   </url>
   
@@ -40,20 +54,6 @@
     <loc>https://blog.loyio.me/tags/index.html</loc>
     
     <lastmod>2020-05-01T13:34:44.523Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.loyio.me/2020/05/01/hexo-add-new-category/</loc>
-    
-    <lastmod>2020-05-01T13:28:55.557Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.loyio.me/2020/05/01/arcade-game-record/</loc>
-    
-    <lastmod>2020-05-01T13:28:41.230Z</lastmod>
     
   </url>
   
