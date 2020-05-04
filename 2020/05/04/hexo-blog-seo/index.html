@@ -32,8 +32,12 @@
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1geg5wclpwpj30rn038aaf.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1geg6cw5i6tj30rz0dlmyf.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1geg6o9vibqj30s10c9dgw.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1geg6vdi3sjj30b1039wer.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1geg77m6klgj30zx0gmade.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1geg796snxij30ou0fewgd.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1geg7b7s7haj30mf0gkdh7.jpg">
 <meta property="article:published_time" content="2020-05-04T00:31:30.000Z">
-<meta property="article:modified_time" content="2020-05-04T02:02:13.700Z">
+<meta property="article:modified_time" content="2020-05-04T02:19:41.200Z">
 <meta property="article:author" content="Loyio">
 <meta property="article:tag" content="SEO">
 <meta property="article:tag" content="Hexo">
@@ -212,7 +216,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-05-04 08:31:30 / Modified: 10:02:13" itemprop="dateCreated datePublished" datetime="2020-05-04T08:31:30+08:00">2020-05-04</time>
+              <time title="Created: 2020-05-04 08:31:30 / Modified: 10:19:41" itemprop="dateCreated datePublished" datetime="2020-05-04T08:31:30+08:00">2020-05-04</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -272,7 +276,7 @@
 <h4 id="2⃣️-链接提交"><a href="#2⃣️-链接提交" class="headerlink" title="2⃣️ 链接提交"></a>2⃣️ 链接提交</h4><p>我们在这里讲一下自动提交方法，手动提交按照要求在括号内填入链接即可</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1geg6cw5i6tj30rz0dlmyf.jpg" alt="image-20200504094615711"></p>
 <p>自动提交也有三种选项，主动推送、自动推送以及sitemap</p>
-<h5 id="主动推送"><a href="#主动推送" class="headerlink" title="主动推送"></a>主动推送</h5><p>我们要用到hexo的插件，输入命令安装即可</p>
+<h5 id="1-主动推送"><a href="#1-主动推送" class="headerlink" title="1.主动推送"></a>1.主动推送</h5><p>我们要用到hexo的插件，输入命令安装即可</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-baidu-url-submit --save</span><br></pre></td></tr></table></figure>
 
 <p>然后在_config.yml文件添加以下内容</p>
@@ -289,6 +293,27 @@
 <p>最后生成提交就可以了</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
 
+
+
+<p>可以看到最后成功提交的输出</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1geg6vdi3sjj30b1039wer.jpg" alt="image-20200504100400535"></p>
+<h5 id="2-自动推送"><a href="#2-自动推送" class="headerlink" title="2.自动推送"></a>2.自动推送</h5><p>复制百度提供的自动推送代码</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> bp = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">    <span class="keyword">var</span> curProtocol = <span class="built_in">window</span>.location.protocol.split(<span class="string">':'</span>)[<span class="number">0</span>];</span><br><span class="line">    <span class="keyword">if</span> (curProtocol === <span class="string">'https'</span>) &#123;</span><br><span class="line">        bp.src = <span class="string">'https://zz.bdstatic.com/linksubmit/push.js'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">        bp.src = <span class="string">'http://push.zhanzhang.baidu.com/push.js'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> s = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];</span><br><span class="line">    s.parentNode.insertBefore(bp, s);</span><br><span class="line">&#125;)();</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>打开主题目录，再打开布局目录下的 <code>post.swig</code> ,比如我的目录链接是这样的 <code>themes/next/layout/post.swig</code></p>
+<p>将上面的代码粘贴到最后就可以了</p>
+<h5 id="3-sitemap"><a href="#3-sitemap" class="headerlink" title="3.sitemap"></a>3.sitemap</h5><p>之前已经生成过sitemap文件了，这里只需要复制链接过去就可以了，比如我的百度sitemap文件链接如下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://blog.loyio.me/baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+<p>点击提交就可以了</p>
+<h3 id="4-Google网站站长"><a href="#4-Google网站站长" class="headerlink" title="4.Google网站站长"></a>4.Google网站站长</h3><p>打开网站 <a href="https://www.google.com/webmasters/" target="_blank" rel="noopener">https://www.google.com/webmasters/</a> ，然后登录自己的Google账号，点击SEARCH CONSOLE</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1geg77m6klgj30zx0gmade.jpg" alt="image-20200504101547402"></p>
+<p>选择网址前缀资源类型，也就是第二个</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1geg796snxij30ou0fewgd.jpg" alt="image-20200504101718180"></p>
+<p>输入自己网站的域名，点击继续，然后验证所有权，操作方法和百度基本相似，下载文件，然后将它放入文件夹中，生成部署就可以了</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1geg7b7s7haj30mf0gkdh7.jpg" alt="截屏2020-05-04 上午10.18.05"></p>
 
     </div>
 
@@ -457,7 +482,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-什么是SEO"><span class="nav-number">1.</span> <span class="nav-text">1.什么是SEO</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-站点地图"><span class="nav-number">2.</span> <span class="nav-text">2.站点地图</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1⃣️-生成站点地图"><span class="nav-number">2.1.</span> <span class="nav-text">1⃣️ 生成站点地图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2⃣️-修改配置文件"><span class="nav-number">2.2.</span> <span class="nav-text">2⃣️ 修改配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3⃣️-生成页面并部署到服务器"><span class="nav-number">2.3.</span> <span class="nav-text">3⃣️ 生成页面并部署到服务器</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-百度站长平台"><span class="nav-number">3.</span> <span class="nav-text">3.百度站长平台</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1⃣️-添加网站"><span class="nav-number">3.1.</span> <span class="nav-text">1⃣️ 添加网站</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2⃣️-链接提交"><span class="nav-number">3.2.</span> <span class="nav-text">2⃣️ 链接提交</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#主动推送"><span class="nav-number">3.2.1.</span> <span class="nav-text">主动推送</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-什么是SEO"><span class="nav-number">1.</span> <span class="nav-text">1.什么是SEO</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-站点地图"><span class="nav-number">2.</span> <span class="nav-text">2.站点地图</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1⃣️-生成站点地图"><span class="nav-number">2.1.</span> <span class="nav-text">1⃣️ 生成站点地图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2⃣️-修改配置文件"><span class="nav-number">2.2.</span> <span class="nav-text">2⃣️ 修改配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3⃣️-生成页面并部署到服务器"><span class="nav-number">2.3.</span> <span class="nav-text">3⃣️ 生成页面并部署到服务器</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-百度站长平台"><span class="nav-number">3.</span> <span class="nav-text">3.百度站长平台</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1⃣️-添加网站"><span class="nav-number">3.1.</span> <span class="nav-text">1⃣️ 添加网站</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2⃣️-链接提交"><span class="nav-number">3.2.</span> <span class="nav-text">2⃣️ 链接提交</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-主动推送"><span class="nav-number">3.2.1.</span> <span class="nav-text">1.主动推送</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-自动推送"><span class="nav-number">3.2.2.</span> <span class="nav-text">2.自动推送</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-sitemap"><span class="nav-number">3.2.3.</span> <span class="nav-text">3.sitemap</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Google网站站长"><span class="nav-number">4.</span> <span class="nav-text">4.Google网站站长</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
