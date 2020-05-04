@@ -122,7 +122,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">6</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">7</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -175,6 +175,83 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://blog.loyio.me/2020/05/04/hexo-next-theme-nondisplay-fullpassage/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Loyio">
+      <meta itemprop="description" content="loyio's personal blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Loyio blogs">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/04/hexo-next-theme-nondisplay-fullpassage/" class="post-title-link" itemprop="url">设置Hexo博客Next主题主页不显示全文</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-05-04 13:07:04 / Modified: 13:28:18" itemprop="dateCreated datePublished" datetime="2020-05-04T13:07:04+08:00">2020-05-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>使用Hexo配置自己的博客后，感觉很多方面都要轻松很多，一开始我是在Hexo Theme Page里面找到了一个比较好看的主题，奈何配置上之后，很多功能无法实现，且开发者好像也不再维护更新了，最终我还是决定使用Next博客，配置项的确是挺多的，所以功能也比较齐全，目前也有社区在维护更新</p>
+<p>Next博客的主页总是会将你的文章全文显示出来，这样可读性是比较差的，如果你文章特别长的话，对于加载也有一定的影响，另一方面，没有目录，访问者无法清楚的找出自己要得到的内容</p>
+<p>所以我觉得还是要设置一些，让主页不显示全文，</p>
+<p>Google了一下，发现解决方法就是打开主题下的配置文件，将下面的enable改为true就可以了</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">auto_excerpt:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>奈何我在配置文件中根本就没找到这个关键词，可能是主题配置重写了吧，下面说说我的解决步骤</p>
+<p>打开<code>themes/next</code> 目录下的 <code>config.yml</code>  </p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -921,7 +998,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -932,7 +1009,7 @@
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
-        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-count">16</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -992,7 +1069,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Copyright (c) loyio.me</span>
+  <span class="author" itemprop="copyrightHolder">Copyright Loyio.me</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
   </div>
