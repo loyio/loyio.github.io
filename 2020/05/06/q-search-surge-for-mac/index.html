@@ -20,33 +20,46 @@
     var CONFIG = {"hostname":"blog.loyio.me","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"appID":"G86F4QTO8A","apiKey":"26d3e5dec0bbecbdc05131954873f43a","indexName":"loyio_blog","hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="loyio&#39;s personal blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Loyio blogs">
-<meta property="og:url" content="https://blog.loyio.me/page/2/index.html">
+  <meta name="description" content="昨天狠下心上了SurgeForMac的车，140永久，这是继Quantumult X后的又一次剁手，我也不知道自己怎么这么折腾，本来我Mac端用Clash用的好好的，没啥其它问题，可能是头脑一热吧，不过我今天就是想介绍一下，我重写的一款Surge模块，Q-Search">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Surge-For-Mac模块 Q-Search 自定义搜索">
+<meta property="og:url" content="https://blog.loyio.me/2020/05/06/q-search-surge-for-mac/index.html">
 <meta property="og:site_name" content="Loyio blogs">
-<meta property="og:description" content="loyio&#39;s personal blog">
+<meta property="og:description" content="昨天狠下心上了SurgeForMac的车，140永久，这是继Quantumult X后的又一次剁手，我也不知道自己怎么这么折腾，本来我Mac端用Clash用的好好的，没啥其它问题，可能是头脑一热吧，不过我今天就是想介绍一下，我重写的一款Surge模块，Q-Search">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geiofwsjamj30v90fxwi3.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geioi201suj30u01im7ql.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geiopw1qzjj30pp0gmgzs.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geiorw05pwj30ku0fdtb1.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geioyiu7lbj30pm0b9n16.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geip0e68jjj30m002paaa.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geip50fzv3j30km06vjsr.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geip9js2qhj30oa03g76u.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geipb32gjhj30yg0hlaiv.jpg">
+<meta property="article:published_time" content="2020-05-06T05:34:22.000Z">
+<meta property="article:modified_time" content="2020-05-06T06:13:57.069Z">
 <meta property="article:author" content="Loyio">
-<meta property="article:tag" content="loyio">
-<meta property="article:tag" content=" 苏筱特， susmote">
-<meta property="article:tag" content=" loyelee">
+<meta property="article:tag" content="Surge">
+<meta property="article:tag" content="Surge模块">
+<meta property="article:tag" content="自定义搜索">
+<meta property="article:tag" content="Q-Search">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1geiofwsjamj30v90fxwi3.jpg">
 
-<link rel="canonical" href="https://blog.loyio.me/page/2/">
+<link rel="canonical" href="https://blog.loyio.me/2020/05/06/q-search-surge-for-mac/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Loyio blogs</title>
+  <title>Surge-For-Mac模块 Q-Search 自定义搜索 | Loyio blogs</title>
   
 
 
@@ -173,13 +186,14 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.loyio.me/2020/05/01/arcade-game-record/">
+    <link itemprop="mainEntityOfPage" href="https://blog.loyio.me/2020/05/06/q-search-surge-for-mac/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpeg">
@@ -191,10 +205,9 @@
       <meta itemprop="name" content="Loyio blogs">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/05/01/arcade-game-record/" class="post-title-link" itemprop="url">Apple Arcade 游戏记录</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Surge-For-Mac模块 Q-Search 自定义搜索
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -202,23 +215,17 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-05-01 20:55:04" itemprop="dateCreated datePublished" datetime="2020-05-01T20:55:04+08:00">2020-05-01</time>
+              <time title="创建时间：2020-05-06 13:34:22 / 修改时间：14:13:57" itemprop="dateCreated datePublished" datetime="2020-05-06T13:34:22+08:00">2020-05-06</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-04 13:47:49" itemprop="dateModified" datetime="2020-05-04T13:47:49+08:00">2020-05-04</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%B8%B8%E6%88%8F/" itemprop="url" rel="index"><span itemprop="name">游戏</span></a>
+                  <a href="/categories/Surge/" itemprop="url" rel="index"><span itemprop="name">Surge</span></a>
                 </span>
             </span>
 
@@ -233,123 +240,157 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>开通了Apple的游戏订阅服务，里面虽然游戏很多，但其实很多游戏是比较适合小孩子玩的，目前我个人觉得能玩的游戏有Oceanhorn2，Spyder，Tint等，这里我决定将Arcade中的每个游戏都试玩一下，写一下自己的个人感受。直接打开下面的链接就可以看到了</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/05/01/arcade-game-record/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+        <p>昨天狠下心上了SurgeForMac的车，140永久，这是继Quantumult X后的又一次剁手，我也不知道自己怎么这么折腾，本来我Mac端用Clash用的好好的，没啥其它问题，可能是头脑一热吧，不过我今天就是想介绍一下，我重写的一款Surge模块，Q-Search</p>
+<a id="more"></a>
+
+
+
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在手机上用过Quantumult X和Surge的应该很熟悉这个插件，就是利用了重写的功能，实现自定义搜索命令，比如我想要在京东上搜索笔记本，我只需要在搜索栏输入 <code>jd 笔记本</code> 就可以了</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geiofwsjamj30v90fxwi3.jpg" alt="IMG_04FFB5FC9F1A-1"></p>
+<p>然后回车，它会自动重定向至京东搜索页面，如下图所示</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geioi201suj30u01im7ql.jpg" alt="IMG_FAE7C897F02B-1"></p>
+<p>像这样的搜索命令还有很多，比如<code>tb</code>(在淘宝网搜索)，<code>db</code>（在豆瓣搜索）， 我这就不一一列举了，可以在我的源码中查询，里面都有注释</p>
+<p>我根据大佬们的源码，自己改进了一些，并成功适配Mac端的Surge，而且做了桌面页面的匹配，Quantumult X原代码链接<a href="https://github.com/nzw9314/QuantumultX/blob/master/Q-Search_All_in_one.conf" target="_blank" rel="noopener">Github</a></p>
+<h3 id="Surge配置"><a href="#Surge配置" class="headerlink" title="Surge配置"></a>Surge配置</h3><p>下面我说下如何在自己的SurgeForMac中配置Q-Search</p>
+<h4 id="1-打开模块设置"><a href="#1-打开模块设置" class="headerlink" title="1.打开模块设置"></a>1.打开模块设置</h4><p>首先打开Surge，在左面的菜单栏中选择设置，如下图所示，然后点击模块</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geiopw1qzjj30pp0gmgzs.jpg" alt="image-20200506135239668"></p>
+<p>然后我们进入下面的页面</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geiorw05pwj30ku0fdtb1.jpg" alt="image-20200506135435373"></p>
+<h4 id="2-安装模块"><a href="#2-安装模块" class="headerlink" title="2.安装模块"></a>2.安装模块</h4><p>有两种方法安装模块，直接本地加载和从URL安装模块</p>
+<p>第一种方法就是从github把模块下载下来，然后放到Surge默认配置路径中，注意后缀名称为<code>.sgmodule</code></p>
+<p>第二种方法，就是直接点击左下角的从URL安装模块，然后将 <a href="https://raw.githubusercontent.com/loyelee/SurgeMacModule/master/Q-Search.sgmodule" target="_blank" rel="noopener">Q-Search</a>  链接粘贴到文本框中，最后点击完成</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geioyiu7lbj30pm0b9n16.jpg" alt="image-20200506140057465"></p>
+<h4 id="3-启用模块"><a href="#3-启用模块" class="headerlink" title="3.启用模块"></a>3.启用模块</h4><p>安装模块后，记得启用模块，就是把左边的选项框勾选即可，如下图所示</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geip0e68jjj30m002paaa.jpg" alt="image-20200506140245784"></p>
+<h4 id="4-注意事项"><a href="#4-注意事项" class="headerlink" title="4.注意事项"></a>4.注意事项</h4><p>请确保你已经进行了Mitm配置，是否安装证书且信任证书，并进行了主机名配置</p>
+<h3 id="使用模块之前"><a href="#使用模块之前" class="headerlink" title="使用模块之前"></a>使用模块之前</h3><p>请先将Safari的默认搜索改为DuckDuckGo</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geip50fzv3j30km06vjsr.jpg" alt="image-20200506140711913"></p>
+<h3 id="使用模块"><a href="#使用模块" class="headerlink" title="使用模块"></a>使用模块</h3><p>一般无指令的搜索，默认是进行Google搜索</p>
+<p>想要知道所有指令，直接点击下面链接即可，基本上都有注释说明</p>
+<p><a href="https://raw.githubusercontent.com/loyelee/SurgeMacModule/master/Q-Search.sgmodule" target="_blank" rel="noopener">https://raw.githubusercontent.com/loyelee/SurgeMacModule/master/Q-Search.sgmodule</a></p>
+<p>下面我们在mac端试验一下京东搜索指令，指令还是<code>jd 笔记本</code></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geip9js2qhj30oa03g76u.jpg" alt="截屏2020-05-06 下午2.11.06"></p>
+<p>回车即可返回下面的搜索页面</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1geipb32gjhj30yg0hlaiv.jpg" alt="image-20200506141300725"></p>
+<p>如果有不明白的问题，可以邮件联系我</p>
+
     </div>
 
     
     
     
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
+        <div class="reward-container">
+  <div>Buy Me A Coffee.</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
       
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.loyio.me/2020/04/28/gcp-create-gdrive-download-server/">
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.JPG" alt="Loyio 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/paypal.JPG" alt="Loyio 贝宝">
+        <p>贝宝</p>
+      </div>
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpeg">
-      <meta itemprop="name" content="Loyio">
-      <meta itemprop="description" content="loyio's personal blog">
-    </span>
+  </div>
+</div>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Loyio blogs">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/28/gcp-create-gdrive-download-server/" class="post-title-link" itemprop="url">使用谷歌云搭建google drive离线下载服务器</a>
-        </h2>
+        
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Loyio
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://blog.loyio.me/2020/05/06/q-search-surge-for-mac/" title="Surge-For-Mac模块 Q-Search 自定义搜索">https://blog.loyio.me/2020/05/06/q-search-surge-for-mac/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
 
-              <time title="创建时间：2020-04-28 12:47:53" itemprop="dateCreated datePublished" datetime="2020-04-28T12:47:53+08:00">2020-04-28</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-04 13:48:15" itemprop="dateModified" datetime="2020-05-04T13:48:15+08:00">2020-05-04</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/" itemprop="url" rel="index"><span itemprop="name">服务器搭建</span></a>
-                </span>
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/loyiome">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
             </span>
 
-          
-
+            <span class="label">Twitter</span>
+          </a>
         </div>
-      </header>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://t.me/loyio">
+            <span class="icon">
+              <i class="fab fa-telegram"></i>
+            </span>
 
-      
-          <h4 id="1-在google云中创建一个实例"><a href="#1-在google云中创建一个实例" class="headerlink" title="1.在google云中创建一个实例"></a>1.在google云中创建一个实例</h4><p>选择可用的地区，这里我选择的是新加坡，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端</p>
-<h4 id="2-安装rclone"><a href="#2-安装rclone" class="headerlink" title="2.安装rclone"></a>2.安装rclone</h4><p>我们使用官方的脚本进行安装</p>
-<p>首先我们需要安装解压工具</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install unzip</span><br></pre></td></tr></table></figure>
+            <span class="label">Telegram</span>
+          </a>
+        </div>
 
-<p>然后使用官方提供的命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://rclone.org/install.sh | sudo bash</span><br></pre></td></tr></table></figure>
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
 
-<p>稍等一会儿就安装成功了</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/04/28/gcp-create-gdrive-download-server/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
     </div>
+  </div>
 
-    
-    
-    
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/Surge/" rel="tag"># Surge</a>
+              <a href="/tags/Surge%E6%A8%A1%E5%9D%97/" rel="tag"># Surge模块</a>
+              <a href="/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%90%9C%E7%B4%A2/" rel="tag"># 自定义搜索</a>
+              <a href="/tags/Q-Search/" rel="tag"># Q-Search</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/05/05/surge-connershua-rules/" rel="prev" title="Surge神机规则备份">
+      <i class="fa fa-chevron-left"></i> Surge神机规则备份
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
   
-
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
-  </nav>
 
 
 
@@ -401,6 +442,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Surge配置"><span class="nav-number">2.</span> <span class="nav-text">Surge配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-打开模块设置"><span class="nav-number">2.1.</span> <span class="nav-text">1.打开模块设置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-安装模块"><span class="nav-number">2.2.</span> <span class="nav-text">2.安装模块</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-启用模块"><span class="nav-number">2.3.</span> <span class="nav-text">3.启用模块</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-注意事项"><span class="nav-number">2.4.</span> <span class="nav-text">4.注意事项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用模块之前"><span class="nav-number">3.</span> <span class="nav-text">使用模块之前</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用模块"><span class="nav-number">4.</span> <span class="nav-text">使用模块</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
