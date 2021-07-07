@@ -6,22 +6,13 @@
     <description>Recent content on Loyio&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jul 2021 09:28:52 +0800</lastBuildDate><atom:link href="https://loyio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 09:25:27 +0800</lastBuildDate><atom:link href="https://loyio.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Archives</title>
+      <title></title>
       <link>https://loyio.github.io/archives/</link>
       <pubDate>Wed, 07 Jul 2021 09:30:09 +0800</pubDate>
       
       <guid>https://loyio.github.io/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://loyio.github.io/about/</link>
-      <pubDate>Wed, 07 Jul 2021 09:30:00 +0800</pubDate>
-      
-      <guid>https://loyio.github.io/about/</guid>
       <description></description>
     </item>
     
@@ -41,6 +32,17 @@
       
       <guid>https://loyio.github.io/posts/my-first-post/</guid>
       <description>#Hugo Theme</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://loyio.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://loyio.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
     </item>
     
   </channel>
