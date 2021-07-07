@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://loyio.github.io/</loc>
+    <loc>https://blog.loyio.me/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/tags/aria2/</loc>
+    <loc>https://blog.loyio.me/tags/aria2/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/categories/</loc>
+    <loc>https://blog.loyio.me/categories/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/tags/gclone/</loc>
+    <loc>https://blog.loyio.me/tags/gclone/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/tags/gcp/</loc>
+    <loc>https://blog.loyio.me/tags/gcp/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/tags/google-drive/</loc>
+    <loc>https://blog.loyio.me/tags/google-drive/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/posts/</loc>
+    <loc>https://blog.loyio.me/posts/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/tags/</loc>
+    <loc>https://blog.loyio.me/tags/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/posts/gcp-create-gdrive-download-server/</loc>
+    <loc>https://blog.loyio.me/posts/gcp-create-gdrive-download-server/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://blog.loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91/</loc>
+    <loc>https://blog.loyio.me/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91/</loc>
     <lastmod>2020-04-28T11:43:18+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.github.io/archives/</loc>
+    <loc>https://blog.loyio.me/archives/</loc>
   </url><url>
-    <loc>https://loyio.github.io/search/</loc>
+    <loc>https://blog.loyio.me/search/</loc>
   </url>
 </urlset>
