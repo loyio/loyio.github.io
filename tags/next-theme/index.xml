@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Next Theme on Loyio&#39;s Blogs</title>
+    <link>https://blog.loyio.me/tags/next-theme/</link>
+    <description>Recent content in Next Theme on Loyio&#39;s Blogs</description>
+    <image>
+      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 04 May 2020 19:17:40 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/next-theme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexo Next Theme Nondisplay Fullpassage</title>
+      <link>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
+      <pubDate>Mon, 04 May 2020 19:17:40 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</guid>
+      <description>&lt;p&gt;使用Hexo配置自己的博客后，感觉很多方面都要轻松很多，一开始我是在Hexo Theme Page里面找到了一个比较好看的主题，奈何配置上之后，很多功能无法实现，且开发者好像也不再维护更新了，最终我还是决定使用Next博客，配置项的确是挺多的，所以功能也比较齐全，目前也有社区在维护更新&lt;/p&gt;
+&lt;p&gt;Next博客的主页总是会将你的文章全文显示出来，这样可读性是比较差的，如果你文章特别长的话，对于加载也有一定的影响，另一方面，没有目录，访问者无法清楚的找出自己要得到的内容&lt;/p&gt;
+&lt;p&gt;所以我觉得还是要设置一些，让主页不显示全文，&lt;/p&gt;
+&lt;p&gt;Google了一下，发现解决方法就是打开主题下的配置文件，将下面的enable改为true就可以了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;auto_excerpt&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;奈何我在配置文件中根本就没找到这个关键词，可能是主题配置重写了吧，下面说说我的解决步骤&lt;/p&gt;
+&lt;p&gt;打开&lt;code&gt;themes/next&lt;/code&gt; 目录下的 &lt;code&gt;config.yml&lt;/code&gt; ，查看摘要描述是否为true，默认是开启的&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Automatically excerpt description in homepage as preamble text.&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;excerpt_description&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后你有两种方法，让你文章在首页只显示部分&lt;/p&gt;
+&lt;h4 id=&#34;1写概述&#34;&gt;1.写概述&lt;/h4&gt;
+&lt;p&gt;在文章的最上面 &lt;code&gt;front-matter&lt;/code&gt; 中添加 &lt;code&gt;description&lt;/code&gt;,&lt;/p&gt;
+&lt;p&gt;然后在冒号后面写你这篇文章的概述，配置完成后，你的主页就只会显示这篇文章的&lt;code&gt;description&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 文章标题
+date: 2020-05-04 13:07:04
+description: 首页的概述，正文内容不会显示
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2截断文章&#34;&gt;2.截断文章&lt;/h4&gt;
+&lt;p&gt;在需要截断的地方加入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

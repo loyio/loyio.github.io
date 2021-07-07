@@ -9,7 +9,61 @@
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 18:43:06 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 May 2020 19:17:40 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexo Next Theme Nondisplay Fullpassage</title>
+      <link>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
+      <pubDate>Mon, 04 May 2020 19:17:40 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</guid>
+      <description>&lt;p&gt;使用Hexo配置自己的博客后，感觉很多方面都要轻松很多，一开始我是在Hexo Theme Page里面找到了一个比较好看的主题，奈何配置上之后，很多功能无法实现，且开发者好像也不再维护更新了，最终我还是决定使用Next博客，配置项的确是挺多的，所以功能也比较齐全，目前也有社区在维护更新&lt;/p&gt;
+&lt;p&gt;Next博客的主页总是会将你的文章全文显示出来，这样可读性是比较差的，如果你文章特别长的话，对于加载也有一定的影响，另一方面，没有目录，访问者无法清楚的找出自己要得到的内容&lt;/p&gt;
+&lt;p&gt;所以我觉得还是要设置一些，让主页不显示全文，&lt;/p&gt;
+&lt;p&gt;Google了一下，发现解决方法就是打开主题下的配置文件，将下面的enable改为true就可以了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;auto_excerpt&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;奈何我在配置文件中根本就没找到这个关键词，可能是主题配置重写了吧，下面说说我的解决步骤&lt;/p&gt;
+&lt;p&gt;打开&lt;code&gt;themes/next&lt;/code&gt; 目录下的 &lt;code&gt;config.yml&lt;/code&gt; ，查看摘要描述是否为true，默认是开启的&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Automatically excerpt description in homepage as preamble text.&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;excerpt_description&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后你有两种方法，让你文章在首页只显示部分&lt;/p&gt;
+&lt;h4 id=&#34;1写概述&#34;&gt;1.写概述&lt;/h4&gt;
+&lt;p&gt;在文章的最上面 &lt;code&gt;front-matter&lt;/code&gt; 中添加 &lt;code&gt;description&lt;/code&gt;,&lt;/p&gt;
+&lt;p&gt;然后在冒号后面写你这篇文章的概述，配置完成后，你的主页就只会显示这篇文章的&lt;code&gt;description&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 文章标题
+date: 2020-05-04 13:07:04
+description: 首页的概述，正文内容不会显示
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2截断文章&#34;&gt;2.截断文章&lt;/h4&gt;
+&lt;p&gt;在需要截断的地方加入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hexo博客SEO优化，将你的网站提交到搜索引擎</title>
+      <link>https://blog.loyio.me/posts/hexo-blog-seo/</link>
+      <pubDate>Mon, 04 May 2020 19:10:17 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/hexo-blog-seo/</guid>
+      <description>1.什么是SEO SEO（Search Engine Optimization）顾名思义就是搜索引擎优化，比如你想让别人在百度、google搜索某些内容时，刚好可以出现自己网站的链接，简单来说，就是提高你个人网站的流量。虽然我这人本来就没想过要什么流量，主要目的是想记录一些东西，给自己看的，但是，如果自己的博客能够帮助到别人解决问题，我感觉还是挺值得的。我下面介绍的都是Hexo静态网站博客相关的
+2.站点地图 也就是sitemap，站点地图可以告诉搜索引擎自己的网站有哪些可以抓取的内容，可以帮助搜索引擎更智能地抓取网站各个分支内容
+1⃣️ 生成站点地图 首先要安装百度和谷歌（Google）的站点地图生成插件
+npm install hexo-generator-baidu-sitemap --save npm install hexo-generator-sitemap --save 2⃣️ 修改配置文件 打开博客主目录的config.yml文件，添加下面的sitemap配置内容
+# 生成博客sitemap sitemap: path: sitemap.xml baidusitemap: path: baidusitemap.xml 3⃣️ 生成页面并部署到服务器 这个直接使用一键命令就可以了
+hexo g -d 可以看到自己的public目录已经有下面两个文件了
+3.百度站长平台 1⃣️ 添加网站 首先你要打开下面的网站
+https://ziyuan.baidu.com/
+然后登录你的账号，好像直接用百度账号就可以了，进入控制台，页面如下
+点击下面的添加网站
+根据步骤，选择站点属性，然后开始验证网站
+我在这里选择的是文件验证，下载验证文件，然后把它放到你的网站根目录的source文件夹下，然后执行生成部署命令
+hexo clean hexo g -d 然后点击完成验证就可以了 (❗如果验证失败，建议先生成页面，然后将文件放到public文件夹中，然后再部署到服务器)
+2⃣️ 链接提交 我们在这里讲一下自动提交方法，手动提交按照要求在括号内填入链接即可
+自动提交也有三种选项，主动推送、自动推送以及sitemap
+1.主动推送 我们要用到hexo的插件，输入命令安装即可
+npm install hexo-baidu-url-submit --save 然后在_config.yml文件添加以下内容
+baidu_url_submit: count: 5 ## 提交最新的五个链接 host: blog.loyio.me ## 百度站长平台中注册的域名 token: token ## 准入秘钥 path: baidu_urls.</description>
+    </item>
+    
     <item>
       <title>Quantumult X 相关配置问题</title>
       <link>https://blog.loyio.me/posts/quantumnltx-config/</link>
