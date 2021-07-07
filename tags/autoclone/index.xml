@@ -9,11 +9,11 @@
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Jul 2021 19:59:48 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/autoclone/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2020 19:59:48 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/autoclone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>rclone突破750G转存限制（使用gclone和Autoclone）</title>
       <link>https://blog.loyio.me/posts/gclone-over-750g/</link>
-      <pubDate>Wed, 07 Jul 2021 19:59:48 +0800</pubDate>
+      <pubDate>Thu, 07 May 2020 19:59:48 +0800</pubDate>
       
       <guid>https://blog.loyio.me/posts/gclone-over-750g/</guid>
       <description>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
