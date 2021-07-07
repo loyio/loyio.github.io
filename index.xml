@@ -9,9 +9,129 @@
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 May 2020 19:17:40 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 19:59:48 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hexo Next Theme Nondisplay Fullpassage</title>
+      <title>rclone突破750G转存限制（使用gclone和Autoclone）</title>
+      <link>https://blog.loyio.me/posts/gclone-over-750g/</link>
+      <pubDate>Wed, 07 Jul 2021 19:59:48 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/gclone-over-750g/</guid>
+      <description>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
+在之前我就讲过了用rclone挂载GoogleDrive到linux服务器上的教程，大家可以点击下面的链接查看
+使用谷歌云搭建google drive离线下载服务器
+在用rclone转存文件时，我们可能会遇到超过日转存限制的情况，Google每天的限制750G，这对于我们这些特别喜欢搬运的人来说是远远不够的
+首先说一些解决方法原理：
+谷歌开发者平台可以多个项目，每个项目下还可以创建多个服务账号（SA：Service Account），每个SA又可以创建自己单独的Api，每个Api都可以和单个用户一样拥有750GB的权限。
+这里我们要用到autoclone，批量生成SA账号，还要用到gclone，自动切换SA，以突破750G的限制
+我在这里不说具体的操作过程了，大佬们都有写，做重复的事情没有什么意义
+gclone 搬山之术 by HE-SB-技术栈
+AutoRclone配合gclone突破GoogleTeamDrive750G流量限制 by 余十一 
+可能是最简单的AutoRclone教程：如何突破Google Drive每日750G限制？ by Great Panoan
+我在这里只记录一下重要的网址和一些代码
+首先要安装python3,可以源码安装，也可以直接通过yum或者apt-get安装
+然后安装autoclone
+git clone https://github.com/xyou365/AutoRclone &amp;amp;&amp;amp; cd AutoRclone &amp;amp;&amp;amp; pip3 install -r requirements.txt 获取Python DriveApi 凭证
+https://developers.google.com/drive/api/v3/quickstart/python
+管理Google Group
+https://groups.google.com/
+查看ServiceAccount
+https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?pli=1&amp;amp;supportedpurview=project
+基本上就上面这些东西，如果有不明白的可以到上面的那些链接里去问大佬，当然也可以发邮件给我，我尽力解答</description>
+    </item>
+    
+    <item>
+      <title>Surge-For-Mac模块 Q-Search 自定义搜索</title>
+      <link>https://blog.loyio.me/posts/q-search-surge-for-mac/</link>
+      <pubDate>Wed, 06 May 2020 19:55:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/q-search-surge-for-mac/</guid>
+      <description>昨天狠下心上了SurgeForMac的车，140永久，这是继Quantumult X后的又一次剁手，我也不知道自己怎么这么折腾，本来我Mac端用Clash用的好好的，没啥其它问题，可能是头脑一热吧，不过我今天就是想介绍一下，我重写的一款Surge模块，Q-Search
+前言 在手机上用过Quantumult X和Surge的应该很熟悉这个插件，就是利用了重写的功能，实现自定义搜索命令，比如我想要在京东上搜索笔记本，我只需要在搜索栏输入 jd 笔记本 就可以了
+然后回车，它会自动重定向至京东搜索页面，如下图所示
+像这样的搜索命令还有很多，比如tb(在淘宝网搜索)，db（在豆瓣搜索）， 我这就不一一列举了，可以在我的源码中查询，里面都有注释
+我根据大佬们的源码，自己改进了一些，并成功适配Mac端的Surge，而且做了桌面页面的匹配，Quantumult X原代码链接Github
+Surge配置 下面我说下如何在自己的SurgeForMac中配置Q-Search
+1.打开模块设置 首先打开Surge，在左面的菜单栏中选择设置，如下图所示，然后点击模块
+然后我们进入下面的页面
+2.安装模块 有两种方法安装模块，直接本地加载和从URL安装模块
+第一种方法就是从github把模块下载下来，然后放到Surge默认配置路径中，注意后缀名称为.sgmodule
+第二种方法，就是直接点击左下角的从URL安装模块，然后将 Q-Search 链接粘贴到文本框中，最后点击完成
+3.启用模块 安装模块后，记得启用模块，就是把左边的选项框勾选即可，如下图所示
+4.注意事项 请确保你已经进行了Mitm配置，是否安装证书且信任证书，并进行了主机名配置
+使用模块之前 请先将Safari的默认搜索改为DuckDuckGo
+使用模块 一般无指令的搜索，默认是进行Google搜索
+想要知道所有指令，直接点击下面链接即可，基本上都有注释说明
+https://raw.githubusercontent.com/loyio/SurgeMacModule/master/Q-Search.sgmodule
+下面我们在mac端试验一下京东搜索指令，指令还是jd 笔记本
+回车即可返回下面的搜索页面
+如果有不明白的问题，可以邮件联系我</description>
+    </item>
+    
+    <item>
+      <title>pip安装模块时报错 ModuleNotFoundError:No module named &#39;_ctypes&#39;</title>
+      <link>https://blog.loyio.me/posts/pip-install-module-error-ctypes/</link>
+      <pubDate>Wed, 06 May 2020 19:51:51 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/pip-install-module-error-ctypes/</guid>
+      <description>最近一直在折腾GoogleDrive，用了rclone，又装AutoClone，最近又用上了gclone
+在安装AutoClone依赖文件时报错
+ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/python3.8 -c &amp;#39;import sys, setuptools, tokenize; sys.argv[0] = &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;; __file__=&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;;f=getattr(tokenize, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;open&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, open)(__file__);code=f.read().replace(&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\r\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;);f.close();exec(compile(code, __file__, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;exec&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;))&amp;#39; egg_info --egg-base pip-egg-info cwd: /tmp/pip-install-c6woj60b/progress/ Complete output (11 lines): Traceback (most recent call last): File &amp;#34;&amp;lt;string&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt; File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/__init__.py&amp;#34;, line 20, in &amp;lt;module&amp;gt; from setuptools.dist import Distribution, Feature File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/dist.py&amp;#34;, line 35, in &amp;lt;module&amp;gt; from setuptools import windows_support File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/windows_support.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; import ctypes File &amp;#34;/usr/local/python3/lib/python3.</description>
+    </item>
+    
+    <item>
+      <title>谈谈自己为什么又开始写博客了</title>
+      <link>https://blog.loyio.me/posts/why-me-rebuilt-blog/</link>
+      <pubDate>Tue, 05 May 2020 19:48:37 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/why-me-rebuilt-blog/</guid>
+      <description>其实我17年刚读大一的时候，就建立了自己的博客，那时候是用的阿里云的服务器，学生机9.9，然后域名好像是在godaddy买的吧，只不过当时为了备案又把这个域名迁移到了阿里云，国内主机配国外域名真的很鸡肋啊，当时godaddy还不允许前三个月迁移，所以前面一直用的临时域名。
+一开始我用的是Wordpress，主题非常多，插件也很多，对于喜欢给自己的网站添加各种功能的人简直太友好了，我当时也用了一段时间，用户管理，插件各方面，都很不错，弄的自己网站五花八门，忽视了内容，而太过在意形式，有几次配置插件把自己的网站的内容都清除掉了，然后，还有一点就是，毕竟自己的服务器是9.9学生机，所以网站的访问速率也慢了很多。
+后面又陆陆续续换了好几个博客程序，最后我还是决定了用zblog，因为这个博客的自由度还是挺高的，我可以修改底层代码，也可以自己写一些插件，虽然自己一定也不会PHP，但是看着别人代码一步一步改还是可以的，可惜，当时不知道我怎么就把这个网站全给删了，包括数据库，现在什么都没有了，不过博客的大部分内容我在博客园和 CSDN都有发布，上面的网站我都好久不发布了，想想当时的自己真的有点萌新感啊，最后一篇博客的时间刚好两年前的今天，实在是妙啊。
+后面我堕落了很久，一直没在技术上有过突破，每天就是上上课，完成一下老师布置的任务，其余时间也不再专心于计算机科学这一门，主要原因是因为上面呢，我想是因为当时看了创造101吧，后面就开始追星了，到现在我还完全放不下，年轻人有时候对某一件事真的太执着了。
+中间发生了什么我也不太清楚，这两年也不知道自己有什么成就，一直都是把18年写过的程序炒冷饭，然后参加一些比赛，也拿一些奖品或事奖金，或许吧，这就是没有进取心的自己吧，Bilibili的《后浪》我还没看过，这个年纪的自己最反感一些鸡汤，我还是继续做一颗微小的沙粒吧。
+疫情期间，我在今天2.15后申请了自己的公众号，发现尽管自己的内心是颓废了很多，但热爱创作的那双手还是诚不欺我，一写起来就有吐不尽的废话，虽然文采黯然，但就是喜欢记录，就是喜欢发泄，只不过，后面不知怎地开始做起了所谓的营销号，每天从外网搬一篇文章到国内平台发布，然后赚几块钱流量费。
+人总是易变的，而我是过于如此了，不谈太多了。
+想着还是用github做一个静态博客算了，写写没人看的东西，发泄一下自己的内心，也记录一下，方便以后自己查询。</description>
+    </item>
+    
+    <item>
+      <title>Surge神机规则备份</title>
+      <link>https://blog.loyio.me/posts/surge-connershua-rules/</link>
+      <pubDate>Tue, 05 May 2020 19:43:27 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/surge-connershua-rules/</guid>
+      <description>原Surge配置文件地址
+Surge3 Profiles
+[General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # &amp;gt; Internet 测试 URL # internet-test-url = http://bing.com/ # &amp;gt; 代理测速 URL # proxy-test-url = http://bing.com/ # &amp;gt; 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false # Wi-Fi 访问 # &amp;gt; 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # &amp;gt; HTTP 代理服务端口（默认为&amp;#34;6152&amp;#34;） # wifi-access-http-port = 6152 # &amp;gt; SOCKS5 代理服务端口（默认为&amp;#34;6153&amp;#34;） # wifi-access-socks5-port = 6153 # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127.</description>
+    </item>
+    
+    <item>
+      <title>Loyio的书籍分享</title>
+      <link>https://blog.loyio.me/posts/books-share/</link>
+      <pubDate>Tue, 05 May 2020 19:40:12 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/books-share/</guid>
+      <description>还是和之前一样，做一个页面来分享一些书籍文件，方便大家查找，自己也做个记录。
+我其实之前也是一个挺喜欢看书的人，静下心来，默默品读，也不知什么时候，突然我的生活进节奏加快了，后面我便不再这方面花费时间了，也买过很多实体书，为了不浪费自己的钱，还是坚持看完了，如今有时候也喜欢看一些技术类书籍，都是为了查阅资料
+一年前买了kindle，看了没多久，就开始闲置了，几天不清理就全是灰，我这里其实也没啥能分享的，都是我从各个地方保存下来的，也算是当个参考吧。</description>
+    </item>
+    
+    <item>
+      <title>个人收藏的一些Mac软件（持续更新）</title>
+      <link>https://blog.loyio.me/posts/mac-app-sheet-link/</link>
+      <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/mac-app-sheet-link/</guid>
+      <description>最近在找某些软件时，总是遇到很多问题，要么就是国内的下载付费（本来就是破解的），要么就是国外下载速度特别慢，因为大多是磁力链接，而且这些都是比较冷门的资源，所以下载速度特别慢，这里我声明一下，我收集的软件仅供学习交流使用，请大家到官方网站下载正版，付费支持。
+这里我决定做一个页面，把自己收藏的软件分享出来，然后也分别做百度云和GoogleDrive链接🔗，也算是自己记录一下，方便自己以后找寻资料（再次声明，请大家支持正版）
+这里百度网盘和GoogleDrive链接理论上是永久的，如果出现访问问题，可以通过邮件联系我，我会尽快回复，并更新链接
+下面的软件我都安装试用过，也写了我个人觉得有用的功能
+这是Number表格的链接， 国内应该可以访问的吧 iCloudeNumber （分享链接全部都放在里面了）
+   软件名称 版本 描述     CleanMyMac X 4.6.2 用来清理一下磁盘用的，我最喜欢的功能就是可以清楚的知道你哪个文件夹占用了多少空间，这个对于我真的太有用了   Blue-ray Player Pro 3.3.18 可以打开播放蓝光盘文件，也就是iso结尾的视频文件，这个对于喜欢追求更高品质的电影原盘的人非常有用   BetterTouchTool 3.346 这个是用来配置自己的各种设备的，比如我之前用它来自定义我的MagicMouse2，设置各种手势，比如单指轻点   Folx 5.18(13943) 一个下载工具，可以通过浏览器插件做mac的默认下载工具，同时也支持种子和磁力下载，除此之外，还支持youtube下载，不过我一直加载不出    最后说一句，破解有风险，这些分享的基本上都是TNT团队破解的，如果觉得软件对你有用的话，请支持正版</description>
+    </item>
+    
+    <item>
+      <title>设置Hexo博客Next主题主页不显示全文</title>
       <link>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
       <pubDate>Mon, 04 May 2020 19:17:40 +0800</pubDate>
       
@@ -35,7 +155,7 @@ date: 2020-05-04 13:07:04
 description: 首页的概述，正文内容不会显示
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2截断文章&#34;&gt;2.截断文章&lt;/h4&gt;
 &lt;p&gt;在需要截断的地方加入&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;</description>
+&lt;p&gt;`&lt;/p&gt;</description>
     </item>
     
     <item>
