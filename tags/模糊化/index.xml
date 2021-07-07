@@ -23,7 +23,9 @@
 4）在fiji中, Process -&amp;gt; Enhance Local Contrast（CLAHE, Contrast Limited Adaptive Histogram Equalization 直方图均衡化算法），将参数设置为如下，观察图片变化
 blocksize = 64 histogram bins = 128 max slope = 2.0
 图片效果如下
-  原图     处理后的图   可以看到部分区域对比度增强，图像中体现的信息也更为突出。
+  原图
+    处理后的图
+  可以看到部分区域对比度增强，图像中体现的信息也更为突出。
 2.使用fiji脚本批量处理一组图片 1）使用fiji打开16-T2N2,33+_post_waterT1C.nii.gz
 2）使用Fiji&amp;rsquo;s scripting editor，将语言更改为IJ1 Macro，运行脚本
 3）最后点击菜单栏File → Save As → Image Sequence
