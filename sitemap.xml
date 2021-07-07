@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://loyio.github.io/archives/</loc>
-    <lastmod>2021-07-07T09:30:09+08:00</lastmod>
-  </url><url>
     <loc>https://loyio.github.io/</loc>
     <lastmod>2021-07-07T09:25:27+08:00</lastmod>
   </url><url>
@@ -20,7 +17,11 @@
     <loc>https://loyio.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://loyio.github.io/archives/</loc>
+  </url><url>
     <loc>https://loyio.github.io/categories/</loc>
+  </url><url>
+    <loc>https://loyio.github.io/search/</loc>
   </url><url>
     <loc>https://loyio.github.io/tags/</loc>
   </url>

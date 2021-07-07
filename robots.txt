@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://loyio.github.io/sitemap.xml
