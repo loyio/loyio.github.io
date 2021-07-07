@@ -8,6 +8,16 @@
       <url>https://loyio.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://loyio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate><atom:link href="https://loyio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>服务器搭建</title>
+      <link>https://loyio.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
+      
+      <guid>https://loyio.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

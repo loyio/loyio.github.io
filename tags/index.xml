@@ -8,6 +8,52 @@
       <url>https://loyio.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://loyio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate><atom:link href="https://loyio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aria2</title>
+      <link>https://loyio.github.io/tags/aria2/</link>
+      <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
+      
+      <guid>https://loyio.github.io/tags/aria2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gclone</title>
+      <link>https://loyio.github.io/tags/gclone/</link>
+      <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
+      
+      <guid>https://loyio.github.io/tags/gclone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCP</title>
+      <link>https://loyio.github.io/tags/gcp/</link>
+      <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
+      
+      <guid>https://loyio.github.io/tags/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Drive</title>
+      <link>https://loyio.github.io/tags/google-drive/</link>
+      <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
+      
+      <guid>https://loyio.github.io/tags/google-drive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>谷歌云</title>
+      <link>https://loyio.github.io/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91/</link>
+      <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
+      
+      <guid>https://loyio.github.io/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

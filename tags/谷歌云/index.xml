@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Loyio&#39;s Blogs</title>
-    <link>https://loyio.github.io/posts/</link>
-    <description>Recent content in Posts on Loyio&#39;s Blogs</description>
+    <title>谷歌云 on Loyio&#39;s Blogs</title>
+    <link>https://loyio.github.io/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91/</link>
+    <description>Recent content in 谷歌云 on Loyio&#39;s Blogs</description>
     <image>
       <url>https://loyio.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate><atom:link href="https://loyio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate><atom:link href="https://loyio.github.io/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用谷歌云搭建google drive离线下载服务器</title>
       <link>https://loyio.github.io/posts/gcp-create-gdrive-download-server/</link>
