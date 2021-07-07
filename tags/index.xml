@@ -9,7 +9,88 @@
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 May 2020 19:59:48 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 21:25:11 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fiji</title>
+      <link>https://blog.loyio.me/tags/fiji/</link>
+      <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/fiji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://blog.loyio.me/tags/python/</link>
+      <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>图像处理</title>
+      <link>https://blog.loyio.me/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/</link>
+      <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>手绘效果</title>
+      <link>https://blog.loyio.me/tags/%E6%89%8B%E7%BB%98%E6%95%88%E6%9E%9C/</link>
+      <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/%E6%89%8B%E7%BB%98%E6%95%88%E6%9E%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>模糊化</title>
+      <link>https://blog.loyio.me/tags/%E6%A8%A1%E7%B3%8A%E5%8C%96/</link>
+      <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/%E6%A8%A1%E7%B3%8A%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>灰度化</title>
+      <link>https://blog.loyio.me/tags/%E7%81%B0%E5%BA%A6%E5%8C%96/</link>
+      <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/%E7%81%B0%E5%BA%A6%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenCV</title>
+      <link>https://blog.loyio.me/tags/opencv/</link>
+      <pubDate>Mon, 22 Mar 2021 21:19:03 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pillow</title>
+      <link>https://blog.loyio.me/tags/pillow/</link>
+      <pubDate>Mon, 22 Mar 2021 21:19:03 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/pillow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>图像裁剪</title>
+      <link>https://blog.loyio.me/tags/%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/</link>
+      <pubDate>Mon, 22 Mar 2021 21:19:03 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>autoclone</title>
       <link>https://blog.loyio.me/tags/autoclone/</link>
@@ -88,15 +169,6 @@
       <pubDate>Wed, 06 May 2020 19:51:51 +0800</pubDate>
       
       <guid>https://blog.loyio.me/tags/pip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://blog.loyio.me/tags/python/</link>
-      <pubDate>Wed, 06 May 2020 19:51:51 +0800</pubDate>
-      
-      <guid>https://blog.loyio.me/tags/python/</guid>
       <description></description>
     </item>
     

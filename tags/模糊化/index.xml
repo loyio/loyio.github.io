@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>模糊化 on Loyio&#39;s Blogs</title>
+    <link>https://blog.loyio.me/tags/%E6%A8%A1%E7%B3%8A%E5%8C%96/</link>
+    <description>Recent content in 模糊化 on Loyio&#39;s Blogs</description>
+    <image>
+      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 26 Mar 2021 21:25:11 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E6%A8%A1%E7%B3%8A%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>图像处理第三次实验-图像预处理</title>
+      <link>https://blog.loyio.me/posts/image-processing-cv-experiment03/</link>
+      <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/image-processing-cv-experiment03/</guid>
+      <description>一.对比度优化方法CLAHE 1.使用软件fiji优化图片序列 实验过程：
+1）下载安装Fiji
+2）解压30-T4N2, 24_pre_waterT1C.nii.zip
+3）打开一张图片
+4）在fiji中, Process -&amp;gt; Enhance Local Contrast（CLAHE, Contrast Limited Adaptive Histogram Equalization 直方图均衡化算法），将参数设置为如下，观察图片变化
+blocksize = 64 histogram bins = 128 max slope = 2.0
+图片效果如下
+  原图     处理后的图   可以看到部分区域对比度增强，图像中体现的信息也更为突出。
+2.使用fiji脚本批量处理一组图片 1）使用fiji打开16-T2N2,33+_post_waterT1C.nii.gz
+2）使用Fiji&amp;rsquo;s scripting editor，将语言更改为IJ1 Macro，运行脚本
+3）最后点击菜单栏File → Save As → Image Sequence
+保存为png格式，存储在文件夹中。
+二.图像x-ray去噪 使用median filter算法，批处理文件/x-ray-images-enhancement-master/images/
+中值滤波器：中值滤波器是众所周知的阶数统计滤波器之一，因为它对某些特定的噪声类型（例如“高斯”，“随机”和“盐和胡椒”噪声）具有良好的性能。根据中值滤波器，将M×M邻域的中心像素替换为相应窗口的中值。注意，噪声像素被认为与中值有很大差异。使用这种思想，中值滤波器可以消除这种类型的噪声问题。
+批处理代码实现如下：
+path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f.</description>
+    </item>
+    
+    <item>
+      <title>图像处理第一次实验-初识CV</title>
+      <link>https://blog.loyio.me/posts/image-processing-cv-experiment01/</link>
+      <pubDate>Sat, 20 Mar 2021 21:14:43 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/image-processing-cv-experiment01/</guid>
+      <description>1.jpg
+2.jpg
+1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter if __name__ == &amp;#39;__main__&amp;#39;: # greyscale imgfileOne = &amp;#34;Sample/1&amp;#34; sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).convert(&amp;#39;L&amp;#39;) sample_img.save(imgfileOne+&amp;#34;_processed_gray.jpg&amp;#34;) # Blur # sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BLUR) sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BoxBlur(5)) sample_img.save(imgfileOne + &amp;#34;_processed_blur.jpg&amp;#34;) 图片效果如下
+灰度处理
+模糊处理
+2.对2.jpg生成手绘效果 代码如下
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np if __name__ == &amp;#39;__main__&amp;#39;: # Paint imgfileTwo = &amp;#34;Sample/2&amp;#34; sample_img_ary = np.</description>
+    </item>
+    
+  </channel>
+</rss>

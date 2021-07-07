@@ -3,12 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.loyio.me/</loc>
-    <lastmod>2020-05-07T19:59:48+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.loyio.me/tags/autoclone/</loc>
-    <lastmod>2020-05-07T19:59:48+08:00</lastmod>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
   </url><url>
     <loc>https://blog.loyio.me/categories/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/fiji/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/posts/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/python/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8Cwtu/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/posts/image-processing-cv-experiment03/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/%E6%89%8B%E7%BB%98%E6%95%88%E6%9E%9C/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/%E6%A8%A1%E7%B3%8A%E5%8C%96/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/%E7%81%B0%E5%BA%A6%E5%8C%96/</loc>
+    <lastmod>2021-03-26T21:25:11+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/opencv/</loc>
+    <lastmod>2021-03-22T21:19:03+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/pillow/</loc>
+    <lastmod>2021-03-22T21:19:03+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/posts/image-processing-cv-experiment02/</loc>
+    <lastmod>2021-03-22T21:19:03+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/%E5%9B%BE%E5%83%8F%E8%A3%81%E5%89%AA/</loc>
+    <lastmod>2021-03-22T21:19:03+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/posts/image-processing-cv-experiment01/</loc>
+    <lastmod>2021-03-20T21:14:43+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.loyio.me/tags/autoclone/</loc>
     <lastmod>2020-05-07T19:59:48+08:00</lastmod>
   </url><url>
     <loc>https://blog.loyio.me/tags/gclone/</loc>
@@ -20,13 +65,7 @@
     <loc>https://blog.loyio.me/categories/googledrive/</loc>
     <lastmod>2020-05-07T19:59:48+08:00</lastmod>
   </url><url>
-    <loc>https://blog.loyio.me/posts/</loc>
-    <lastmod>2020-05-07T19:59:48+08:00</lastmod>
-  </url><url>
     <loc>https://blog.loyio.me/posts/gclone-over-750g/</loc>
-    <lastmod>2020-05-07T19:59:48+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.loyio.me/tags/</loc>
     <lastmod>2020-05-07T19:59:48+08:00</lastmod>
   </url><url>
     <loc>https://blog.loyio.me/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91/</loc>
@@ -57,9 +96,6 @@
     <lastmod>2020-05-06T19:51:51+08:00</lastmod>
   </url><url>
     <loc>https://blog.loyio.me/categories/python/</loc>
-    <lastmod>2020-05-06T19:51:51+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.loyio.me/tags/python/</loc>
     <lastmod>2020-05-06T19:51:51+08:00</lastmod>
   </url><url>
     <loc>https://blog.loyio.me/tags/%E8%A7%A3%E5%86%B3%E9%94%99%E8%AF%AF/</loc>
