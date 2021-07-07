@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/posts/</link>
-    <description>Recent content in Posts on Loyio&#39;s Blogs</description>
+    <title>网络工具 on Loyio&#39;s Blogs</title>
+    <link>https://blog.loyio.me/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 网络工具 on Loyio&#39;s Blogs</description>
     <image>
       <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 18:43:06 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2020 18:43:06 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quantumult X 相关配置问题</title>
       <link>https://blog.loyio.me/posts/quantumnltx-config/</link>
@@ -36,37 +36,6 @@ trojan=example.com:443, password=pwd, over-tls=true, tls-verification=true, fast
 个人感觉是要方便很多
 另一个高级一点的功能就是定时任务，执行js脚本，这个我觉得也挺有用的，比如各种签到任务啊，用Quantumult X的一个比较突出的一个特点就是获取cookie方便多了，不像我搞个签到网站，还要各种抓包，最后还不一定能成功，这里我不过多赘述了，再次贴上项目合集的网址
 https://github.com/nzw9314/QuantumultX/tree/master</description>
-    </item>
-    
-    <item>
-      <title>使用谷歌云搭建google drive离线下载服务器</title>
-      <link>https://blog.loyio.me/posts/gcp-create-gdrive-download-server/</link>
-      <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
-      
-      <guid>https://blog.loyio.me/posts/gcp-create-gdrive-download-server/</guid>
-      <description>1.在google云中创建一个实例 选择可用的地区，这里我选择的是新加坡，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端
-2.安装rclone 我们使用官方的脚本进行安装
-首先我们需要安装解压工具
-yum -y install unzip 然后使用官方提供的命令
-curl https://rclone.org/install.sh | sudo bash 稍等一会儿就安装成功了
-3.配置rclone 安装完成后，我们在命令行输入以下代码
-rclone config 下面就开始进行配置操作
-首先是创建一个新连接
-n/s/q&amp;gt; n 输入名称(自己随便输入)
-name&amp;gt; gdShare 然后下面类型输入drive
-Storage&amp;gt; drive 后面两步都直接回车，不输入
-client_id&amp;gt; client_secret&amp;gt; 下一步选择第一个选项
-scope&amp;gt; 1 再后面两步也是直接回车不输入
-root_folder_id&amp;gt; service_account_file&amp;gt; 是否编辑预先配置，我们选择No
-y/n&amp;gt; n 使用自动配置我们这里也是选择No
-y/n&amp;gt; n 这时候会出来一段链接，点击直接打开或者复制用浏览器打开都可以，打开后，这里会要你登录你想挂载的google drive的账号，授权选择允许后会生成一个代码，将代码复制到下面的选项中就可以了
-Enter verification code&amp;gt; 【生成的代码】 然后会让你选择是否是团队账号，这里我们默认选择No
-y/n&amp;gt; n 然后下一步我们选择yes完成创建
-y/e/d&amp;gt; y 然后可以看到我们创建的项目了
-最后输入q退出配置
-e/n/d/r/c/s/q&amp;gt; q 4.挂载磁盘 创建一个文件夹来挂载磁盘
-mkdir /mnt/googledrive 在挂载之前，我们要先安装fuse文件系统
-yum -y install fuse 然后输入挂载命令</description>
     </item>
     
   </channel>
