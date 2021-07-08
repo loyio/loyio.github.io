@@ -16,7 +16,7 @@
       <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
       
       <guid>https://blog.loyio.me/posts/latex-katex/</guid>
-      <description>字符与Unicode 希腊字母（Greek Letters）    字符 Katex 字符 Katex     $\alpha$ \alpha $\beta$ \beta   $\gamma$ \gamma $\delta$ \delta   $\epsilon$ \epsilon $\zeta$ \zeta   $\eta$ \eta $\theta$ \theta   $\iota$ \iota $\kappa$ \kappa   $\lambda$ \lambda $\mu$ \mu   $\nu$ \nu $\xi$ \xi   $\omicron$ \omicron $\pi$ \pi          操作符 大型操作符    操作符 Katex 说明 举例 Katex函数     $\sum$ \sum 求和符号 $\displaystyle\sum_{n=1}^{6}{4n}$ \displaystyle\sum_{n=1}^{6}{4n}   $\prod$ \prod 连乘、求积符号 $\displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})}$ \displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})                         </description>
+      <description>字符与Unicode 希腊字母（Greek Letters）    字符 Katex 字符 Katex     $\alpha$ \alpha $\beta$ \beta   $\gamma$ \gamma $\delta$ \delta   $\epsilon$ \epsilon $\zeta$ \zeta   $\eta$ \eta $\theta$ \theta   $\iota$ \iota $\kappa$ \kappa   $\lambda$ \lambda $\mu$ \mu   $\nu$ \nu $\xi$ \xi   $\omicron$ \omicron $\pi$ \pi          操作符 大操作符    操作符 Katex 说明 举例 Katex函数     $\sum$ \sum 求和符号 $\displaystyle\sum_{n=1}^{6}{4n}$ \displaystyle\sum_{n=1}^{6}{4n}   $\prod$ \prod 连乘、求积符号 $\displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})}$ \displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})                         </description>
     </item>
     
   </channel>
