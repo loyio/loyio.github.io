@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>数学 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/categories/%E6%95%B0%E5%AD%A6/</link>
-    <description>Recent content in 数学 on Loyio&#39;s Blogs</description>
+    <title>微分方程 on Loyio&#39;s Blogs</title>
+    <link>https://blog.loyio.me/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</link>
+    <description>Recent content in 微分方程 on Loyio&#39;s Blogs</description>
     <image>
       <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jul 2021 15:07:55 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/categories/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 15:07:55 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一阶微分方程与一阶线性方程的求解</title>
       <link>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
@@ -27,22 +27,6 @@
       
       <guid>https://blog.loyio.me/posts/constant-coefficient-differential-equations/</guid>
       <description>常系数微分方程的形式如下 $$ a_{n} \frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}+\cdots+a_{2} \frac{\mathrm{d}^{2} y}{\mathrm{~d} x^{2}}+a_{1} \frac{\mathrm{d} y}{\mathrm{~d} x}+a_{0} y=f(x) $$ 其中$a_n,\ldots,a_1,a_0$知识一些普通的常实数，左边式子中$\frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}$，代表的是$y$的$n$阶导数。</description>
-    </item>
-    
-    <item>
-      <title>常用的泰勒级数</title>
-      <link>https://blog.loyio.me/posts/10staylorpolyseries/</link>
-      <pubDate>Thu, 08 Jul 2021 13:08:01 +0800</pubDate>
-      
-      <guid>https://blog.loyio.me/posts/10staylorpolyseries/</guid>
-      <description>以下公式来源于South Caolina
-1.$\frac{1}{1-x}$ $$ \begin{aligned}\frac{1}{1-x} &amp;amp;=\quad1+x+x^{2}+x^{3}+x^{4}+\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty} x^{n}\end{aligned} $$
-当为几何级数时。只需将$x$视为$r$
-$x\in (-1,1)$
-2. $e^x$ $$ \begin{aligned}e^{x}\quad &amp;amp;=\quad 1+x+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\frac{x^{4}}{4 !}+\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty} \frac{x^{n}}{n !}\end{aligned} $$
-3.$\cos{x}$ $$ \begin{aligned}\cos x\quad &amp;amp;=\quad1-\frac{x^{2}}{2 !}+\frac{x^{4}}{4 !}-\frac{x^{6}}{6 !}+\frac{x^{8}}{8 !}-\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n}}{(2 n) !}\end{aligned} $$
-4.$\sin{x}$ $$ \begin{aligned}\sin x \quad &amp;amp;=\quad x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\frac{x^{9}}{9 !}-\ldots \\&amp;amp;=\quad \sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{2 n-1}}{(2 n-1) !} \stackrel{\text { or }}{=} \sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{(2 n+1) !}\end{aligned} $$
-5.$\ln{(1+x)}$ $$ \begin{aligned}\ln (1+x)\quad &amp;amp;=\quad x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\frac{x^{5}}{5}-\ldots \\&amp;amp;=\quad\sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{n}}{n} \stackrel{\text { or }}{=} \sum_{n=1}^{\infty}(-1)^{n+1} \frac{x^{n}}{n}\end{aligned} $$</description>
     </item>
     
   </channel>

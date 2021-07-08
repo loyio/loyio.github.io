@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>一阶线性方程 on Loyio&#39;s Blogs</title>
+    <link>https://blog.loyio.me/tags/%E4%B8%80%E9%98%B6%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B/</link>
+    <description>Recent content in 一阶线性方程 on Loyio&#39;s Blogs</description>
+    <image>
+      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 08 Jul 2021 15:07:55 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E4%B8%80%E9%98%B6%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一阶微分方程与一阶线性方程的求解</title>
+      <link>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
+      <pubDate>Thu, 08 Jul 2021 15:07:55 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
+      <description>1.可分离变量的一阶微分方程 如果能够把一阶微分方程中所有关于 $y$ 的部分 (包括 $\mathrm{d}y$) 放在一边, 所有关于 $x$ 的部分 (包括 $\mathrm{d}x$) 放在另一边, 则该微分方程被称为是可分离变量的. 例如, 方程 $\mathrm{dy}/\mathrm{dx} = ky$ 可重新整理为 $$ \frac{1}{ky}\mathrm{d}y = \mathrm{d}x, $$ 就是可分离变量的。
+然后继续计算的方法就是两遍加积分号求积分。然后再整理求得 $y$。</description>
+    </item>
+    
+  </channel>
+</rss>

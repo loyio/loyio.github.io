@@ -9,7 +9,26 @@
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jul 2021 13:08:01 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 15:07:55 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一阶微分方程与一阶线性方程的求解</title>
+      <link>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
+      <pubDate>Thu, 08 Jul 2021 15:07:55 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
+      <description>1.可分离变量的一阶微分方程 如果能够把一阶微分方程中所有关于 $y$ 的部分 (包括 $\mathrm{d}y$) 放在一边, 所有关于 $x$ 的部分 (包括 $\mathrm{d}x$) 放在另一边, 则该微分方程被称为是可分离变量的. 例如, 方程 $\mathrm{dy}/\mathrm{dx} = ky$ 可重新整理为 $$ \frac{1}{ky}\mathrm{d}y = \mathrm{d}x, $$ 就是可分离变量的。
+然后继续计算的方法就是两遍加积分号求积分。然后再整理求得 $y$。</description>
+    </item>
+    
+    <item>
+      <title>常系数微分方程求解</title>
+      <link>https://blog.loyio.me/posts/constant-coefficient-differential-equations/</link>
+      <pubDate>Thu, 08 Jul 2021 14:55:05 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/constant-coefficient-differential-equations/</guid>
+      <description>常系数微分方程的形式如下 $$ a_{n} \frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}+\cdots+a_{2} \frac{\mathrm{d}^{2} y}{\mathrm{~d} x^{2}}+a_{1} \frac{\mathrm{d} y}{\mathrm{~d} x}+a_{0} y=f(x) $$ 其中$a_n,\ldots,a_1,a_0$知识一些普通的常实数，左边式子中$\frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}$，代表的是$y$的$n$阶导数。</description>
+    </item>
+    
     <item>
       <title>常用的泰勒级数</title>
       <link>https://blog.loyio.me/posts/10staylorpolyseries/</link>
