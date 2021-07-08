@@ -9,7 +9,16 @@
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Mar 2021 21:25:11 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 08:49:53 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KaTeX(Latex)支持的TeX函数</title>
+      <link>https://blog.loyio.me/posts/latex-katex/</link>
+      <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/latex-katex/</guid>
+      <description>字符与Unicode 希腊字母（Greek Letters）    字符 Katex 字符 Katex     $\alpha$ \alpha $\beta$ \beta   $\gamma$ \gamma $\delta$ \delta   $\epsilon$ \epsilon $\zeta$ \zeta   $\eta$ \eta $\theta$ \theta   $\iota$ \iota $\kappa$ \kappa   $\lambda$ \lambda $\mu$ \mu   $\nu$ \nu $\xi$ \xi   $\omicron$ \omicron $\pi$ \pi          操作符 大型操作符    操作符 Katex 说明 举例 Katex函数     $\sum$ \sum 求和符号 $\displaystyle\sum_{n=1}^{6}{4n}$ \displaystyle\sum_{n=1}^{6}{4n}   $\prod$ \prod 连乘、求积符号 $\displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})}$ \displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})                         </description>
+    </item>
+    
     <item>
       <title>图像处理第三次实验-图像预处理</title>
       <link>https://blog.loyio.me/posts/image-processing-cv-experiment03/</link>

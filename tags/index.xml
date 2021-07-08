@@ -9,7 +9,52 @@
       <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Mar 2021 21:25:11 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 08:49:53 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KaTex</title>
+      <link>https://blog.loyio.me/tags/katex/</link>
+      <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/katex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>https://blog.loyio.me/tags/latex/</link>
+      <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tex</title>
+      <link>https://blog.loyio.me/tags/tex/</link>
+      <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/tex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>字符排版</title>
+      <link>https://blog.loyio.me/tags/%E5%AD%97%E7%AC%A6%E6%8E%92%E7%89%88/</link>
+      <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/%E5%AD%97%E7%AC%A6%E6%8E%92%E7%89%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数学公式</title>
+      <link>https://blog.loyio.me/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Fiji</title>
       <link>https://blog.loyio.me/tags/fiji/</link>
