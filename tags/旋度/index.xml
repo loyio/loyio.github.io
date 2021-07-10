@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>旋度 on Loyio&#39;s Blogs</title>
+    <link>https://blog.loyio.me/tags/%E6%97%8B%E5%BA%A6/</link>
+    <description>Recent content in 旋度 on Loyio&#39;s Blogs</description>
+    <image>
+      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Jul 2021 10:27:37 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E6%97%8B%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>场论初步</title>
+      <link>https://blog.loyio.me/posts/elementary-field-theory/</link>
+      <pubDate>Sat, 10 Jul 2021 10:27:37 +0800</pubDate>
+      
+      <guid>https://blog.loyio.me/posts/elementary-field-theory/</guid>
+      <description>1.方向导数 方向导数的计算公式 设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0, y_0, z_0)$ 处可微分，则 $u=u(x,y,z)$ 在点 $P_0$ 处沿任意方向 $l$ 的方向导数都存在，且
+$$ \frac{\partial u}{\partial l}\Bigl|_{P_{0}} =u&#39;_{x}( P_{0})\cos \alpha +u&#39;_{y}( P_{0})\cos \beta +u&#39;_{z}( P_{0})\cos \gamma $$  二元函数的情况与三元函数类似
+ 2.梯度 在一个数量场中，函数在所给定点处沿不同的方向，其方向导数一般是不相同的。为研究沿哪一个方向其方向导数最大、或增加的速度最快，于是引入了一个重要的概念&amp;mdash;梯度
+设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0,y_0,z_0)$ 处具有一阶偏导数，则定义
+$$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{0}) ,\ u&#39;_{z}( P_{0})) $$ 为函数$u=u(x,y,z)$ 在点$P_0$处的梯度
+3.方向导数与梯度的关系 由方向导数的计算公式 $\frac{\partial{u}}{\partial{l}}\bigl|_{P_0} = (u_x&#39;(P_0),u_y&#39;(P_0),u_z&#39;(P_0))$与梯度的定义
+$$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{0}) ,\ u&#39;_{z}( P_{0})) $$ 可以得到</description>
+    </item>
+    
+  </channel>
+</rss>
