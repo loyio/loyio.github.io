@@ -16,15 +16,14 @@
       <pubDate>Fri, 09 Jul 2021 07:20:24 +0800</pubDate>
       
       <guid>https://blog.loyio.me/posts/common-function-graphics/</guid>
-      <description>（一）直角坐标系下的图像 1. 常见图像 ⑤三角函数 （1）正弦函数与余弦函数       （二）极坐标系下的图像 1. 描点法 （1）心形线 极坐标方程：
+      <description>（一）直角坐标系下的图像 1. 常见图像 ⑤三角函数 （1）正弦函数与余弦函数 （二）极坐标系下的图像 1. 描点法 （1）心形线 极坐标方程：
 水平方向：$r=a(1-\cos{\theta})(a&amp;gt;0)$
 垂直方向：$r=a(1-\sin{\theta})(a&amp;gt;0)$
 直角坐标方程：
 $x^2+y^2+ax=a\sqrt{(x^2+y^2)}$ 或$x^2+y^2-ax=a\sqrt{(x^2+y^2)}$
 参数方程：
 $x=a(2\cos{(t)}-\cos{(2t)})$
-$y=a(2\sin{(t)}-\sin{(2t)})$
-   </description>
+$y=a(2\sin{(t)}-\sin{(2t)})$</description>
     </item>
     
     <item>
