@@ -83,6 +83,36 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>rclone突破750G转存限制（使用gclone和Autoclone）</h2>
+</header>
+<section class=entry-content>
+<p>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
+在之前我就讲过了用rclone挂载GoogleDrive到linux服务器上的教程，大家可以点击下面的链接查看
+使用谷歌云搭建google drive离线下载服务器
+在用rclone转存文件时，我们可能会遇到超过日转存限制的情况，Google每天的限制750G，这对于我们这些特别喜欢搬运的人来说是远远不够的
+首先说一些解决方法原理：
+谷歌开发者平台可以多个项目，每个项目下还可以创建多个服务账号（SA：Service Account），每个SA又可以创建自己单独的Api，每个Api都可以和单个用户一样拥有750GB的权限。
+这里我们要用到autoclone，批量生成SA账号，还要用到gclone，自动切换SA，以突破750G的限制
+我在这里不说具体的操作过程了，大佬们都有写，做重复的事情没有什么意义
+gclone 搬山之术 by HE-SB-技术栈
+AutoRclone配合gclone突破GoogleTeamDrive750G流量限制 by 余十一
+可能是最简单的AutoRclone教程：如何突破Google Drive每日750G限制？ by Great Panoan
+我在这里只记录一下重要的网址和一些代码
+首先要安装python3,可以源码安装，也可以直接通过yum或者apt-get安装
+然后安装autoclone
+git clone https://github.com/xyou365/AutoRclone && cd AutoRclone && pip3 install -r requirements.txt 获取Python DriveApi 凭证
+https://developers.google.com/drive/api/v3/quickstart/python
+管理Google Group
+https://groups.google.com/
+查看ServiceAccount
+https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?pli=1&supportedpurview=project
+基本上就上面这些东西，如果有不明白的可以到上面的那些链接里去问大佬，当然也可以发邮件给我，我尽力解答</p>
+</section>
+<footer class=entry-footer>May 7, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer>
+<a class=entry-link aria-label="post link to rclone突破750G转存限制（使用gclone和Autoclone）" href=https://blog.loyio.me/posts/gclone-over-750g/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Surge-For-Mac模块 Q-Search 自定义搜索</h2>
 </header>
 <section class=entry-content>
@@ -150,18 +180,6 @@ Surge3 Profiles
 </section>
 <footer class=entry-footer>May 5, 2020&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Loyio Hex</footer>
 <a class=entry-link aria-label="post link to Surge神机规则备份" href=https://blog.loyio.me/posts/surge-connershua-rules/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Loyio的书籍分享</h2>
-</header>
-<section class=entry-content>
-<p>还是和之前一样，做一个页面来分享一些书籍文件，方便大家查找，自己也做个记录。
-我其实之前也是一个挺喜欢看书的人，静下心来，默默品读，也不知什么时候，突然我的生活进节奏加快了，后面我便不再这方面花费时间了，也买过很多实体书，为了不浪费自己的钱，还是坚持看完了，如今有时候也喜欢看一些技术类书籍，都是为了查阅资料
-一年前买了kindle，看了没多久，就开始闲置了，几天不清理就全是灰，我这里其实也没啥能分享的，都是我从各个地方保存下来的，也算是当个参考吧。</p>
-</section>
-<footer class=entry-footer>May 5, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer>
-<a class=entry-link aria-label="post link to Loyio的书籍分享" href=https://blog.loyio.me/posts/books-share/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

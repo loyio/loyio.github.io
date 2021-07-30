@@ -83,6 +83,23 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>常用的泰勒级数</h2>
+</header>
+<section class=entry-content>
+<p>以下公式来源于South Caolina
+1.$\frac{1}{1-x}$ $$ \begin{aligned}\frac{1}{1-x} &=\quad1+x+x^{2}+x^{3}+x^{4}+\ldots \\&=\quad\sum_{n=0}^{\infty} x^{n}\end{aligned} $$
+当为几何级数时。只需将$x$视为$r$
+$x\in (-1,1)$
+2. $e^x$ $$ \begin{aligned}e^{x}\quad &=\quad 1+x+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\frac{x^{4}}{4 !}+\ldots \\&=\quad\sum_{n=0}^{\infty} \frac{x^{n}}{n !}\end{aligned} $$
+3.$\cos{x}$ $$ \begin{aligned}\cos x\quad &=\quad1-\frac{x^{2}}{2 !}+\frac{x^{4}}{4 !}-\frac{x^{6}}{6 !}+\frac{x^{8}}{8 !}-\ldots \\&=\quad\sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n}}{(2 n) !}\end{aligned} $$
+4.$\sin{x}$ $$ \begin{aligned}\sin x \quad &=\quad x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\frac{x^{9}}{9 !}-\ldots \\&=\quad \sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{2 n-1}}{(2 n-1) !} \stackrel{\text { or }}{=} \sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{(2 n+1) !}\end{aligned} $$
+5.$\ln{(1+x)}$ $$ \begin{aligned}\ln (1+x)\quad &=\quad x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\frac{x^{5}}{5}-\ldots \\&=\quad\sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{n}}{n} \stackrel{\text { or }}{=} \sum_{n=1}^{\infty}(-1)^{n+1} \frac{x^{n}}{n}\end{aligned} $$...</p>
+</section>
+<footer class=entry-footer>July 8, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer>
+<a class=entry-link aria-label="post link to 常用的泰勒级数" href=https://blog.loyio.me/posts/10staylorpolyseries/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>KaTeX(Latex)支持的TeX函数</h2>
 </header>
 <section class=entry-content>
@@ -146,36 +163,6 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
 </section>
 <footer class=entry-footer>March 20, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer>
 <a class=entry-link aria-label="post link to 图像处理第一次实验-初识CV" href=https://blog.loyio.me/posts/image-processing-cv-experiment01/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>rclone突破750G转存限制（使用gclone和Autoclone）</h2>
-</header>
-<section class=entry-content>
-<p>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
-在之前我就讲过了用rclone挂载GoogleDrive到linux服务器上的教程，大家可以点击下面的链接查看
-使用谷歌云搭建google drive离线下载服务器
-在用rclone转存文件时，我们可能会遇到超过日转存限制的情况，Google每天的限制750G，这对于我们这些特别喜欢搬运的人来说是远远不够的
-首先说一些解决方法原理：
-谷歌开发者平台可以多个项目，每个项目下还可以创建多个服务账号（SA：Service Account），每个SA又可以创建自己单独的Api，每个Api都可以和单个用户一样拥有750GB的权限。
-这里我们要用到autoclone，批量生成SA账号，还要用到gclone，自动切换SA，以突破750G的限制
-我在这里不说具体的操作过程了，大佬们都有写，做重复的事情没有什么意义
-gclone 搬山之术 by HE-SB-技术栈
-AutoRclone配合gclone突破GoogleTeamDrive750G流量限制 by 余十一
-可能是最简单的AutoRclone教程：如何突破Google Drive每日750G限制？ by Great Panoan
-我在这里只记录一下重要的网址和一些代码
-首先要安装python3,可以源码安装，也可以直接通过yum或者apt-get安装
-然后安装autoclone
-git clone https://github.com/xyou365/AutoRclone && cd AutoRclone && pip3 install -r requirements.txt 获取Python DriveApi 凭证
-https://developers.google.com/drive/api/v3/quickstart/python
-管理Google Group
-https://groups.google.com/
-查看ServiceAccount
-https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?pli=1&supportedpurview=project
-基本上就上面这些东西，如果有不明白的可以到上面的那些链接里去问大佬，当然也可以发邮件给我，我尽力解答</p>
-</section>
-<footer class=entry-footer>May 7, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer>
-<a class=entry-link aria-label="post link to rclone突破750G转存限制（使用gclone和Autoclone）" href=https://blog.loyio.me/posts/gclone-over-750g/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
