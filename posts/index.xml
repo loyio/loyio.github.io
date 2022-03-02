@@ -9,7 +9,17 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Jul 2021 07:32:44 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Mar 2022 17:19:04 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode刷题记录</title>
+      <link>https://loyio.me/posts/leetcode-record/</link>
+      <pubDate>Wed, 02 Mar 2022 17:19:04 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/leetcode-record/</guid>
+      <description>记录Leetcode题解链接
+   No. Problem Solution Link     1 Two Sum Issues Blog   2 Add Two Numbers Issues Blog   3 Longest Substring Without Repeating Characters Issues Blog    </description>
+    </item>
+    
     <item>
       <title>Loyio&#39;s Handbook Table of Contents</title>
       <link>https://loyio.me/posts/handbook-toc/</link>
@@ -30,7 +40,7 @@ $$ \frac{\partial u}{\partial l}\Bigl|_{P_{0}} =u&#39;_{x}( P_{0})\cos \alpha +u
  2.梯度 在一个数量场中，函数在所给定点处沿不同的方向，其方向导数一般是不相同的。为研究沿哪一个方向其方向导数最大、或增加的速度最快，于是引入了一个重要的概念&amp;mdash;梯度
 设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0,y_0,z_0)$ 处具有一阶偏导数，则定义
 $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{0}) ,\ u&#39;_{z}( P_{0})) $$ 为函数$u=u(x,y,z)$ 在点$P_0$处的梯度
-3.方向导数与梯度的关系 由方向导数的计算公式 $\frac{\partial{u}}{\partial{l}}\bigl|_{P_0} = (u_x&#39;(P_0),u_y&#39;(P_0),u_z&#39;(P_0))$与梯度的定义
+3.方向导数与梯度的关系 由方向导数的计算公式 $\frac{\partial{u}}{\partial{l}}\bigl|_{P_0} = (u_x&amp;rsquo;(P_0),u_y&amp;rsquo;(P_0),u_z&amp;rsquo;(P_0))$与梯度的定义
 $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{0}) ,\ u&#39;_{z}( P_{0})) $$ 可以得到</description>
     </item>
     
@@ -131,7 +141,7 @@ path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f
       <guid>https://loyio.me/posts/image-processing-cv-experiment02/</guid>
       <description>医学图像预处理 1）搭建运行环境，运行Brain Tumor Detection代码中裁剪功能 预先安装好相关模块，安装Jupyter Notebook交互式计算环境
 conda install jupyter 首先导入相关包
-import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
+import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir  %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
     </item>
     
     <item>
@@ -143,11 +153,11 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
       <description>1.jpg
 2.jpg
 1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下
-&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter if __name__ == &amp;#39;__main__&amp;#39;: # greyscale imgfileOne = &amp;#34;Sample/1&amp;#34; sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).convert(&amp;#39;L&amp;#39;) sample_img.save(imgfileOne+&amp;#34;_processed_gray.jpg&amp;#34;) # Blur # sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BLUR) sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BoxBlur(5)) sample_img.save(imgfileOne + &amp;#34;_processed_blur.jpg&amp;#34;) 图片效果如下
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter  if __name__ == &amp;#39;__main__&amp;#39;:  # greyscale  imgfileOne = &amp;#34;Sample/1&amp;#34;  sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).convert(&amp;#39;L&amp;#39;)  sample_img.save(imgfileOne+&amp;#34;_processed_gray.jpg&amp;#34;)   # Blur  # sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BLUR) 	sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BoxBlur(5))  sample_img.save(imgfileOne + &amp;#34;_processed_blur.jpg&amp;#34;) 图片效果如下
 灰度处理
 模糊处理
 2.对2.jpg生成手绘效果 代码如下
-&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np if __name__ == &amp;#39;__main__&amp;#39;: # Paint imgfileTwo = &amp;#34;Sample/2&amp;#34; sample_img_ary = np.</description>
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np  if __name__ == &amp;#39;__main__&amp;#39;:  # Paint  imgfileTwo = &amp;#34;Sample/2&amp;#34;  sample_img_ary = np.</description>
     </item>
     
     <item>
@@ -215,7 +225,7 @@ https://raw.githubusercontent.com/loyio/SurgeMacModule/master/Q-Search.sgmodule
       <guid>https://loyio.me/posts/pip-install-module-error-ctypes/</guid>
       <description>最近一直在折腾GoogleDrive，用了rclone，又装AutoClone，最近又用上了gclone
 在安装AutoClone依赖文件时报错
-ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/python3.8 -c &amp;#39;import sys, setuptools, tokenize; sys.argv[0] = &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;; __file__=&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;;f=getattr(tokenize, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;open&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, open)(__file__);code=f.read().replace(&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\r\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;);f.close();exec(compile(code, __file__, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;exec&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;))&amp;#39; egg_info --egg-base pip-egg-info cwd: /tmp/pip-install-c6woj60b/progress/ Complete output (11 lines): Traceback (most recent call last): File &amp;#34;&amp;lt;string&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt; File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/__init__.py&amp;#34;, line 20, in &amp;lt;module&amp;gt; from setuptools.dist import Distribution, Feature File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/dist.py&amp;#34;, line 35, in &amp;lt;module&amp;gt; from setuptools import windows_support File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/windows_support.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; import ctypes File &amp;#34;/usr/local/python3/lib/python3.</description>
+ERROR: Command errored out with exit status 1:  command: /usr/local/python3/bin/python3.8 -c &amp;#39;import sys, setuptools, tokenize; sys.argv[0] = &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;; __file__=&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;;f=getattr(tokenize, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;open&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, open)(__file__);code=f.read().replace(&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\r\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;);f.close();exec(compile(code, __file__, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;exec&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;))&amp;#39; egg_info --egg-base pip-egg-info  cwd: /tmp/pip-install-c6woj60b/progress/  Complete output (11 lines):  Traceback (most recent call last):  File &amp;#34;&amp;lt;string&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt;  File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/__init__.py&amp;#34;, line 20, in &amp;lt;module&amp;gt;  from setuptools.dist import Distribution, Feature  File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/dist.py&amp;#34;, line 35, in &amp;lt;module&amp;gt;  from setuptools import windows_support  File &amp;#34;/usr/local/python3/lib/python3.</description>
     </item>
     
     <item>
@@ -242,7 +252,7 @@ ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/p
       <guid>https://loyio.me/posts/surge-connershua-rules/</guid>
       <description>原Surge配置文件地址
 Surge3 Profiles
-[General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # &amp;gt; Internet 测试 URL # internet-test-url = http://bing.com/ # &amp;gt; 代理测速 URL # proxy-test-url = http://bing.com/ # &amp;gt; 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false # Wi-Fi 访问 # &amp;gt; 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # &amp;gt; HTTP 代理服务端口（默认为&amp;#34;6152&amp;#34;） # wifi-access-http-port = 6152 # &amp;gt; SOCKS5 代理服务端口（默认为&amp;#34;6153&amp;#34;） # wifi-access-socks5-port = 6153 # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127.</description>
+[General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # &amp;gt; Internet 测试 URL # internet-test-url = http://bing.com/ # &amp;gt; 代理测速 URL # proxy-test-url = http://bing.com/ # &amp;gt; 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false  # Wi-Fi 访问 # &amp;gt; 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # &amp;gt; HTTP 代理服务端口（默认为&amp;#34;6152&amp;#34;） # wifi-access-http-port = 6152 # &amp;gt; SOCKS5 代理服务端口（默认为&amp;#34;6153&amp;#34;） # wifi-access-socks5-port = 6153  # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127.</description>
     </item>
     
     <item>
@@ -280,20 +290,20 @@ Surge3 Profiles
 &lt;p&gt;Next博客的主页总是会将你的文章全文显示出来，这样可读性是比较差的，如果你文章特别长的话，对于加载也有一定的影响，另一方面，没有目录，访问者无法清楚的找出自己要得到的内容&lt;/p&gt;
 &lt;p&gt;所以我觉得还是要设置一些，让主页不显示全文，&lt;/p&gt;
 &lt;p&gt;Google了一下，发现解决方法就是打开主题下的配置文件，将下面的enable改为true就可以了&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;auto_excerpt&lt;/span&gt;:
-  &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;奈何我在配置文件中根本就没找到这个关键词，可能是主题配置重写了吧，下面说说我的解决步骤&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;auto_excerpt&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;奈何我在配置文件中根本就没找到这个关键词，可能是主题配置重写了吧，下面说说我的解决步骤&lt;/p&gt;
 &lt;p&gt;打开&lt;code&gt;themes/next&lt;/code&gt; 目录下的 &lt;code&gt;config.yml&lt;/code&gt; ，查看摘要描述是否为true，默认是开启的&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Automatically excerpt description in homepage as preamble text.&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;excerpt_description&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后你有两种方法，让你文章在首页只显示部分&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Automatically excerpt description in homepage as preamble text.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;excerpt_description&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后你有两种方法，让你文章在首页只显示部分&lt;/p&gt;
 &lt;h4 id=&#34;1写概述&#34;&gt;1.写概述&lt;/h4&gt;
 &lt;p&gt;在文章的最上面 &lt;code&gt;front-matter&lt;/code&gt; 中添加 &lt;code&gt;description&lt;/code&gt;,&lt;/p&gt;
 &lt;p&gt;然后在冒号后面写你这篇文章的概述，配置完成后，你的主页就只会显示这篇文章的&lt;code&gt;description&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 文章标题
-date: 2020-05-04 13:07:04
-description: 首页的概述，正文内容不会显示
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2截断文章&#34;&gt;2.截断文章&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: 文章标题
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2020-05-04 13:07:04
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;description: 首页的概述，正文内容不会显示
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;2截断文章&#34;&gt;2.截断文章&lt;/h4&gt;
 &lt;p&gt;在需要截断的地方加入&lt;/p&gt;
 &lt;p&gt;`&lt;/p&gt;</description>
     </item>
@@ -308,7 +318,7 @@ description: 首页的概述，正文内容不会显示
 2.站点地图 也就是sitemap，站点地图可以告诉搜索引擎自己的网站有哪些可以抓取的内容，可以帮助搜索引擎更智能地抓取网站各个分支内容
 1⃣️ 生成站点地图 首先要安装百度和谷歌（Google）的站点地图生成插件
 npm install hexo-generator-baidu-sitemap --save npm install hexo-generator-sitemap --save 2⃣️ 修改配置文件 打开博客主目录的config.yml文件，添加下面的sitemap配置内容
-# 生成博客sitemap sitemap: path: sitemap.xml baidusitemap: path: baidusitemap.xml 3⃣️ 生成页面并部署到服务器 这个直接使用一键命令就可以了
+# 生成博客sitemap sitemap:  path: sitemap.xml baidusitemap:  path: baidusitemap.xml 3⃣️ 生成页面并部署到服务器 这个直接使用一键命令就可以了
 hexo g -d 可以看到自己的public目录已经有下面两个文件了
 3.百度站长平台 1⃣️ 添加网站 首先你要打开下面的网站
 https://ziyuan.baidu.com/
@@ -321,7 +331,7 @@ hexo clean hexo g -d 然后点击完成验证就可以了 (❗如果验证失败
 自动提交也有三种选项，主动推送、自动推送以及sitemap
 1.主动推送 我们要用到hexo的插件，输入命令安装即可
 npm install hexo-baidu-url-submit --save 然后在_config.yml文件添加以下内容
-baidu_url_submit: count: 5 ## 提交最新的五个链接 host: blog.loyio.me ## 百度站长平台中注册的域名 token: token ## 准入秘钥 path: baidu_urls.</description>
+baidu_url_submit:  count: 5 ## 提交最新的五个链接  host: blog.</description>
     </item>
     
     <item>
