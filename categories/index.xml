@@ -2,128 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/categories/</link>
+    <link>https://loyio.me/categories/</link>
     <description>Recent content in Categories on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Jul 2021 07:32:44 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 07:32:44 +0800</lastBuildDate><atom:link href="https://loyio.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>latex</title>
-      <link>https://blog.loyio.me/categories/latex/</link>
+      <link>https://loyio.me/categories/latex/</link>
       <pubDate>Sat, 31 Jul 2021 07:32:44 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/latex/</guid>
+      <guid>https://loyio.me/categories/latex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>数学</title>
-      <link>https://blog.loyio.me/categories/%E6%95%B0%E5%AD%A6/</link>
+      <link>https://loyio.me/categories/%E6%95%B0%E5%AD%A6/</link>
       <pubDate>Sat, 10 Jul 2021 10:27:37 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E6%95%B0%E5%AD%A6/</guid>
+      <guid>https://loyio.me/categories/%E6%95%B0%E5%AD%A6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tex</title>
-      <link>https://blog.loyio.me/categories/tex/</link>
+      <link>https://loyio.me/categories/tex/</link>
       <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/tex/</guid>
+      <guid>https://loyio.me/categories/tex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>图像处理实验WTU</title>
-      <link>https://blog.loyio.me/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8Cwtu/</link>
+      <link>https://loyio.me/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8Cwtu/</link>
       <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8Cwtu/</guid>
+      <guid>https://loyio.me/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8Cwtu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GoogleDrive</title>
-      <link>https://blog.loyio.me/categories/googledrive/</link>
+      <link>https://loyio.me/categories/googledrive/</link>
       <pubDate>Thu, 07 May 2020 19:59:48 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/googledrive/</guid>
+      <guid>https://loyio.me/categories/googledrive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网络工具</title>
-      <link>https://blog.loyio.me/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</link>
+      <link>https://loyio.me/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Wed, 06 May 2020 19:55:11 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://loyio.me/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://blog.loyio.me/categories/python/</link>
+      <link>https://loyio.me/categories/python/</link>
       <pubDate>Wed, 06 May 2020 19:51:51 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/python/</guid>
+      <guid>https://loyio.me/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>生活杂谈</title>
-      <link>https://blog.loyio.me/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%88/</link>
+      <link>https://loyio.me/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%88/</link>
       <pubDate>Tue, 05 May 2020 19:48:37 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%88/</guid>
+      <guid>https://loyio.me/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%88/</guid>
       <description></description>
     </item>
     
     <item>
       <title>分享</title>
-      <link>https://blog.loyio.me/categories/%E5%88%86%E4%BA%AB/</link>
+      <link>https://loyio.me/categories/%E5%88%86%E4%BA%AB/</link>
       <pubDate>Tue, 05 May 2020 19:40:12 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E5%88%86%E4%BA%AB/</guid>
+      <guid>https://loyio.me/categories/%E5%88%86%E4%BA%AB/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mac</title>
-      <link>https://blog.loyio.me/categories/mac/</link>
+      <link>https://loyio.me/categories/mac/</link>
       <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/mac/</guid>
+      <guid>https://loyio.me/categories/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网站搭建</title>
-      <link>https://blog.loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
+      <link>https://loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Mon, 04 May 2020 19:17:40 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</guid>
       <description></description>
     </item>
     
     <item>
       <title>游戏</title>
-      <link>https://blog.loyio.me/categories/%E6%B8%B8%E6%88%8F/</link>
+      <link>https://loyio.me/categories/%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Fri, 01 May 2020 17:55:10 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E6%B8%B8%E6%88%8F/</guid>
+      <guid>https://loyio.me/categories/%E6%B8%B8%E6%88%8F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>服务器搭建</title>
-      <link>https://blog.loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</link>
+      <link>https://loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</guid>
+      <guid>https://loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</guid>
       <description></description>
     </item>
     

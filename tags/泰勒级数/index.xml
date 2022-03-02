@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>泰勒级数 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/tags/%E6%B3%B0%E5%8B%92%E7%BA%A7%E6%95%B0/</link>
+    <link>https://loyio.me/tags/%E6%B3%B0%E5%8B%92%E7%BA%A7%E6%95%B0/</link>
     <description>Recent content in 泰勒级数 on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jul 2021 13:08:01 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E6%B3%B0%E5%8B%92%E7%BA%A7%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 13:08:01 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E6%B3%B0%E5%8B%92%E7%BA%A7%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用的泰勒级数</title>
-      <link>https://blog.loyio.me/posts/10staylorpolyseries/</link>
+      <link>https://loyio.me/posts/10staylorpolyseries/</link>
       <pubDate>Thu, 08 Jul 2021 13:08:01 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/10staylorpolyseries/</guid>
+      <guid>https://loyio.me/posts/10staylorpolyseries/</guid>
       <description>以下公式来源于South Caolina
 1.$\frac{1}{1-x}$ $$ \begin{aligned}\frac{1}{1-x} &amp;amp;=\quad1+x+x^{2}+x^{3}+x^{4}+\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty} x^{n}\end{aligned} $$
 当为几何级数时。只需将$x$视为$r$

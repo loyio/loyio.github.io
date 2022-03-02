@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>高等数学 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</link>
+    <link>https://loyio.me/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</link>
     <description>Recent content in 高等数学 on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Jul 2021 07:20:24 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 07:20:24 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用函数图像</title>
-      <link>https://blog.loyio.me/posts/common-function-graphics/</link>
+      <link>https://loyio.me/posts/common-function-graphics/</link>
       <pubDate>Fri, 09 Jul 2021 07:20:24 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/common-function-graphics/</guid>
+      <guid>https://loyio.me/posts/common-function-graphics/</guid>
       <description>（一）直角坐标系下的图像 1. 常见图像 ⑤三角函数 （1）正弦函数与余弦函数 （二）极坐标系下的图像 1. 描点法 （1）心形线 极坐标方程：
 水平方向：$r=a(1-\cos{\theta})(a&amp;gt;0)$
 垂直方向：$r=a(1-\sin{\theta})(a&amp;gt;0)$
@@ -28,10 +28,10 @@ $y=a(2\sin{(t)}-\sin{(2t)})$</description>
     
     <item>
       <title>一阶微分方程与一阶线性方程的求解</title>
-      <link>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
+      <link>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
       <pubDate>Thu, 08 Jul 2021 15:07:55 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
+      <guid>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
       <description>一.可分离变量的一阶微分方程 如果能够把一阶微分方程中所有关于 $y$ 的部分 (包括 $\mathrm{d}y$) 放在一边, 所有关于 $x$ 的部分 (包括 $\mathrm{d}x$) 放在另一边, 则该微分方程被称为是可分离变量的. 例如, 方程 $\mathrm{dy}/\mathrm{dx} = ky$ 可重新整理为 $$ \frac{1}{ky}\mathrm{d}y = \mathrm{d}x, $$ 就是可分离变量的。
 然后继续计算的方法就是两遍加积分号求积分。然后再整理求得 $y$。
 最终求得的全解，可能会包含一些常数变量。
@@ -41,19 +41,19 @@ $y=a(2\sin{(t)}-\sin{(2t)})$</description>
     
     <item>
       <title>常系数微分方程求解</title>
-      <link>https://blog.loyio.me/posts/constant-coefficient-differential-equations/</link>
+      <link>https://loyio.me/posts/constant-coefficient-differential-equations/</link>
       <pubDate>Thu, 08 Jul 2021 14:55:05 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/constant-coefficient-differential-equations/</guid>
+      <guid>https://loyio.me/posts/constant-coefficient-differential-equations/</guid>
       <description>常系数微分方程的形式如下 $$ a_{n} \frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}+\cdots+a_{2} \frac{\mathrm{d}^{2} y}{\mathrm{~d} x^{2}}+a_{1} \frac{\mathrm{d} y}{\mathrm{~d} x}+a_{0} y=f(x) $$ 其中$a_n,\ldots,a_1,a_0$知识一些普通的常实数，左边式子中$\frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}$，代表的是$y$的$n$阶导数。</description>
     </item>
     
     <item>
       <title>常用的泰勒级数</title>
-      <link>https://blog.loyio.me/posts/10staylorpolyseries/</link>
+      <link>https://loyio.me/posts/10staylorpolyseries/</link>
       <pubDate>Thu, 08 Jul 2021 13:08:01 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/10staylorpolyseries/</guid>
+      <guid>https://loyio.me/posts/10staylorpolyseries/</guid>
       <description>以下公式来源于South Caolina
 1.$\frac{1}{1-x}$ $$ \begin{aligned}\frac{1}{1-x} &amp;amp;=\quad1+x+x^{2}+x^{3}+x^{4}+\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty} x^{n}\end{aligned} $$
 当为几何级数时。只需将$x$视为$r$

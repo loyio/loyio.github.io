@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>网站搭建 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
+    <link>https://loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
     <description>Recent content in 网站搭建 on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 May 2020 19:17:40 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 May 2020 19:17:40 +0800</lastBuildDate><atom:link href="https://loyio.me/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>设置Hexo博客Next主题主页不显示全文</title>
-      <link>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
+      <link>https://loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
       <pubDate>Mon, 04 May 2020 19:17:40 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</guid>
+      <guid>https://loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</guid>
       <description>&lt;p&gt;使用Hexo配置自己的博客后，感觉很多方面都要轻松很多，一开始我是在Hexo Theme Page里面找到了一个比较好看的主题，奈何配置上之后，很多功能无法实现，且开发者好像也不再维护更新了，最终我还是决定使用Next博客，配置项的确是挺多的，所以功能也比较齐全，目前也有社区在维护更新&lt;/p&gt;
 &lt;p&gt;Next博客的主页总是会将你的文章全文显示出来，这样可读性是比较差的，如果你文章特别长的话，对于加载也有一定的影响，另一方面，没有目录，访问者无法清楚的找出自己要得到的内容&lt;/p&gt;
 &lt;p&gt;所以我觉得还是要设置一些，让主页不显示全文，&lt;/p&gt;
@@ -40,10 +40,10 @@ description: 首页的概述，正文内容不会显示
     
     <item>
       <title>Hexo博客SEO优化，将你的网站提交到搜索引擎</title>
-      <link>https://blog.loyio.me/posts/hexo-blog-seo/</link>
+      <link>https://loyio.me/posts/hexo-blog-seo/</link>
       <pubDate>Mon, 04 May 2020 19:10:17 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/hexo-blog-seo/</guid>
+      <guid>https://loyio.me/posts/hexo-blog-seo/</guid>
       <description>1.什么是SEO SEO（Search Engine Optimization）顾名思义就是搜索引擎优化，比如你想让别人在百度、google搜索某些内容时，刚好可以出现自己网站的链接，简单来说，就是提高你个人网站的流量。虽然我这人本来就没想过要什么流量，主要目的是想记录一些东西，给自己看的，但是，如果自己的博客能够帮助到别人解决问题，我感觉还是挺值得的。我下面介绍的都是Hexo静态网站博客相关的
 2.站点地图 也就是sitemap，站点地图可以告诉搜索引擎自己的网站有哪些可以抓取的内容，可以帮助搜索引擎更智能地抓取网站各个分支内容
 1⃣️ 生成站点地图 首先要安装百度和谷歌（Google）的站点地图生成插件

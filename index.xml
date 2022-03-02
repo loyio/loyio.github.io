@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/</link>
+    <link>https://loyio.me/</link>
     <description>Recent content on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Jul 2021 07:32:44 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 07:32:44 +0800</lastBuildDate><atom:link href="https://loyio.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Loyio&#39;s Handbook Table of Contents</title>
-      <link>https://blog.loyio.me/posts/handbook-toc/</link>
+      <link>https://loyio.me/posts/handbook-toc/</link>
       <pubDate>Sat, 31 Jul 2021 07:32:44 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/handbook-toc/</guid>
+      <guid>https://loyio.me/posts/handbook-toc/</guid>
       <description>数学  直角坐标系下的图像 初等数学常用公式 [PDF:下载] 高等数学 [PDF:下载] 线性代数 [PDF:下载] 概率论与数理统计 [PDF:下载]  数据结构 </description>
     </item>
     
     <item>
       <title>场论初步</title>
-      <link>https://blog.loyio.me/posts/elementary-field-theory/</link>
+      <link>https://loyio.me/posts/elementary-field-theory/</link>
       <pubDate>Sat, 10 Jul 2021 10:27:37 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/elementary-field-theory/</guid>
+      <guid>https://loyio.me/posts/elementary-field-theory/</guid>
       <description>1.方向导数 方向导数的计算公式 设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0, y_0, z_0)$ 处可微分，则 $u=u(x,y,z)$ 在点 $P_0$ 处沿任意方向 $l$ 的方向导数都存在，且
 $$ \frac{\partial u}{\partial l}\Bigl|_{P_{0}} =u&#39;_{x}( P_{0})\cos \alpha +u&#39;_{y}( P_{0})\cos \beta +u&#39;_{z}( P_{0})\cos \gamma $$  二元函数的情况与三元函数类似
  2.梯度 在一个数量场中，函数在所给定点处沿不同的方向，其方向导数一般是不相同的。为研究沿哪一个方向其方向导数最大、或增加的速度最快，于是引入了一个重要的概念&amp;mdash;梯度
@@ -36,10 +36,10 @@ $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{
     
     <item>
       <title>常用函数图像</title>
-      <link>https://blog.loyio.me/posts/common-function-graphics/</link>
+      <link>https://loyio.me/posts/common-function-graphics/</link>
       <pubDate>Fri, 09 Jul 2021 07:20:24 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/common-function-graphics/</guid>
+      <guid>https://loyio.me/posts/common-function-graphics/</guid>
       <description>（一）直角坐标系下的图像 1. 常见图像 ⑤三角函数 （1）正弦函数与余弦函数 （二）极坐标系下的图像 1. 描点法 （1）心形线 极坐标方程：
 水平方向：$r=a(1-\cos{\theta})(a&amp;gt;0)$
 垂直方向：$r=a(1-\sin{\theta})(a&amp;gt;0)$
@@ -52,10 +52,10 @@ $y=a(2\sin{(t)}-\sin{(2t)})$</description>
     
     <item>
       <title>一阶微分方程与一阶线性方程的求解</title>
-      <link>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
+      <link>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
       <pubDate>Thu, 08 Jul 2021 15:07:55 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
+      <guid>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
       <description>一.可分离变量的一阶微分方程 如果能够把一阶微分方程中所有关于 $y$ 的部分 (包括 $\mathrm{d}y$) 放在一边, 所有关于 $x$ 的部分 (包括 $\mathrm{d}x$) 放在另一边, 则该微分方程被称为是可分离变量的. 例如, 方程 $\mathrm{dy}/\mathrm{dx} = ky$ 可重新整理为 $$ \frac{1}{ky}\mathrm{d}y = \mathrm{d}x, $$ 就是可分离变量的。
 然后继续计算的方法就是两遍加积分号求积分。然后再整理求得 $y$。
 最终求得的全解，可能会包含一些常数变量。
@@ -65,19 +65,19 @@ $y=a(2\sin{(t)}-\sin{(2t)})$</description>
     
     <item>
       <title>常系数微分方程求解</title>
-      <link>https://blog.loyio.me/posts/constant-coefficient-differential-equations/</link>
+      <link>https://loyio.me/posts/constant-coefficient-differential-equations/</link>
       <pubDate>Thu, 08 Jul 2021 14:55:05 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/constant-coefficient-differential-equations/</guid>
+      <guid>https://loyio.me/posts/constant-coefficient-differential-equations/</guid>
       <description>常系数微分方程的形式如下 $$ a_{n} \frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}+\cdots+a_{2} \frac{\mathrm{d}^{2} y}{\mathrm{~d} x^{2}}+a_{1} \frac{\mathrm{d} y}{\mathrm{~d} x}+a_{0} y=f(x) $$ 其中$a_n,\ldots,a_1,a_0$知识一些普通的常实数，左边式子中$\frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}$，代表的是$y$的$n$阶导数。</description>
     </item>
     
     <item>
       <title>常用的泰勒级数</title>
-      <link>https://blog.loyio.me/posts/10staylorpolyseries/</link>
+      <link>https://loyio.me/posts/10staylorpolyseries/</link>
       <pubDate>Thu, 08 Jul 2021 13:08:01 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/10staylorpolyseries/</guid>
+      <guid>https://loyio.me/posts/10staylorpolyseries/</guid>
       <description>以下公式来源于South Caolina
 1.$\frac{1}{1-x}$ $$ \begin{aligned}\frac{1}{1-x} &amp;amp;=\quad1+x+x^{2}+x^{3}+x^{4}+\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty} x^{n}\end{aligned} $$
 当为几何级数时。只需将$x$视为$r$
@@ -90,19 +90,19 @@ $x\in (-1,1)$
     
     <item>
       <title>KaTeX(Latex)支持的TeX函数</title>
-      <link>https://blog.loyio.me/posts/latex-katex/</link>
+      <link>https://loyio.me/posts/latex-katex/</link>
       <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/latex-katex/</guid>
+      <guid>https://loyio.me/posts/latex-katex/</guid>
       <description>字符与Unicode 希腊字母（Greek Letters） 小写形式    渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex     $\alpha$ \alpha $\beta$ \beta $\gamma$ \gamma $\delta$ \delta   $\epsilon$ \epsilon $\zeta$ \zeta $\eta$ \eta $\theta$ \theta   $\iota$ \iota $\kappa$ \kappa $\lambda$ \lambda $\mu$ \mu   $\nu$ \nu $\xi$ \xi $\omicron$ \omicron $\pi$ \pi   $\rho$ \rho $\sigma$ \sigma $\tau$ \tau $\upsilon$ \upsilon   $\phi$ \phi $\chi$ \chi $\psi$ \psi $\omega$ \omega   $\varepsilon$ \varepsilon $\varkappa$ \varkappa $\vartheta$ \vartheta $\thetasym$ \thetasym   $\varpi$ \varpi $\varrho$ \varrho $\varsigma$ \varsigma $\varphi$ \varphi   $\digamma$ \digamma $\varGamma$ \varGamma $\varDelta$ \varDelta $\varTheta$ \varTheta   $\varLambda$ \varLambda $\varXi$ \varXi $\varPi$ \varPi $\varSigma$ \varSigma   $\varUpsilon$ \varUpsilon $\varPhi$ \varPhi $\varPsi$ \varPsi $\varOmega$ \varOmega    大写形式    渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex     $\Alpha$ \Alpha $\Beta$ \Beta $\Gamma$ \Gamma $\Delta$ \Delta   $\Epsilon$ \Epsilon $\Zeta$ \Zeta $\Eta$ \Eta $\Theta$ \Theta   $\Iota$ \Iota $\Kappa$ \Kappa $\Lambda$ \Lambda $\Mu$ \Mu   $\Nu$ \Nu $\Xi$ \Xi $\Omicron$ \Omicron $\Pi$ \Pi   $\Rho$ \Rho $\Sigma$ \Sigma $\Tau$ \Tau $\Upsilon$ \Upsilon   $\Phi$ \Phi $\Chi$ \Chi $\Psi$ \Psi $\Omega$ \Omega    其它字符    渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex     $\imath$ \imath $\nabla$ \nabla $\Im$ \Im $\Reals$ \Reals   $\text{\OE}$ \text{\OE} $\jmath$ \jmath $\partial$ \partial $\image$ \image   $\wp$ \wp $\text{\o}$ \text{\o} $\aleph$ \aleph $\Game$ \Game   $\Bbbk$ \Bbbk $\weierp$ \weierp $\text{\O}$ \text{\O} $\alef$ \alef   $\Finv$ \Finv $\N$ \N $\Z$ \Z $\text{\ss}$ \text{\ss}   $\alefsym$ \alefsym $\cnums$ \cnums $\natnums$ \natnums $\text{\aa}$ \text{\aa}   $\text{\i}$ \text{\i} $\beth$ \beth $\Complex$ \Complex $\R$ \R   $\text{\AA}$ \text{\AA} $\text{\j}$ \text{\j} $\gimel$ \gimel $\ell$ \ell   $\Re$ \Re $\text{\ae}$ \text{\ae} $\daleth$ \daleth $\hbar$ \hbar   $\real$ \real $\text{\AE}$ \text{\AE} $\eth$ \eth $\hslash$ \hslash   $\reals$ \reals $\text{\oe}$ \text{\oe}        操作符 大操作符    渲染操作符 Katex 说明 举例 Katex函数     $\sum$ \sum 求和符号 $\displaystyle\sum_{n=1}^{6}{4n}$ \displaystyle\sum_{n=1}^{6}{4n}   $\prod$ \prod 连乘、求积符号 $\displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})}$ \displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})   $\bigotimes$ \bigotimes      $\bigvee$ \bigvee      $\int$ \int 积分符号 $\int_{0}^{t}{f(t)dt}$ \int_{0}^{t}{f(t)dt}    </description>
     </item>
     
     <item>
       <title>图像处理第三次实验-图像预处理</title>
-      <link>https://blog.loyio.me/posts/image-processing-cv-experiment03/</link>
+      <link>https://loyio.me/posts/image-processing-cv-experiment03/</link>
       <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/image-processing-cv-experiment03/</guid>
+      <guid>https://loyio.me/posts/image-processing-cv-experiment03/</guid>
       <description>一.对比度优化方法CLAHE 1.使用软件fiji优化图片序列 实验过程：
 1）下载安装Fiji
 2）解压30-T4N2, 24_pre_waterT1C.nii.zip
@@ -125,10 +125,10 @@ path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f
     
     <item>
       <title>图像处理第二次试验-裁剪图像</title>
-      <link>https://blog.loyio.me/posts/image-processing-cv-experiment02/</link>
+      <link>https://loyio.me/posts/image-processing-cv-experiment02/</link>
       <pubDate>Mon, 22 Mar 2021 21:19:03 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/image-processing-cv-experiment02/</guid>
+      <guid>https://loyio.me/posts/image-processing-cv-experiment02/</guid>
       <description>医学图像预处理 1）搭建运行环境，运行Brain Tumor Detection代码中裁剪功能 预先安装好相关模块，安装Jupyter Notebook交互式计算环境
 conda install jupyter 首先导入相关包
 import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
@@ -136,10 +136,10 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
     
     <item>
       <title>图像处理第一次实验-初识CV</title>
-      <link>https://blog.loyio.me/posts/image-processing-cv-experiment01/</link>
+      <link>https://loyio.me/posts/image-processing-cv-experiment01/</link>
       <pubDate>Sat, 20 Mar 2021 21:14:43 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/image-processing-cv-experiment01/</guid>
+      <guid>https://loyio.me/posts/image-processing-cv-experiment01/</guid>
       <description>1.jpg
 2.jpg
 1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下
@@ -152,10 +152,10 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
     
     <item>
       <title>rclone突破750G转存限制（使用gclone和Autoclone）</title>
-      <link>https://blog.loyio.me/posts/gclone-over-750g/</link>
+      <link>https://loyio.me/posts/gclone-over-750g/</link>
       <pubDate>Thu, 07 May 2020 19:59:48 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/gclone-over-750g/</guid>
+      <guid>https://loyio.me/posts/gclone-over-750g/</guid>
       <description>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
 在之前我就讲过了用rclone挂载GoogleDrive到linux服务器上的教程，大家可以点击下面的链接查看
 使用谷歌云搭建google drive离线下载服务器
@@ -181,10 +181,10 @@ https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?pli=
     
     <item>
       <title>Surge-For-Mac模块 Q-Search 自定义搜索</title>
-      <link>https://blog.loyio.me/posts/q-search-surge-for-mac/</link>
+      <link>https://loyio.me/posts/q-search-surge-for-mac/</link>
       <pubDate>Wed, 06 May 2020 19:55:11 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/q-search-surge-for-mac/</guid>
+      <guid>https://loyio.me/posts/q-search-surge-for-mac/</guid>
       <description>昨天狠下心上了SurgeForMac的车，140永久，这是继Quantumult X后的又一次剁手，我也不知道自己怎么这么折腾，本来我Mac端用Clash用的好好的，没啥其它问题，可能是头脑一热吧，不过我今天就是想介绍一下，我重写的一款Surge模块，Q-Search
 前言 在手机上用过Quantumult X和Surge的应该很熟悉这个插件，就是利用了重写的功能，实现自定义搜索命令，比如我想要在京东上搜索笔记本，我只需要在搜索栏输入 jd 笔记本 就可以了
 然后回车，它会自动重定向至京东搜索页面，如下图所示
@@ -209,10 +209,10 @@ https://raw.githubusercontent.com/loyio/SurgeMacModule/master/Q-Search.sgmodule
     
     <item>
       <title>pip安装模块时报错 ModuleNotFoundError:No module named &#39;_ctypes&#39;</title>
-      <link>https://blog.loyio.me/posts/pip-install-module-error-ctypes/</link>
+      <link>https://loyio.me/posts/pip-install-module-error-ctypes/</link>
       <pubDate>Wed, 06 May 2020 19:51:51 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/pip-install-module-error-ctypes/</guid>
+      <guid>https://loyio.me/posts/pip-install-module-error-ctypes/</guid>
       <description>最近一直在折腾GoogleDrive，用了rclone，又装AutoClone，最近又用上了gclone
 在安装AutoClone依赖文件时报错
 ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/python3.8 -c &amp;#39;import sys, setuptools, tokenize; sys.argv[0] = &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;; __file__=&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;;f=getattr(tokenize, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;open&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, open)(__file__);code=f.read().replace(&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\r\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;);f.close();exec(compile(code, __file__, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;exec&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;))&amp;#39; egg_info --egg-base pip-egg-info cwd: /tmp/pip-install-c6woj60b/progress/ Complete output (11 lines): Traceback (most recent call last): File &amp;#34;&amp;lt;string&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt; File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/__init__.py&amp;#34;, line 20, in &amp;lt;module&amp;gt; from setuptools.dist import Distribution, Feature File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/dist.py&amp;#34;, line 35, in &amp;lt;module&amp;gt; from setuptools import windows_support File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/windows_support.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; import ctypes File &amp;#34;/usr/local/python3/lib/python3.</description>
@@ -220,10 +220,10 @@ ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/p
     
     <item>
       <title>谈谈自己为什么又开始写博客了</title>
-      <link>https://blog.loyio.me/posts/why-me-rebuilt-blog/</link>
+      <link>https://loyio.me/posts/why-me-rebuilt-blog/</link>
       <pubDate>Tue, 05 May 2020 19:48:37 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/why-me-rebuilt-blog/</guid>
+      <guid>https://loyio.me/posts/why-me-rebuilt-blog/</guid>
       <description>其实我17年刚读大一的时候，就建立了自己的博客，那时候是用的阿里云的服务器，学生机9.9，然后域名好像是在godaddy买的吧，只不过当时为了备案又把这个域名迁移到了阿里云，国内主机配国外域名真的很鸡肋啊，当时godaddy还不允许前三个月迁移，所以前面一直用的临时域名。
 一开始我用的是Wordpress，主题非常多，插件也很多，对于喜欢给自己的网站添加各种功能的人简直太友好了，我当时也用了一段时间，用户管理，插件各方面，都很不错，弄的自己网站五花八门，忽视了内容，而太过在意形式，有几次配置插件把自己的网站的内容都清除掉了，然后，还有一点就是，毕竟自己的服务器是9.9学生机，所以网站的访问速率也慢了很多。
 后面又陆陆续续换了好几个博客程序，最后我还是决定了用zblog，因为这个博客的自由度还是挺高的，我可以修改底层代码，也可以自己写一些插件，虽然自己一定也不会PHP，但是看着别人代码一步一步改还是可以的，可惜，当时不知道我怎么就把这个网站全给删了，包括数据库，现在什么都没有了，不过博客的大部分内容我在博客园和 CSDN都有发布，上面的网站我都好久不发布了，想想当时的自己真的有点萌新感啊，最后一篇博客的时间刚好两年前的今天，实在是妙啊。
@@ -236,10 +236,10 @@ ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/p
     
     <item>
       <title>Surge神机规则备份</title>
-      <link>https://blog.loyio.me/posts/surge-connershua-rules/</link>
+      <link>https://loyio.me/posts/surge-connershua-rules/</link>
       <pubDate>Tue, 05 May 2020 19:43:27 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/surge-connershua-rules/</guid>
+      <guid>https://loyio.me/posts/surge-connershua-rules/</guid>
       <description>原Surge配置文件地址
 Surge3 Profiles
 [General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # &amp;gt; Internet 测试 URL # internet-test-url = http://bing.com/ # &amp;gt; 代理测速 URL # proxy-test-url = http://bing.com/ # &amp;gt; 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false # Wi-Fi 访问 # &amp;gt; 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # &amp;gt; HTTP 代理服务端口（默认为&amp;#34;6152&amp;#34;） # wifi-access-http-port = 6152 # &amp;gt; SOCKS5 代理服务端口（默认为&amp;#34;6153&amp;#34;） # wifi-access-socks5-port = 6153 # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127.</description>
@@ -247,10 +247,10 @@ Surge3 Profiles
     
     <item>
       <title>Loyio的书籍分享</title>
-      <link>https://blog.loyio.me/posts/books-share/</link>
+      <link>https://loyio.me/posts/books-share/</link>
       <pubDate>Tue, 05 May 2020 19:40:12 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/books-share/</guid>
+      <guid>https://loyio.me/posts/books-share/</guid>
       <description>还是和之前一样，做一个页面来分享一些书籍文件，方便大家查找，自己也做个记录。
 我其实之前也是一个挺喜欢看书的人，静下心来，默默品读，也不知什么时候，突然我的生活进节奏加快了，后面我便不再这方面花费时间了，也买过很多实体书，为了不浪费自己的钱，还是坚持看完了，如今有时候也喜欢看一些技术类书籍，都是为了查阅资料
 一年前买了kindle，看了没多久，就开始闲置了，几天不清理就全是灰，我这里其实也没啥能分享的，都是我从各个地方保存下来的，也算是当个参考吧。</description>
@@ -258,10 +258,10 @@ Surge3 Profiles
     
     <item>
       <title>个人收藏的一些Mac软件（持续更新）</title>
-      <link>https://blog.loyio.me/posts/mac-app-sheet-link/</link>
+      <link>https://loyio.me/posts/mac-app-sheet-link/</link>
       <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/mac-app-sheet-link/</guid>
+      <guid>https://loyio.me/posts/mac-app-sheet-link/</guid>
       <description>最近在找某些软件时，总是遇到很多问题，要么就是国内的下载付费（本来就是破解的），要么就是国外下载速度特别慢，因为大多是磁力链接，而且这些都是比较冷门的资源，所以下载速度特别慢，这里我声明一下，我收集的软件仅供学习交流使用，请大家到官方网站下载正版，付费支持。
 这里我决定做一个页面，把自己收藏的软件分享出来，然后也分别做百度云和GoogleDrive链接🔗，也算是自己记录一下，方便自己以后找寻资料（再次声明，请大家支持正版）
 这里百度网盘和GoogleDrive链接理论上是永久的，如果出现访问问题，可以通过邮件联系我，我会尽快回复，并更新链接
@@ -272,10 +272,10 @@ Surge3 Profiles
     
     <item>
       <title>设置Hexo博客Next主题主页不显示全文</title>
-      <link>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
+      <link>https://loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
       <pubDate>Mon, 04 May 2020 19:17:40 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</guid>
+      <guid>https://loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</guid>
       <description>&lt;p&gt;使用Hexo配置自己的博客后，感觉很多方面都要轻松很多，一开始我是在Hexo Theme Page里面找到了一个比较好看的主题，奈何配置上之后，很多功能无法实现，且开发者好像也不再维护更新了，最终我还是决定使用Next博客，配置项的确是挺多的，所以功能也比较齐全，目前也有社区在维护更新&lt;/p&gt;
 &lt;p&gt;Next博客的主页总是会将你的文章全文显示出来，这样可读性是比较差的，如果你文章特别长的话，对于加载也有一定的影响，另一方面，没有目录，访问者无法清楚的找出自己要得到的内容&lt;/p&gt;
 &lt;p&gt;所以我觉得还是要设置一些，让主页不显示全文，&lt;/p&gt;
@@ -300,10 +300,10 @@ description: 首页的概述，正文内容不会显示
     
     <item>
       <title>Hexo博客SEO优化，将你的网站提交到搜索引擎</title>
-      <link>https://blog.loyio.me/posts/hexo-blog-seo/</link>
+      <link>https://loyio.me/posts/hexo-blog-seo/</link>
       <pubDate>Mon, 04 May 2020 19:10:17 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/hexo-blog-seo/</guid>
+      <guid>https://loyio.me/posts/hexo-blog-seo/</guid>
       <description>1.什么是SEO SEO（Search Engine Optimization）顾名思义就是搜索引擎优化，比如你想让别人在百度、google搜索某些内容时，刚好可以出现自己网站的链接，简单来说，就是提高你个人网站的流量。虽然我这人本来就没想过要什么流量，主要目的是想记录一些东西，给自己看的，但是，如果自己的博客能够帮助到别人解决问题，我感觉还是挺值得的。我下面介绍的都是Hexo静态网站博客相关的
 2.站点地图 也就是sitemap，站点地图可以告诉搜索引擎自己的网站有哪些可以抓取的内容，可以帮助搜索引擎更智能地抓取网站各个分支内容
 1⃣️ 生成站点地图 首先要安装百度和谷歌（Google）的站点地图生成插件
@@ -326,10 +326,10 @@ baidu_url_submit: count: 5 ## 提交最新的五个链接 host: blog.loyio.me ##
     
     <item>
       <title>Quantumult X 相关配置问题</title>
-      <link>https://blog.loyio.me/posts/quantumnltx-config/</link>
+      <link>https://loyio.me/posts/quantumnltx-config/</link>
       <pubDate>Sun, 03 May 2020 18:43:06 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/quantumnltx-config/</guid>
+      <guid>https://loyio.me/posts/quantumnltx-config/</guid>
       <description>之前一直用的是Shadowrocket（俗称小火箭，用了快一年多了吧，感情还是挺深的），配置起来的确要简单很多，但功能也自然谈不上丰富，今天看自己的印度Apple ID里面还有800卢比，想着放里面也是无用，不如花了痛快，于是就果断买了Quantumult x（好像大家常把它叫做圈X）。
 1.购买之前 刚开始搜的时候出现了两个软件，Quantumult 和 Quantumult x，订阅价格差了20人民币左右，于是又在网上了解这两者的区别，总结来说，就是UI不一样，然后Quantumult x支持强大的JS脚本功能，对于喜欢瞎折腾的我当然是选择第二个完整版
 2.寻找教程 在网上搜索了一下，进了非官方Tg群，这里有两个配置教程
@@ -354,10 +354,10 @@ https://github.com/nzw9314/QuantumultX/tree/master</description>
     
     <item>
       <title>Apple Arcade 游戏评测</title>
-      <link>https://blog.loyio.me/posts/arcade-game-record/</link>
+      <link>https://loyio.me/posts/arcade-game-record/</link>
       <pubDate>Fri, 01 May 2020 17:55:10 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/arcade-game-record/</guid>
+      <guid>https://loyio.me/posts/arcade-game-record/</guid>
       <description>开通了Apple的游戏订阅服务，里面虽然游戏很多，但其实很多游戏是比较适合小孩子玩的，目前我个人觉得能玩的游戏有Oceanhorn2，Spyder，Tint等，这里我决定将Arcade中的每个游戏都试玩一下，写一下自己的个人感受。
 往右滑动表格，查看更多信息
    图标 游戏名称 游戏类别 推荐指数 主要任务 链接🔗 个人感觉      Oceanhorn2 冒险类 ⭐️⭐️⭐️⭐️⭐️ 做一个优秀的骑士完成各种任务、探险⚔️🛡 App Store 任务剧情都挺喜欢的    Spyder 冒险类 ⭐️⭐️⭐️⭐️⭐️ 控制机器蜘蛛完成各种繁琐的任务，拯救生命🕷️ App Store 已通关、总共六关    Frogger 动作类 ⭐️⭐️ 操作青蛙，拯救小青蛙🐸 App Store 感觉有点低智，想不懂苹果发布会当时为什么选他演示，适合小朋友玩吧    WHAT THE GOLF? 休闲类 ⭐️⭐️⭐️⭐️ 将各种物体击中目标，会有很多彩蛋，此游戏并不会教你打高尔夫 App Store 这个我发现有点晚，后面玩了才发现是真的好玩，太有趣了。    Skate City 动作类 ⭐️⭐️⭐️ 通过不同的操作完成各种花样滑板技能🛹 App Store 背景音乐以及滑板各种花式操作，但操作难度太大                      https://www.</description>
@@ -365,10 +365,10 @@ https://github.com/nzw9314/QuantumultX/tree/master</description>
     
     <item>
       <title>使用谷歌云搭建google drive离线下载服务器</title>
-      <link>https://blog.loyio.me/posts/gcp-create-gdrive-download-server/</link>
+      <link>https://loyio.me/posts/gcp-create-gdrive-download-server/</link>
       <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/gcp-create-gdrive-download-server/</guid>
+      <guid>https://loyio.me/posts/gcp-create-gdrive-download-server/</guid>
       <description>1.在google云中创建一个实例 选择可用的地区，这里我选择的是新加坡，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端
 2.安装rclone 我们使用官方的脚本进行安装
 首先我们需要安装解压工具

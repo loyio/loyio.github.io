@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>双曲线 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/tags/%E5%8F%8C%E6%9B%B2%E7%BA%BF/</link>
+    <link>https://loyio.me/tags/%E5%8F%8C%E6%9B%B2%E7%BA%BF/</link>
     <description>Recent content in 双曲线 on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Jul 2021 07:20:24 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E5%8F%8C%E6%9B%B2%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 07:20:24 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E5%8F%8C%E6%9B%B2%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用函数图像</title>
-      <link>https://blog.loyio.me/posts/common-function-graphics/</link>
+      <link>https://loyio.me/posts/common-function-graphics/</link>
       <pubDate>Fri, 09 Jul 2021 07:20:24 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/common-function-graphics/</guid>
+      <guid>https://loyio.me/posts/common-function-graphics/</guid>
       <description>（一）直角坐标系下的图像 1. 常见图像 ⑤三角函数 （1）正弦函数与余弦函数 （二）极坐标系下的图像 1. 描点法 （1）心形线 极坐标方程：
 水平方向：$r=a(1-\cos{\theta})(a&amp;gt;0)$
 垂直方向：$r=a(1-\sin{\theta})(a&amp;gt;0)$

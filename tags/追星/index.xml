@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>追星 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/tags/%E8%BF%BD%E6%98%9F/</link>
+    <link>https://loyio.me/tags/%E8%BF%BD%E6%98%9F/</link>
     <description>Recent content in 追星 on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 May 2020 19:48:37 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E8%BF%BD%E6%98%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 May 2020 19:48:37 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E8%BF%BD%E6%98%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>谈谈自己为什么又开始写博客了</title>
-      <link>https://blog.loyio.me/posts/why-me-rebuilt-blog/</link>
+      <link>https://loyio.me/posts/why-me-rebuilt-blog/</link>
       <pubDate>Tue, 05 May 2020 19:48:37 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/why-me-rebuilt-blog/</guid>
+      <guid>https://loyio.me/posts/why-me-rebuilt-blog/</guid>
       <description>其实我17年刚读大一的时候，就建立了自己的博客，那时候是用的阿里云的服务器，学生机9.9，然后域名好像是在godaddy买的吧，只不过当时为了备案又把这个域名迁移到了阿里云，国内主机配国外域名真的很鸡肋啊，当时godaddy还不允许前三个月迁移，所以前面一直用的临时域名。
 一开始我用的是Wordpress，主题非常多，插件也很多，对于喜欢给自己的网站添加各种功能的人简直太友好了，我当时也用了一段时间，用户管理，插件各方面，都很不错，弄的自己网站五花八门，忽视了内容，而太过在意形式，有几次配置插件把自己的网站的内容都清除掉了，然后，还有一点就是，毕竟自己的服务器是9.9学生机，所以网站的访问速率也慢了很多。
 后面又陆陆续续换了好几个博客程序，最后我还是决定了用zblog，因为这个博客的自由度还是挺高的，我可以修改底层代码，也可以自己写一些插件，虽然自己一定也不会PHP，但是看着别人代码一步一步改还是可以的，可惜，当时不知道我怎么就把这个网站全给删了，包括数据库，现在什么都没有了，不过博客的大部分内容我在博客园和 CSDN都有发布，上面的网站我都好久不发布了，想想当时的自己真的有点萌新感啊，最后一篇博客的时间刚好两年前的今天，实在是妙啊。

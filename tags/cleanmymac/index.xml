@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CleanMyMac on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/tags/cleanmymac/</link>
+    <link>https://loyio.me/tags/cleanmymac/</link>
     <description>Recent content in CleanMyMac on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 May 2020 19:26:34 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/cleanmymac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 May 2020 19:26:34 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/cleanmymac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>个人收藏的一些Mac软件（持续更新）</title>
-      <link>https://blog.loyio.me/posts/mac-app-sheet-link/</link>
+      <link>https://loyio.me/posts/mac-app-sheet-link/</link>
       <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/mac-app-sheet-link/</guid>
+      <guid>https://loyio.me/posts/mac-app-sheet-link/</guid>
       <description>最近在找某些软件时，总是遇到很多问题，要么就是国内的下载付费（本来就是破解的），要么就是国外下载速度特别慢，因为大多是磁力链接，而且这些都是比较冷门的资源，所以下载速度特别慢，这里我声明一下，我收集的软件仅供学习交流使用，请大家到官方网站下载正版，付费支持。
 这里我决定做一个页面，把自己收藏的软件分享出来，然后也分别做百度云和GoogleDrive链接🔗，也算是自己记录一下，方便自己以后找寻资料（再次声明，请大家支持正版）
 这里百度网盘和GoogleDrive链接理论上是永久的，如果出现访问问题，可以通过邮件联系我，我会尽快回复，并更新链接

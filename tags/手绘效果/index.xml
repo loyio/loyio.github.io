@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>手绘效果 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/tags/%E6%89%8B%E7%BB%98%E6%95%88%E6%9E%9C/</link>
+    <link>https://loyio.me/tags/%E6%89%8B%E7%BB%98%E6%95%88%E6%9E%9C/</link>
     <description>Recent content in 手绘效果 on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Mar 2021 21:25:11 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/%E6%89%8B%E7%BB%98%E6%95%88%E6%9E%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 21:25:11 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E6%89%8B%E7%BB%98%E6%95%88%E6%9E%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>图像处理第三次实验-图像预处理</title>
-      <link>https://blog.loyio.me/posts/image-processing-cv-experiment03/</link>
+      <link>https://loyio.me/posts/image-processing-cv-experiment03/</link>
       <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/image-processing-cv-experiment03/</guid>
+      <guid>https://loyio.me/posts/image-processing-cv-experiment03/</guid>
       <description>一.对比度优化方法CLAHE 1.使用软件fiji优化图片序列 实验过程：
 1）下载安装Fiji
 2）解压30-T4N2, 24_pre_waterT1C.nii.zip
@@ -38,10 +38,10 @@ path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f
     
     <item>
       <title>图像处理第一次实验-初识CV</title>
-      <link>https://blog.loyio.me/posts/image-processing-cv-experiment01/</link>
+      <link>https://loyio.me/posts/image-processing-cv-experiment01/</link>
       <pubDate>Sat, 20 Mar 2021 21:14:43 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/image-processing-cv-experiment01/</guid>
+      <guid>https://loyio.me/posts/image-processing-cv-experiment01/</guid>
       <description>1.jpg
 2.jpg
 1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下

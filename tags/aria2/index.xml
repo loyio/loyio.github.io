@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Aria2 on Loyio&#39;s Blogs</title>
-    <link>https://blog.loyio.me/tags/aria2/</link>
+    <link>https://loyio.me/tags/aria2/</link>
     <description>Recent content in Aria2 on Loyio&#39;s Blogs</description>
     <image>
-      <url>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate><atom:link href="https://blog.loyio.me/tags/aria2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/aria2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用谷歌云搭建google drive离线下载服务器</title>
-      <link>https://blog.loyio.me/posts/gcp-create-gdrive-download-server/</link>
+      <link>https://loyio.me/posts/gcp-create-gdrive-download-server/</link>
       <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
       
-      <guid>https://blog.loyio.me/posts/gcp-create-gdrive-download-server/</guid>
+      <guid>https://loyio.me/posts/gcp-create-gdrive-download-server/</guid>
       <description>1.在google云中创建一个实例 选择可用的地区，这里我选择的是新加坡，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端
 2.安装rclone 我们使用官方的脚本进行安装
 首先我们需要安装解压工具
