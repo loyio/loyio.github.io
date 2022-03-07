@@ -9,7 +9,70 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Mar 2022 17:19:04 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Mar 2022 22:04:20 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hosts</title>
+      <link>https://loyio.me/tags/hosts/</link>
+      <pubDate>Mon, 07 Mar 2022 22:04:20 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/hosts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://loyio.me/tags/mac/</link>
+      <pubDate>Mon, 07 Mar 2022 22:04:20 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>网络</title>
+      <link>https://loyio.me/tags/%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Mon, 07 Mar 2022 22:04:20 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/%E7%BD%91%E7%BB%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>包管理器</title>
+      <link>https://loyio.me/tags/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</link>
+      <pubDate>Mon, 07 Mar 2022 17:25:24 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>软件</title>
+      <link>https://loyio.me/tags/%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Mon, 07 Mar 2022 17:25:24 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/%E8%BD%AF%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://loyio.me/tags/arduino/</link>
+      <pubDate>Mon, 07 Mar 2022 16:50:39 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fritzing</title>
+      <link>https://loyio.me/tags/fritzing/</link>
+      <pubDate>Mon, 07 Mar 2022 16:50:39 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/fritzing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>笔试</title>
       <link>https://loyio.me/tags/%E7%AC%94%E8%AF%95/</link>
@@ -470,29 +533,11 @@
     </item>
     
     <item>
-      <title>Mac</title>
-      <link>https://loyio.me/tags/mac/</link>
-      <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
-      
-      <guid>https://loyio.me/tags/mac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>TNT</title>
       <link>https://loyio.me/tags/tnt/</link>
       <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
       
       <guid>https://loyio.me/tags/tnt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>软件</title>
-      <link>https://loyio.me/tags/%E8%BD%AF%E4%BB%B6/</link>
-      <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
-      
-      <guid>https://loyio.me/tags/%E8%BD%AF%E4%BB%B6/</guid>
       <description></description>
     </item>
     

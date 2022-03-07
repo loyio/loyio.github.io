@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>网络 on Loyio&#39;s Blogs</title>
+    <link>https://loyio.me/tags/%E7%BD%91%E7%BB%9C/</link>
+    <description>Recent content in 网络 on Loyio&#39;s Blogs</description>
+    <image>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Mar 2022 22:04:20 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在Mac上如何找到hosts文件</title>
+      <link>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</link>
+      <pubDate>Mon, 07 Mar 2022 22:04:20 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</guid>
+      <description>Hosts 文件是更改您的计算机查看特定网站的方式的重要工具。虽然大多数用户永远不需要更改其 Hosts 文件，但 Web 开发人员或用户可能需要修改文件以查看仍在开发中的新站点。
+要使您的计算机显示您的测试网站而不是实时站点，您必须将测试站点的 IP 地址以及域名添加到 Hosts 文件中。只要该信息包含在您的主机文件中，您的浏览器就会重定向请求以显示指定 IP 地址上的站点。这使我们能够在不修改生产站点的 DNS 的情况下测试功能。
+找到Mac上的Hosts文件 首先打开终端，可以是自带的terminal，也可以是其他的（比如iterm2）
+为了照顾到所有用户，我们再这里使用自带的terminal，选择Go-&amp;gt;Utilities，点击打开
+找到terminal，双击打开
+然后，输入下面的命令
+sudo vim /etc/hosts 如果没有vim，可以通过brew安装vim（参考文章安装brew 如何使用强大的软件包管理器Homebrew）
+打开后如图所示
+vim的操作请上网自行搜索
+移动到底部，新建一行，左侧为ip地址，右侧为域名，更改完后如下图所示(仅做示范)
+最后wq保存即可</description>
+    </item>
+    
+  </channel>
+</rss>

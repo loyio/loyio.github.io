@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Arduino on Loyio&#39;s Blogs</title>
+    <link>https://loyio.me/tags/arduino/</link>
+    <description>Recent content in Arduino on Loyio&#39;s Blogs</description>
+    <image>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Mar 2022 16:50:39 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在Mac(M1 Pro)上通过源码编译Fritzing最新版本</title>
+      <link>https://loyio.me/posts/build-fritzing-from-source/</link>
+      <pubDate>Mon, 07 Mar 2022 16:50:39 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/build-fritzing-from-source/</guid>
+      <description>因为要设计一下硬件的走线，在Arduino Forum上看到大家都是用的Fritzing，于是便也想着下载安装使用，打开官网，只看到 Pay &amp;amp; Download, 上面有着两个单选框（必选），一个是8欧元和25欧元。
+显然第一次使用，我是舍不得这些钱的，便想着搜索Cracked Version， 未果，返回到官网，发现原来这个软件在Github是开源的，主要用Qt，便想着尝试自己编译一下。
+1.获取源代码 主程序代码库
+git clone https://github.com/fritzing/fritzing-app.git 以及一些其他组件
+git clone https://github.com/fritzing/fritzing-parts.git 2.下载安装Qt 根据官方文档现在最新用到的Qt版本是5.15.2，为了方便起见，我直接通过Brew安装Qt5，至于如何安装和使用brew，请看我的这篇文章如何使用强大的软件包管理器Homebrew
+brew install qt5 然后官方是建议安装Qt Creator，但我在后面看到Mac可以直接使用Xcode编译，刚好自己电脑上有Xcode，于是便想着先不安装Qt Creator。（首先申明未成功，可能环境不同）
+使用Qt和Xcode构建Fritzing   下载安装Xcode，如果已经安装了，进入下一步。
+  完成之前的准备工作
+  使用 QT bin 文件夹中的软件工具 qmake。cd到您的 Fritzing 代码文件夹并执行以下操作：
+cd /Users/you/Documents/fritzing-app qmake -spec macx-xcode   构建成功后，打开 Fritzing.xcodeproj.
+  从构建菜单项中选择 Build and go.
+  我在第三步就卡了，最后报错
+objc[8754]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libamsupport.dylib (0x1fd9a3678) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.</description>
+    </item>
+    
+  </channel>
+</rss>

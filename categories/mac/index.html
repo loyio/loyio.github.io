@@ -69,6 +69,41 @@
 </li></ul></nav></header><main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://loyio.me/>Home</a>&nbsp;»&nbsp;<a href=https://loyio.me/categories/>Categories</a></div><h1>Mac</h1></header><article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>在Mac上如何找到hosts文件
+</h2></header><section class=entry-content>
+<p>Hosts 文件是更改您的计算机查看特定网站的方式的重要工具。虽然大多数用户永远不需要更改其 Hosts 文件，但 Web 开发人员或用户可能需要修改文件以查看仍在开发中的新站点。
+要使您的计算机显示您的测试网站而不是实时站点，您必须将测试站点的 IP 地址以及域名添加到 Hosts 文件中。只要该信息包含在您的主机文件中，您的浏览器就会重定向请求以显示指定 IP 地址上的站点。这使我们能够在不修改生产站点的 DNS 的情况下测试功能。
+找到Mac上的Hosts文件 首先打开终端，可以是自带的terminal，也可以是其他的（比如iterm2）
+为了照顾到所有用户，我们再这里使用自带的terminal，选择Go->Utilities，点击打开
+找到terminal，双击打开
+然后，输入下面的命令
+sudo vim /etc/hosts 如果没有vim，可以通过brew安装vim（参考文章安装brew 如何使用强大的软件包管理器Homebrew）
+打开后如图所示
+vim的操作请上网自行搜索
+移动到底部，新建一行，左侧为ip地址，右侧为域名，更改完后如下图所示(仅做示范)
+最后wq保存即可</p></section><footer class=entry-footer><span title="2022-03-07 22:04:20 +0800 CST">March 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 在Mac上如何找到hosts文件" href=https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/></a>
+</article><article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>如何使用强大的软件包管理器Homebrew
+</h2></header><section class=entry-content>
+<p>安装Homebrew 打开官网 brew.sh ，首先印入眼帘的就是 Install Homebrew
+打开Mac上的Terminal或者其他的终端软件（iTerm），将下面的命令复制到里面，然后回车，就可以了。
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" Formulae和Cask Formulae Homebrew作为一个软件包管理器，一开始是Red-hat的Yum，和Ubuntu的apt-get等Linux上的包管理器在Mac平台的第三方替代品，用于安装与卸载软件，当然也包括自动处理依赖。
+这也是Homebrew的核心功能，homebrew-core ,也就是Formulae，通过homebrew，我们可以轻松的安装CLI软件（大多都是开源软件），而不用去考虑依赖，当然它也支持本地编译，也就是说我没也不用考虑系统的版本，或者处理器是arm还是x86的，也就是在本地执行的 Build From Source 。
+Cask Homebrew Cask 作为homebrew 的扩展，主要是用来安装一些GUI图形软件，或者大型的二进制软件。这些软件各色各样，简单来说是命令行版的App Store，当然不能在App Store上架的软件是占多数的，他可以说是大大简化了用户在安装软件时的操作，比如我们需要安装微信。正常来说，我们有两种操作。
+在App Store中搜索微信，点击安装，然后等着它慢慢转圈。
+打开微信官网 https://weixin.qq.com ，选择系统，然后下载。下载玩后，点开安装文件dmg，再将其拖到Applications文件夹
+很显然，上面的操作非常麻烦，或许你会说，直接用App Store很简单啊，当然如果你能忍耐点击Get，然后点击Install，然后又要输入你的Apple ID账号密码（有时候直接用指纹就行），其实也没啥麻烦的。
+事实上很多在Mac App Store中上架的软件都是阉割版，沙盒化运行的。很多功能都需要经过Apple的审核才能上线，某些情况下官网中的版本功能是比较全面的，另一方面，大部分软件，你在Mac App Store上是搜不到，很多开发者也并没有要支付100美元一年的打算。就比如Chrome浏览器。你还是得去官网下载的。
+前面啰嗦了很多，下面我们来看一下利用homebrew安装微信需要的操作。
+打开终端 输入brew install wechat 回车，等待下载安装，然后你的程序坞（Launchpad）中就有了微信 当然，有时候你会问，我怎么知道微信是wechat。一开始的确是很难记得这些的，你需要打开brew.sh ，搜索一下
+两者区别 记得之前的版本安装Fomulae和Cask是有不同的
+安装Formulae
+brew install &lt;software-name> 安装Cask
+brew install --cask &lt;software-name> 然后现在的版本，应该是解决了cask和formulae的冲突问题，统一用
+brew install &lt;software-name> 就行了...</p></section><footer class=entry-footer><span title="2022-03-07 17:25:24 +0800 CST">March 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 如何使用强大的软件包管理器Homebrew" href=https://loyio.me/posts/how-to-use-brew/></a>
+</article><article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>个人收藏的一些Mac软件（持续更新）
 </h2></header><section class=entry-content>
 <p>最近在找某些软件时，总是遇到很多问题，要么就是国内的下载付费（本来就是破解的），要么就是国外下载速度特别慢，因为大多是磁力链接，而且这些都是比较冷门的资源，所以下载速度特别慢，这里我声明一下，我收集的软件仅供学习交流使用，请大家到官方网站下载正版，付费支持。

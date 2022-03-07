@@ -3,18 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://loyio.me/</loc>
-    <lastmod>2022-03-02T17:19:04+08:00</lastmod>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/categories/</loc>
-    <lastmod>2022-03-02T17:19:04+08:00</lastmod>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.me/posts/leetcode-record/</loc>
-    <lastmod>2022-03-02T17:19:04+08:00</lastmod>
+    <loc>https://loyio.me/tags/hosts/</loc>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/categories/mac/</loc>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/tags/mac/</loc>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/posts/</loc>
-    <lastmod>2022-03-02T17:19:04+08:00</lastmod>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/tags/</loc>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</loc>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2022-03-07T22:04:20+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/tags/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</loc>
+    <lastmod>2022-03-07T17:25:24+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/posts/how-to-use-brew/</loc>
+    <lastmod>2022-03-07T17:25:24+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-03-07T17:25:24+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/tags/arduino/</loc>
+    <lastmod>2022-03-07T16:50:39+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/tags/fritzing/</loc>
+    <lastmod>2022-03-07T16:50:39+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/posts/build-fritzing-from-source/</loc>
+    <lastmod>2022-03-07T16:50:39+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/categories/%E7%A1%AC%E4%BB%B6/</loc>
+    <lastmod>2022-03-07T16:50:39+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/posts/leetcode-record/</loc>
     <lastmod>2022-03-02T17:19:04+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/tags/%E7%AC%94%E8%AF%95/</loc>
@@ -248,19 +284,10 @@
     <loc>https://loyio.me/tags/cleanmymac/</loc>
     <lastmod>2020-05-04T19:26:34+08:00</lastmod>
   </url><url>
-    <loc>https://loyio.me/tags/mac/</loc>
-    <lastmod>2020-05-04T19:26:34+08:00</lastmod>
-  </url><url>
-    <loc>https://loyio.me/categories/mac/</loc>
-    <lastmod>2020-05-04T19:26:34+08:00</lastmod>
-  </url><url>
     <loc>https://loyio.me/tags/tnt/</loc>
     <lastmod>2020-05-04T19:26:34+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/posts/mac-app-sheet-link/</loc>
-    <lastmod>2020-05-04T19:26:34+08:00</lastmod>
-  </url><url>
-    <loc>https://loyio.me/tags/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2020-05-04T19:26:34+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/tags/hexo/</loc>

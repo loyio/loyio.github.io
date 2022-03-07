@@ -9,7 +9,71 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Mar 2022 17:19:04 +0800</lastBuildDate><atom:link href="https://loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Mar 2022 22:04:20 +0800</lastBuildDate><atom:link href="https://loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在Mac上如何找到hosts文件</title>
+      <link>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</link>
+      <pubDate>Mon, 07 Mar 2022 22:04:20 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</guid>
+      <description>Hosts 文件是更改您的计算机查看特定网站的方式的重要工具。虽然大多数用户永远不需要更改其 Hosts 文件，但 Web 开发人员或用户可能需要修改文件以查看仍在开发中的新站点。
+要使您的计算机显示您的测试网站而不是实时站点，您必须将测试站点的 IP 地址以及域名添加到 Hosts 文件中。只要该信息包含在您的主机文件中，您的浏览器就会重定向请求以显示指定 IP 地址上的站点。这使我们能够在不修改生产站点的 DNS 的情况下测试功能。
+找到Mac上的Hosts文件 首先打开终端，可以是自带的terminal，也可以是其他的（比如iterm2）
+为了照顾到所有用户，我们再这里使用自带的terminal，选择Go-&amp;gt;Utilities，点击打开
+找到terminal，双击打开
+然后，输入下面的命令
+sudo vim /etc/hosts 如果没有vim，可以通过brew安装vim（参考文章安装brew 如何使用强大的软件包管理器Homebrew）
+打开后如图所示
+vim的操作请上网自行搜索
+移动到底部，新建一行，左侧为ip地址，右侧为域名，更改完后如下图所示(仅做示范)
+最后wq保存即可</description>
+    </item>
+    
+    <item>
+      <title>如何使用强大的软件包管理器Homebrew</title>
+      <link>https://loyio.me/posts/how-to-use-brew/</link>
+      <pubDate>Mon, 07 Mar 2022 17:25:24 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/how-to-use-brew/</guid>
+      <description>安装Homebrew 打开官网 brew.sh ，首先印入眼帘的就是 Install Homebrew
+打开Mac上的Terminal或者其他的终端软件（iTerm），将下面的命令复制到里面，然后回车，就可以了。
+/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Formulae和Cask Formulae Homebrew作为一个软件包管理器，一开始是Red-hat的Yum，和Ubuntu的apt-get等Linux上的包管理器在Mac平台的第三方替代品，用于安装与卸载软件，当然也包括自动处理依赖。
+这也是Homebrew的核心功能，homebrew-core ,也就是Formulae，通过homebrew，我们可以轻松的安装CLI软件（大多都是开源软件），而不用去考虑依赖，当然它也支持本地编译，也就是说我没也不用考虑系统的版本，或者处理器是arm还是x86的，也就是在本地执行的 Build From Source 。
+Cask Homebrew Cask 作为homebrew 的扩展，主要是用来安装一些GUI图形软件，或者大型的二进制软件。这些软件各色各样，简单来说是命令行版的App Store，当然不能在App Store上架的软件是占多数的，他可以说是大大简化了用户在安装软件时的操作，比如我们需要安装微信。正常来说，我们有两种操作。
+  在App Store中搜索微信，点击安装，然后等着它慢慢转圈。
+  打开微信官网 https://weixin.qq.com ，选择系统，然后下载。下载玩后，点开安装文件dmg，再将其拖到Applications文件夹
+  很显然，上面的操作非常麻烦，或许你会说，直接用App Store很简单啊，当然如果你能忍耐点击Get，然后点击Install，然后又要输入你的Apple ID账号密码（有时候直接用指纹就行），其实也没啥麻烦的。
+事实上很多在Mac App Store中上架的软件都是阉割版，沙盒化运行的。很多功能都需要经过Apple的审核才能上线，某些情况下官网中的版本功能是比较全面的，另一方面，大部分软件，你在Mac App Store上是搜不到，很多开发者也并没有要支付100美元一年的打算。就比如Chrome浏览器。你还是得去官网下载的。
+前面啰嗦了很多，下面我们来看一下利用homebrew安装微信需要的操作。
+ 打开终端 输入brew install wechat 回车，等待下载安装，然后你的程序坞（Launchpad）中就有了微信  当然，有时候你会问，我怎么知道微信是wechat。一开始的确是很难记得这些的，你需要打开brew.sh ，搜索一下
+两者区别 记得之前的版本安装Fomulae和Cask是有不同的
+安装Formulae
+brew install &amp;lt;software-name&amp;gt; 安装Cask
+brew install --cask &amp;lt;software-name&amp;gt; 然后现在的版本，应该是解决了cask和formulae的冲突问题，统一用
+brew install &amp;lt;software-name&amp;gt; 就行了</description>
+    </item>
+    
+    <item>
+      <title>在Mac(M1 Pro)上通过源码编译Fritzing最新版本</title>
+      <link>https://loyio.me/posts/build-fritzing-from-source/</link>
+      <pubDate>Mon, 07 Mar 2022 16:50:39 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/build-fritzing-from-source/</guid>
+      <description>因为要设计一下硬件的走线，在Arduino Forum上看到大家都是用的Fritzing，于是便也想着下载安装使用，打开官网，只看到 Pay &amp;amp; Download, 上面有着两个单选框（必选），一个是8欧元和25欧元。
+显然第一次使用，我是舍不得这些钱的，便想着搜索Cracked Version， 未果，返回到官网，发现原来这个软件在Github是开源的，主要用Qt，便想着尝试自己编译一下。
+1.获取源代码 主程序代码库
+git clone https://github.com/fritzing/fritzing-app.git 以及一些其他组件
+git clone https://github.com/fritzing/fritzing-parts.git 2.下载安装Qt 根据官方文档现在最新用到的Qt版本是5.15.2，为了方便起见，我直接通过Brew安装Qt5，至于如何安装和使用brew，请看我的这篇文章如何使用强大的软件包管理器Homebrew
+brew install qt5 然后官方是建议安装Qt Creator，但我在后面看到Mac可以直接使用Xcode编译，刚好自己电脑上有Xcode，于是便想着先不安装Qt Creator。（首先申明未成功，可能环境不同）
+使用Qt和Xcode构建Fritzing   下载安装Xcode，如果已经安装了，进入下一步。
+  完成之前的准备工作
+  使用 QT bin 文件夹中的软件工具 qmake。cd到您的 Fritzing 代码文件夹并执行以下操作：
+cd /Users/you/Documents/fritzing-app qmake -spec macx-xcode   构建成功后，打开 Fritzing.xcodeproj.
+  从构建菜单项中选择 Build and go.
+  我在第三步就卡了，最后报错
+objc[8754]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libamsupport.dylib (0x1fd9a3678) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.</description>
+    </item>
+    
     <item>
       <title>Leetcode刷题记录</title>
       <link>https://loyio.me/posts/leetcode-record/</link>
