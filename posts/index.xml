@@ -9,7 +9,21 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Mar 2022 22:04:20 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Mar 2022 09:48:43 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用差分数组解决798题:得分最高的最小轮调问题</title>
+      <link>https://loyio.me/posts/smallest-rotation-with-highest-score/</link>
+      <pubDate>Wed, 09 Mar 2022 09:48:43 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/smallest-rotation-with-highest-score/</guid>
+      <description>题目描述的链接如下：
+得分最高的最小轮调
+首先，刚拿到这道题我首先想到的当然是暴力解法，循环每一个k，计算得分，然后得分最大的k，即为所求，很明显，这种方法，肯定会导致TLE（Time Limit Exceed）。没想到方法的我，自然就是去看官方的题解。
+首先，是这个题目的两个关键题眼：
+ 是怎么轮调的，$n$ 为数组的长度，$k$ 为数组中的一个下标（index），轮调完后，$k$ 到数组的最后一个元素$(k, n-1)$ 这段区间会移动到原数组的最前面，然后就是$k$前面的那一段（顺序不变）$(0,k-1)$，会附加到后面来。 然后就是记分，任何值小于或等于其索引的项都可以记作一分，也就是说，如果索引值为 $i$ ,然后 $nums[i]=x$ , 当 $x = nums[i] \le i$ 时可以记一分。也可以反过来理解，当索引值大于等于当前值的时候可以记一分，即 $i \ge nums[i] = x$ 记一分。  数组 $nums$ 中的一个元素 $x$ ，只有当 $x$ 所在下标范围为 $[x, n-1]$ 时，才会记一分，当 $x$ 下标为 $[0, x-1]$ 时不记分。
+假设元素 $x$ 的当前下标为 $i$ ，如果轮调下表为 $k$ , 那么 $x$ 进过轮调过后的下标就为 $(n-k+i) \bmod n$ （或者写为 $(i-k+n) \bmod n$ ），这里最后为什么要取$n$的模，是防止超过数组范围，而如果元素 $x$ 要记一分，那么它的下标就应该是 $(n-k+i) \bmod n \ge x$ ，等价于 $ (n+i-x) \bmod n \ge k$ ，又因为元素 $x$ 记一分的下标有 $n-x$个，所以说，我没可以得到 $k \ge (i+1) \bmod n$ , 因为 $k$ 的的位置总是被移动到下标为0的地方，$k$ 的前一个值总是被移动到 $n-1$ 的位置，也就是不管怎么算都是符合条件(当前下标值大于等于当前值)的位置。</description>
+    </item>
+    
     <item>
       <title>在Mac上如何找到hosts文件</title>
       <link>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</link>

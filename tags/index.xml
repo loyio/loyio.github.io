@@ -9,7 +9,34 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Mar 2022 22:04:20 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Mar 2022 09:48:43 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前缀和</title>
+      <link>https://loyio.me/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+      <pubDate>Wed, 09 Mar 2022 09:48:43 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>差分数组</title>
+      <link>https://loyio.me/tags/%E5%B7%AE%E5%88%86%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Wed, 09 Mar 2022 09:48:43 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/%E5%B7%AE%E5%88%86%E6%95%B0%E7%BB%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>算法题</title>
+      <link>https://loyio.me/tags/%E7%AE%97%E6%B3%95%E9%A2%98/</link>
+      <pubDate>Wed, 09 Mar 2022 09:48:43 +0800</pubDate>
+      
+      <guid>https://loyio.me/tags/%E7%AE%97%E6%B3%95%E9%A2%98/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hosts</title>
       <link>https://loyio.me/tags/hosts/</link>

@@ -87,6 +87,16 @@
 </a>
 </div></footer></article><article class=post-entry>
 <header class=entry-header>
+<h2>使用差分数组解决798题:得分最高的最小轮调问题
+</h2></header><section class=entry-content>
+<p>题目描述的链接如下：
+得分最高的最小轮调
+首先，刚拿到这道题我首先想到的当然是暴力解法，循环每一个k，计算得分，然后得分最大的k，即为所求，很明显，这种方法，肯定会导致TLE（Time Limit Exceed）。没想到方法的我，自然就是去看官方的题解。
+首先，是这个题目的两个关键题眼：
+是怎么轮调的，$n$ 为数组的长度，$k$ 为数组中的一个下标（index），轮调完后，$k$ 到数组的最后一个元素$(k, n-1)$ 这段区间会移动到原数组的最前面，然后就是$k$前面的那一段（顺序不变）$(0,k-1)$，会附加到后面来。 然后就是记分，任何值小于或等于其索引的项都可以记作一分，也就是说，如果索引值为 $i$ ,然后 $nums[i]=x$ , 当 $x = nums[i] \le i$ 时可以记一分。也可以反过来理解，当索引值大于等于当前值的时候可以记一分，即 $i \ge nums[i] = x$ 记一分。 数组 $nums$ 中的一个元素 $x$ ，只有当 $x$ 所在下标范围为 $[x, n-1]$ 时，才会记一分，当 $x$ 下标为 $[0, x-1]$ 时不记分。
+假设元素 $x$ 的当前下标为 $i$ ，如果轮调下表为 $k$ , 那么 $x$ 进过轮调过后的下标就为 $(n-k+i) \bmod n$ （或者写为 $(i-k+n) \bmod n$ ），这里最后为什么要取$n$的模，是防止超过数组范围，而如果元素 $x$ 要记一分，那么它的下标就应该是 $(n-k+i) \bmod n \ge x$ ，等价于 $ (n+i-x) \bmod n \ge k$ ，又因为元素 $x$ 记一分的下标有 $n-x$个，所以说，我没可以得到 $k \ge (i+1) \bmod n$ , 因为 $k$ 的的位置总是被移动到下标为0的地方，$k$ 的前一个值总是被移动到 $n-1$ 的位置，也就是不管怎么算都是符合条件(当前下标值大于等于当前值)的位置。...</p></section><footer class=entry-footer><span title="2022-03-09 09:48:43 +0800 CST">March 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 使用差分数组解决798题:得分最高的最小轮调问题" href=https://loyio.me/posts/smallest-rotation-with-highest-score/></a>
+</article><article class=post-entry>
+<header class=entry-header>
 <h2>在Mac上如何找到hosts文件
 </h2></header><section class=entry-content>
 <p>Hosts 文件是更改您的计算机查看特定网站的方式的重要工具。虽然大多数用户永远不需要更改其 Hosts 文件，但 Web 开发人员或用户可能需要修改文件以查看仍在开发中的新站点。
@@ -143,11 +153,6 @@ objc[8754]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib
 </h2></header><section class=entry-content>
 <p>记录Leetcode题解链接，完整测试代码见loypt/leetcode
 No. Problem(leetcode-cn) Problem Solution Link(题解) 1 两数之和 Two Sum Issues Blog 2 两数相加 Add Two Numbers Issues Blog 3 无重复字符的最长子串 Longest Substring Without Repeating Characters Issues Blog 4 寻找两个正序数组的中位数 Median of Two Sorted Arrays Issues Blog 5 最长回文子串 Longest Palindromic Substring Issues Blog 6 Z 字形变换 Zigzag Conversion Issues Blog 7 整数反转 Reverse Integer Issues Blog 8 字符串转换整数 (atoi) String to Integer (atoi) Issues Blog 9 回文数 Palindrome Number Issues Blog 10 正则表达式匹配 Regular Expression Matching Issues Blog 11 盛最多水的容器 Container With Most Water Issues Blog 12 整数转罗马数字 Integer to Roman Issues Blog 13 数字转整数 Roman to Integer Issues Blog 14 最长公共前缀 Longest Common Prefix Issues Blog 15 三数之和 3Sum Issues Blog 16 最接近的三数之和 3Sum Closest Issues Blog 17 电话号码的字母组合 Letter Combinations of a Phone Number Issues Blog 18 四数之和 4Sum Issues Blog 19 删除链表的倒数第 N 个结点 Remove Nth Node From End of List Issues Blog 题目版权©️leetcode....</p></section><footer class=entry-footer><span title="2022-03-02 17:19:04 +0800 CST">March 2, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to Leetcode个人刷题记录" href=https://loyio.me/posts/leetcode-record/></a>
-</article><article class=post-entry>
-<header class=entry-header>
-<h2>Loyio's Handbook Table of Contents
-</h2></header><section class=entry-content>
-<p>数学 直角坐标系下的图像 初等数学常用公式 [PDF:下载] 高等数学 [PDF:下载] 线性代数 [PDF:下载] 概率论与数理统计 [PDF:下载] 数据结构 </p></section><footer class=entry-footer><span title="2021-07-31 07:32:44 +0800 CST">July 31, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to Loyio's Handbook Table of Contents" href=https://loyio.me/posts/handbook-toc/></a>
 </article><footer class=page-footer>
 <nav class=pagination>
 <a class=next href=https://loyio.me/page/2/>Next Page »</a>
