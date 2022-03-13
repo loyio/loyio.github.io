@@ -72,6 +72,11 @@
 </li></ul></nav></header><main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>常系数微分方程求解
+</h2></header><section class=entry-content>
+<p>常系数微分方程的形式如下 $$ a_{n} \frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}+\cdots+a_{2} \frac{\mathrm{d}^{2} y}{\mathrm{~d} x^{2}}+a_{1} \frac{\mathrm{d} y}{\mathrm{~d} x}+a_{0} y=f(x) $$ 其中$a_n,\ldots,a_1,a_0$知识一些普通的常实数，左边式子中$\frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}$，代表的是$y$的$n$阶导数。</p></section><footer class=entry-footer><span title="2021-07-08 14:55:05 +0800 CST">July 8, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 常系数微分方程求解" href=https://loyio.me/posts/constant-coefficient-differential-equations/></a>
+</article><article class=post-entry>
+<header class=entry-header>
 <h2>常用的泰勒级数
 </h2></header><section class=entry-content>
 <p>以下公式来源于South Caolina
@@ -116,18 +121,6 @@ path='images/' file_list = [f for f in os.listdir(path) if not f....</p></sectio
 <p>医学图像预处理 1）搭建运行环境，运行Brain Tumor Detection代码中裁剪功能 预先安装好相关模块，安装Jupyter Notebook交互式计算环境
 conda install jupyter 首先导入相关包
 import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib....</p></section><footer class=entry-footer><span title="2021-03-22 21:19:03 +0800 CST">March 22, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 图像处理第二次试验-裁剪图像" href=https://loyio.me/posts/image-processing-cv-experiment02/></a>
-</article><article class=post-entry>
-<header class=entry-header>
-<h2>图像处理第一次实验-初识CV
-</h2></header><section class=entry-content>
-<p>1.jpg
-2.jpg
-1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下
-""" @Project: imageProcessing @Author: loyio @Date: 3/20/21 """ from PIL import Image, ImageFilter if __name__ == '__main__': # greyscale imgfileOne = "Sample/1" sample_img = Image.open(imgfileOne+".jpg").convert('L') sample_img.save(imgfileOne+"_processed_gray.jpg") # Blur # sample_img = Image.open(imgfileOne+".jpg").filter(ImageFilter.BLUR) sample_img = Image.open(imgfileOne+".jpg").filter(ImageFilter.BoxBlur(5)) sample_img.save(imgfileOne + "_processed_blur.jpg") 图片效果如下
-灰度处理
-模糊处理
-2.对2.jpg生成手绘效果 代码如下
-""" @Project: imageProcessing @Author: loyio @Date: 3/20/21 """ from PIL import Image, ImageFilter import numpy as np if __name__ == '__main__': # Paint imgfileTwo = "Sample/2" sample_img_ary = np....</p></section><footer class=entry-footer><span title="2021-03-20 21:14:43 +0800 CST">March 20, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 图像处理第一次实验-初识CV" href=https://loyio.me/posts/image-processing-cv-experiment01/></a>
 </article><footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://loyio.me/page/2/>« Prev Page</a>

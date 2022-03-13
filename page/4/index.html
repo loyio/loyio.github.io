@@ -72,6 +72,18 @@
 </li></ul></nav></header><main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>图像处理第一次实验-初识CV
+</h2></header><section class=entry-content>
+<p>1.jpg
+2.jpg
+1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下
+""" @Project: imageProcessing @Author: loyio @Date: 3/20/21 """ from PIL import Image, ImageFilter if __name__ == '__main__': # greyscale imgfileOne = "Sample/1" sample_img = Image.open(imgfileOne+".jpg").convert('L') sample_img.save(imgfileOne+"_processed_gray.jpg") # Blur # sample_img = Image.open(imgfileOne+".jpg").filter(ImageFilter.BLUR) sample_img = Image.open(imgfileOne+".jpg").filter(ImageFilter.BoxBlur(5)) sample_img.save(imgfileOne + "_processed_blur.jpg") 图片效果如下
+灰度处理
+模糊处理
+2.对2.jpg生成手绘效果 代码如下
+""" @Project: imageProcessing @Author: loyio @Date: 3/20/21 """ from PIL import Image, ImageFilter import numpy as np if __name__ == '__main__': # Paint imgfileTwo = "Sample/2" sample_img_ary = np....</p></section><footer class=entry-footer><span title="2021-03-20 21:14:43 +0800 CST">March 20, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 图像处理第一次实验-初识CV" href=https://loyio.me/posts/image-processing-cv-experiment01/></a>
+</article><article class=post-entry>
+<header class=entry-header>
 <h2>rclone突破750G转存限制（使用gclone和Autoclone）
 </h2></header><section class=entry-content>
 <p>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
@@ -138,13 +150,6 @@ ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/p
 疫情期间，我在今天2.15后申请了自己的公众号，发现尽管自己的内心是颓废了很多，但热爱创作的那双手还是诚不欺我，一写起来就有吐不尽的废话，虽然文采黯然，但就是喜欢记录，就是喜欢发泄，只不过，后面不知怎地开始做起了所谓的营销号，每天从外网搬一篇文章到国内平台发布，然后赚几块钱流量费。
 人总是易变的，而我是过于如此了，不谈太多了。
 想着还是用github做一个静态博客算了，写写没人看的东西，发泄一下自己的内心，也记录一下，方便以后自己查询。</p></section><footer class=entry-footer><span title="2020-05-05 19:48:37 +0800 CST">May 5, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to 谈谈自己为什么又开始写博客了" href=https://loyio.me/posts/why-me-rebuilt-blog/></a>
-</article><article class=post-entry>
-<header class=entry-header>
-<h2>Surge神机规则备份
-</h2></header><section class=entry-content>
-<p>原Surge配置文件地址
-Surge3 Profiles
-[General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # > Internet 测试 URL # internet-test-url = http://bing.com/ # > 代理测速 URL # proxy-test-url = http://bing.com/ # > 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false # Wi-Fi 访问 # > 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # > HTTP 代理服务端口（默认为"6152"） # wifi-access-http-port = 6152 # > SOCKS5 代理服务端口（默认为"6153"） # wifi-access-socks5-port = 6153 # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127....</p></section><footer class=entry-footer><span title="2020-05-05 19:43:27 +0800 CST">May 5, 2020</span>&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Loyio Hex</footer><a class=entry-link aria-label="post link to Surge神机规则备份" href=https://loyio.me/posts/surge-connershua-rules/></a>
 </article><footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://loyio.me/page/3/>« Prev Page</a>

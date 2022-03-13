@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>校招 on Loyio&#39;s Blogs</title>
+    <link>https://loyio.me/tags/%E6%A0%A1%E6%8B%9B/</link>
+    <description>Recent content in 校招 on Loyio&#39;s Blogs</description>
+    <image>
+      <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 13 Mar 2022 20:56:10 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E6%A0%A1%E6%8B%9B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小红书后端开发春招笔试</title>
+      <link>https://loyio.me/posts/red-campus-first-exam/</link>
+      <pubDate>Sun, 13 Mar 2022 20:56:10 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/red-campus-first-exam/</guid>
+      <description>选择题   数据库事务的四大特性
+事务的四大特性主要是：原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability）。
+  产生死锁的四个必要条件
+互斥条件、不剥夺条件、请求并保持条件、循环等待条件
+  给你一个入栈序列，问有多少种出栈可能
+卡特兰数，如有$n$ 个入栈，那么出栈有 $\frac{1}{n+1}C_{2n}^{n} = C_{2n}^{n}-C_{2n}^{n+1}$ 种可能，1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, &amp;hellip;
+  楼梯有9个台阶，每次只能走1个或2个台阶，有多少种走法。
+斐波那契数列，1, 2, 3, 5, 8, 13, 21, 34, 55
+  算法题  给你一个由0和1组成的数组，你可以有一次翻转区间的机会，即将1变成0，将0变成1，问此数组中1最多能有多少个。 给你一张 $M \times N $的地图，然后还会有 $K$ 个障碍（障碍坐标已给出），每次只能向右或者向下移动，从地图的左上角到达地图的右下角，问一共有多少种走法。 最大礼物价值。  </description>
+    </item>
+    
+  </channel>
+</rss>
