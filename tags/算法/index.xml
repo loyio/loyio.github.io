@@ -9,7 +9,30 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Mar 2022 17:19:04 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 21:34:41 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aftership后端校招春招笔试</title>
+      <link>https://loyio.me/posts/aftership-campus-backend-exam/</link>
+      <pubDate>Thu, 24 Mar 2022 21:34:41 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/aftership-campus-backend-exam/</guid>
+      <description>投了Aftership的后端开发，进了笔试，发了一个链接，是可以任意时间开发做的，只要在五天之内就行。
+昨天下午空闲的时候做的。
+选择题 首先是30道选择题，考的基础知识都挺扎实的，我感觉都是牛客上的原题吧。有五六道题不会吧。
+算法题 然后是两道算法题，
+第一道算法题送分题，判断两棵二叉树是否相同，就是一个遍历，同时对比结点的值，只要有不同就返回false。
+第二道题输入是给了一个字符串，由数字组成，用空格隔开，比如&amp;quot;12 34 234 23 66&amp;quot;, 给了这么一个概念，数字的权重是数字的各位相加得到的值，比如99的权重是18。
+需要计算字符串中每个数字的权重，然后在字符串找到符合下面条件的两个数字
+ 两个数字权重的差最小 然后数字的权重也要最小 数字的下标也要最小，下标是从0开始  然后就是输出，两个数字组成的数组，子数组的格式如下
+[权重，下标，数字值]
+然后子数组也要有顺序，首先按权重，如果权重相同，那么就按索引，都是升序的。
+好像输出的时候也是要求必须是字符串，大致格式如下，具体我也不太记得了
+&amp;quot;[[10, 1, 143][10, 6, 88]]&amp;quot;
+我的做题思路是，首先因为都是字符串，肯定得先把字符串中解析成一个整数数组，然后应该就是动态规划了，从前往后，选择最优的两个数字。
+结果 今天早上的时候就收到了感谢信，Aftership效率还是挺高的。
+可能是没有HC了吧，然后我看后端主要也是用Golang，今天打开官网，发现就只招算法工程师了</description>
+    </item>
+    
     <item>
       <title>Leetcode个人刷题记录</title>
       <link>https://loyio.me/posts/leetcode-record/</link>
