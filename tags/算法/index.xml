@@ -23,7 +23,7 @@
 第一道算法题送分题，判断两棵二叉树是否相同，就是一个遍历，同时对比结点的值，只要有不同就返回false。
 第二道题输入是给了一个字符串，由数字组成，用空格隔开，比如&amp;quot;12 34 234 23 66&amp;quot;, 给了这么一个概念，数字的权重是数字的各位相加得到的值，比如99的权重是18。
 需要计算字符串中每个数字的权重，然后在字符串找到符合下面条件的两个数字
- 两个数字权重的差最小 然后数字的权重也要最小 数字的下标也要最小，下标是从0开始  然后就是输出，两个数字组成的数组，子数组的格式如下
+两个数字权重的差最小 然后数字的权重也要最小 数字的下标也要最小，下标是从0开始 然后就是输出，两个数字组成的数组，子数组的格式如下
 [权重，下标，数字值]
 然后子数组也要有顺序，首先按权重，如果权重相同，那么就按索引，都是升序的。
 好像输出的时候也是要求必须是字符串，大致格式如下，具体我也不太记得了
@@ -40,7 +40,7 @@
       
       <guid>https://loyio.me/posts/leetcode-record/</guid>
       <description>记录Leetcode题解链接，完整测试代码见loypt/leetcode
-   No. Problem(leetcode-cn) Problem Solution Link(题解)     1 两数之和 Two Sum Issues Blog   2 两数相加 Add Two Numbers Issues Blog   3 无重复字符的最长子串 Longest Substring Without Repeating Characters Issues Blog   4 寻找两个正序数组的中位数 Median of Two Sorted Arrays Issues Blog   5 最长回文子串 Longest Palindromic Substring Issues Blog   6 Z 字形变换 Zigzag Conversion Issues Blog   7 整数反转 Reverse Integer Issues Blog   8 字符串转换整数 (atoi) String to Integer (atoi) Issues Blog   9 回文数 Palindrome Number Issues Blog   10 正则表达式匹配 Regular Expression Matching Issues Blog   11 盛最多水的容器 Container With Most Water Issues Blog   12 整数转罗马数字 Integer to Roman Issues Blog   13 数字转整数 Roman to Integer Issues Blog   14 最长公共前缀 Longest Common Prefix Issues Blog   15 三数之和 3Sum Issues Blog   16 最接近的三数之和 3Sum Closest Issues Blog   17 电话号码的字母组合 Letter Combinations of a Phone Number Issues Blog   18 四数之和 4Sum Issues Blog   19 删除链表的倒数第 N 个结点 Remove Nth Node From End of List Issues Blog   20 有效的括号 Valid Parentheses Issues Blog   21 合并两个有序链表 Merge Two Sorted Lists Issues Blog    题目版权©️leetcode.</description>
+No. Problem(leetcode-cn) Problem Solution Link(题解) 1 两数之和 Two Sum Issues Blog 2 两数相加 Add Two Numbers Issues Blog 3 无重复字符的最长子串 Longest Substring Without Repeating Characters Issues Blog 4 寻找两个正序数组的中位数 Median of Two Sorted Arrays Issues Blog 5 最长回文子串 Longest Palindromic Substring Issues Blog 6 Z 字形变换 Zigzag Conversion Issues Blog 7 整数反转 Reverse Integer Issues Blog 8 字符串转换整数 (atoi) String to Integer (atoi) Issues Blog 9 回文数 Palindrome Number Issues Blog 10 正则表达式匹配 Regular Expression Matching Issues Blog 11 盛最多水的容器 Container With Most Water Issues Blog 12 整数转罗马数字 Integer to Roman Issues Blog 13 数字转整数 Roman to Integer Issues Blog 14 最长公共前缀 Longest Common Prefix Issues Blog 15 三数之和 3Sum Issues Blog 16 最接近的三数之和 3Sum Closest Issues Blog 17 电话号码的字母组合 Letter Combinations of a Phone Number Issues Blog 18 四数之和 4Sum Issues Blog 19 删除链表的倒数第 N 个结点 Remove Nth Node From End of List Issues Blog 20 有效的括号 Valid Parentheses Issues Blog 21 合并两个有序链表 Merge Two Sorted Lists Issues Blog 22 括号生成 Generate Parentheses Issues Blog 23 合并K个升序链表 Merge k Sorted Lists Issues Blog 24 25 26 27 28 29 30 31 题目版权©️leetcode.</description>
     </item>
     
   </channel>

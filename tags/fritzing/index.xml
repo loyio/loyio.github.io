@@ -22,13 +22,13 @@
 git clone https://github.com/fritzing/fritzing-app.git 以及一些其他组件
 git clone https://github.com/fritzing/fritzing-parts.git 2.下载安装Qt 根据官方文档现在最新用到的Qt版本是5.15.2，为了方便起见，我直接通过Brew安装Qt5，至于如何安装和使用brew，请看我的这篇文章如何使用强大的软件包管理器Homebrew
 brew install qt5 然后官方是建议安装Qt Creator，但我在后面看到Mac可以直接使用Xcode编译，刚好自己电脑上有Xcode，于是便想着先不安装Qt Creator。（首先申明未成功，可能环境不同）
-使用Qt和Xcode构建Fritzing   下载安装Xcode，如果已经安装了，进入下一步。
-  完成之前的准备工作
-  使用 QT bin 文件夹中的软件工具 qmake。cd到您的 Fritzing 代码文件夹并执行以下操作：
-cd /Users/you/Documents/fritzing-app qmake -spec macx-xcode   构建成功后，打开 Fritzing.xcodeproj.
-  从构建菜单项中选择 Build and go.
-  我在第三步就卡了，最后报错
-objc[8754]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libamsupport.dylib (0x1fd9a3678) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.</description>
+使用Qt和Xcode构建Fritzing 下载安装Xcode，如果已经安装了，进入下一步。
+完成之前的准备工作
+使用 QT bin 文件夹中的软件工具 qmake。cd到您的 Fritzing 代码文件夹并执行以下操作：
+cd /Users/you/Documents/fritzing-app qmake -spec macx-xcode 构建成功后，打开 Fritzing.xcodeproj.
+从构建菜单项中选择 Build and go.
+我在第三步就卡了，最后报错
+objc[8754]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libamsupport.dylib (0x1fd9a3678) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107f282c8). One of the two will be used. Which one is undefined.</description>
     </item>
     
   </channel>

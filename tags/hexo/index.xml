@@ -48,7 +48,7 @@
 2.站点地图 也就是sitemap，站点地图可以告诉搜索引擎自己的网站有哪些可以抓取的内容，可以帮助搜索引擎更智能地抓取网站各个分支内容
 1⃣️ 生成站点地图 首先要安装百度和谷歌（Google）的站点地图生成插件
 npm install hexo-generator-baidu-sitemap --save npm install hexo-generator-sitemap --save 2⃣️ 修改配置文件 打开博客主目录的config.yml文件，添加下面的sitemap配置内容
-# 生成博客sitemap sitemap:  path: sitemap.xml baidusitemap:  path: baidusitemap.xml 3⃣️ 生成页面并部署到服务器 这个直接使用一键命令就可以了
+# 生成博客sitemap sitemap: path: sitemap.xml baidusitemap: path: baidusitemap.xml 3⃣️ 生成页面并部署到服务器 这个直接使用一键命令就可以了
 hexo g -d 可以看到自己的public目录已经有下面两个文件了
 3.百度站长平台 1⃣️ 添加网站 首先你要打开下面的网站
 https://ziyuan.baidu.com/
@@ -61,7 +61,7 @@ hexo clean hexo g -d 然后点击完成验证就可以了 (❗如果验证失败
 自动提交也有三种选项，主动推送、自动推送以及sitemap
 1.主动推送 我们要用到hexo的插件，输入命令安装即可
 npm install hexo-baidu-url-submit --save 然后在_config.yml文件添加以下内容
-baidu_url_submit:  count: 5 ## 提交最新的五个链接  host: blog.</description>
+baidu_url_submit: count: 5 ## 提交最新的五个链接 host: blog.loyio.me ## 百度站长平台中注册的域名 token: token ## 准入秘钥 path: baidu_urls.</description>
     </item>
     
   </channel>

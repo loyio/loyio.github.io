@@ -18,7 +18,7 @@
       <guid>https://loyio.me/posts/surge-connershua-rules/</guid>
       <description>原Surge配置文件地址
 Surge3 Profiles
-[General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # &amp;gt; Internet 测试 URL # internet-test-url = http://bing.com/ # &amp;gt; 代理测速 URL # proxy-test-url = http://bing.com/ # &amp;gt; 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false  # Wi-Fi 访问 # &amp;gt; 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # &amp;gt; HTTP 代理服务端口（默认为&amp;#34;6152&amp;#34;） # wifi-access-http-port = 6152 # &amp;gt; SOCKS5 代理服务端口（默认为&amp;#34;6153&amp;#34;） # wifi-access-socks5-port = 6153  # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127.</description>
+[General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # &amp;gt; Internet 测试 URL # internet-test-url = http://bing.com/ # &amp;gt; 代理测速 URL # proxy-test-url = http://bing.com/ # &amp;gt; 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false # Wi-Fi 访问 # &amp;gt; 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # &amp;gt; HTTP 代理服务端口（默认为&amp;#34;6152&amp;#34;） # wifi-access-http-port = 6152 # &amp;gt; SOCKS5 代理服务端口（默认为&amp;#34;6153&amp;#34;） # wifi-access-socks5-port = 6153 # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127.</description>
     </item>
     
   </channel>

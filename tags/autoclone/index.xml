@@ -25,8 +25,7 @@
 这里我们要用到autoclone，批量生成SA账号，还要用到gclone，自动切换SA，以突破750G的限制
 我在这里不说具体的操作过程了，大佬们都有写，做重复的事情没有什么意义
 gclone 搬山之术 by HE-SB-技术栈
-AutoRclone配合gclone突破GoogleTeamDrive750G流量限制 by 余十一 
-可能是最简单的AutoRclone教程：如何突破Google Drive每日750G限制？ by Great Panoan
+AutoRclone配合gclone突破GoogleTeamDrive750G流量限制 by 余十一 可能是最简单的AutoRclone教程：如何突破Google Drive每日750G限制？ by Great Panoan
 我在这里只记录一下重要的网址和一些代码
 首先要安装python3,可以源码安装，也可以直接通过yum或者apt-get安装
 然后安装autoclone

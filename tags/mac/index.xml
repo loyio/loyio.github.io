@@ -40,17 +40,20 @@ vim的操作请上网自行搜索
 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Formulae和Cask Formulae Homebrew作为一个软件包管理器，一开始是Red-hat的Yum，和Ubuntu的apt-get等Linux上的包管理器在Mac平台的第三方替代品，用于安装与卸载软件，当然也包括自动处理依赖。
 这也是Homebrew的核心功能，homebrew-core ,也就是Formulae，通过homebrew，我们可以轻松的安装CLI软件（大多都是开源软件），而不用去考虑依赖，当然它也支持本地编译，也就是说我没也不用考虑系统的版本，或者处理器是arm还是x86的，也就是在本地执行的 Build From Source 。
 Cask Homebrew Cask 作为homebrew 的扩展，主要是用来安装一些GUI图形软件，或者大型的二进制软件。这些软件各色各样，简单来说是命令行版的App Store，当然不能在App Store上架的软件是占多数的，他可以说是大大简化了用户在安装软件时的操作，比如我们需要安装微信。正常来说，我们有两种操作。
-  在App Store中搜索微信，点击安装，然后等着它慢慢转圈。
-  打开微信官网 https://weixin.qq.com ，选择系统，然后下载。下载玩后，点开安装文件dmg，再将其拖到Applications文件夹
-  很显然，上面的操作非常麻烦，或许你会说，直接用App Store很简单啊，当然如果你能忍耐点击Get，然后点击Install，然后又要输入你的Apple ID账号密码（有时候直接用指纹就行），其实也没啥麻烦的。
+在App Store中搜索微信，点击安装，然后等着它慢慢转圈。
+打开微信官网 https://weixin.qq.com ，选择系统，然后下载。下载玩后，点开安装文件dmg，再将其拖到Applications文件夹
+很显然，上面的操作非常麻烦，或许你会说，直接用App Store很简单啊，当然如果你能忍耐点击Get，然后点击Install，然后又要输入你的Apple ID账号密码（有时候直接用指纹就行），其实也没啥麻烦的。
 事实上很多在Mac App Store中上架的软件都是阉割版，沙盒化运行的。很多功能都需要经过Apple的审核才能上线，某些情况下官网中的版本功能是比较全面的，另一方面，大部分软件，你在Mac App Store上是搜不到，很多开发者也并没有要支付100美元一年的打算。就比如Chrome浏览器。你还是得去官网下载的。
 前面啰嗦了很多，下面我们来看一下利用homebrew安装微信需要的操作。
- 打开终端 输入brew install wechat 回车，等待下载安装，然后你的程序坞（Launchpad）中就有了微信  当然，有时候你会问，我怎么知道微信是wechat。一开始的确是很难记得这些的，你需要打开brew.sh ，搜索一下
+打开终端 输入brew install wechat 回车，等待下载安装，然后你的程序坞（Launchpad）中就有了微信 当然，有时候你会问，我怎么知道微信是wechat。一开始的确是很难记得这些的，你需要打开brew.sh ，搜索一下
 两者区别 记得之前的版本安装Fomulae和Cask是有不同的
 安装Formulae
 brew install &amp;lt;software-name&amp;gt; 安装Cask
 brew install --cask &amp;lt;software-name&amp;gt; 然后现在的版本，应该是解决了cask和formulae的冲突问题，统一用
-brew install &amp;lt;software-name&amp;gt; 就行了</description>
+brew install &amp;lt;software-name&amp;gt; 就行了
+安装与卸载 在前面有提及过如何使用brew安装软件
+我在这里说一下，我安装软件一般是怎么操作的。
+安装 官网搜索 对于国内的软件，如果不记得name，我都是需要去官网用中文搜索一下的，比如爱奇艺</description>
     </item>
     
     <item>
@@ -64,7 +67,7 @@ brew install &amp;lt;software-name&amp;gt; 就行了</description>
 这里百度网盘和GoogleDrive链接理论上是永久的，如果出现访问问题，可以通过邮件联系我，我会尽快回复，并更新链接
 下面的软件我都安装试用过，也写了我个人觉得有用的功能
 这是Number表格的链接， 国内应该可以访问的吧 iCloudeNumber （分享链接全部都放在里面了）
-   软件名称 版本 描述     CleanMyMac X 4.6.2 用来清理一下磁盘用的，我最喜欢的功能就是可以清楚的知道你哪个文件夹占用了多少空间，这个对于我真的太有用了   Blue-ray Player Pro 3.3.18 可以打开播放蓝光盘文件，也就是iso结尾的视频文件，这个对于喜欢追求更高品质的电影原盘的人非常有用   BetterTouchTool 3.346 这个是用来配置自己的各种设备的，比如我之前用它来自定义我的MagicMouse2，设置各种手势，比如单指轻点   Folx 5.18(13943) 一个下载工具，可以通过浏览器插件做mac的默认下载工具，同时也支持种子和磁力下载，除此之外，还支持youtube下载，不过我一直加载不出    最后说一句，破解有风险，这些分享的基本上都是TNT团队破解的，如果觉得软件对你有用的话，请支持正版</description>
+软件名称 版本 描述 CleanMyMac X 4.6.2 用来清理一下磁盘用的，我最喜欢的功能就是可以清楚的知道你哪个文件夹占用了多少空间，这个对于我真的太有用了 Blue-ray Player Pro 3.3.18 可以打开播放蓝光盘文件，也就是iso结尾的视频文件，这个对于喜欢追求更高品质的电影原盘的人非常有用 BetterTouchTool 3.346 这个是用来配置自己的各种设备的，比如我之前用它来自定义我的MagicMouse2，设置各种手势，比如单指轻点 Folx 5.18(13943) 一个下载工具，可以通过浏览器插件做mac的默认下载工具，同时也支持种子和磁力下载，除此之外，还支持youtube下载，不过我一直加载不出 最后说一句，破解有风险，这些分享的基本上都是TNT团队破解的，如果觉得软件对你有用的话，请支持正版</description>
     </item>
     
   </channel>

@@ -18,7 +18,7 @@
       <guid>https://loyio.me/posts/image-processing-cv-experiment02/</guid>
       <description>医学图像预处理 1）搭建运行环境，运行Brain Tumor Detection代码中裁剪功能 预先安装好相关模块，安装Jupyter Notebook交互式计算环境
 conda install jupyter 首先导入相关包
-import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir  %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
+import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
     </item>
     
     <item>
@@ -30,11 +30,11 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
       <description>1.jpg
 2.jpg
 1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下
-&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter  if __name__ == &amp;#39;__main__&amp;#39;:  # greyscale  imgfileOne = &amp;#34;Sample/1&amp;#34;  sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).convert(&amp;#39;L&amp;#39;)  sample_img.save(imgfileOne+&amp;#34;_processed_gray.jpg&amp;#34;)   # Blur  # sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BLUR) 	sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BoxBlur(5))  sample_img.save(imgfileOne + &amp;#34;_processed_blur.jpg&amp;#34;) 图片效果如下
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter if __name__ == &amp;#39;__main__&amp;#39;: # greyscale imgfileOne = &amp;#34;Sample/1&amp;#34; sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).convert(&amp;#39;L&amp;#39;) sample_img.save(imgfileOne+&amp;#34;_processed_gray.jpg&amp;#34;) # Blur # sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BLUR) sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BoxBlur(5)) sample_img.save(imgfileOne + &amp;#34;_processed_blur.jpg&amp;#34;) 图片效果如下
 灰度处理
 模糊处理
 2.对2.jpg生成手绘效果 代码如下
-&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np  if __name__ == &amp;#39;__main__&amp;#39;:  # Paint  imgfileTwo = &amp;#34;Sample/2&amp;#34;  sample_img_ary = np.</description>
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np if __name__ == &amp;#39;__main__&amp;#39;: # Paint imgfileTwo = &amp;#34;Sample/2&amp;#34; sample_img_ary = np.</description>
     </item>
     
   </channel>

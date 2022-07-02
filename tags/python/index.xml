@@ -23,9 +23,9 @@
 4）在fiji中, Process -&amp;gt; Enhance Local Contrast（CLAHE, Contrast Limited Adaptive Histogram Equalization 直方图均衡化算法），将参数设置为如下，观察图片变化
 blocksize = 64 histogram bins = 128 max slope = 2.0
 图片效果如下
-  原图
-    处理后的图
-  可以看到部分区域对比度增强，图像中体现的信息也更为突出。
+原图
+处理后的图
+可以看到部分区域对比度增强，图像中体现的信息也更为突出。
 2.使用fiji脚本批量处理一组图片 1）使用fiji打开16-T2N2,33+_post_waterT1C.nii.gz
 2）使用Fiji&amp;rsquo;s scripting editor，将语言更改为IJ1 Macro，运行脚本
 3）最后点击菜单栏File → Save As → Image Sequence
@@ -33,7 +33,7 @@ blocksize = 64 histogram bins = 128 max slope = 2.0
 二.图像x-ray去噪 使用median filter算法，批处理文件/x-ray-images-enhancement-master/images/
 中值滤波器：中值滤波器是众所周知的阶数统计滤波器之一，因为它对某些特定的噪声类型（例如“高斯”，“随机”和“盐和胡椒”噪声）具有良好的性能。根据中值滤波器，将M×M邻域的中心像素替换为相应窗口的中值。注意，噪声像素被认为与中值有很大差异。使用这种思想，中值滤波器可以消除这种类型的噪声问题。
 批处理代码实现如下：
-path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f.</description>
+path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f.startswith(&amp;#39;.&amp;#39;)] file_num = len(file_list) i = 1 print(&amp;#34;file_num&amp;#34;, file_num) for img_dir in file_list: im = Image.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@ path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f
       <guid>https://loyio.me/posts/image-processing-cv-experiment02/</guid>
       <description>医学图像预处理 1）搭建运行环境，运行Brain Tumor Detection代码中裁剪功能 预先安装好相关模块，安装Jupyter Notebook交互式计算环境
 conda install jupyter 首先导入相关包
-import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir  %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
+import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
     </item>
     
     <item>
@@ -56,11 +56,11 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
       <description>1.jpg
 2.jpg
 1.对1.jpg 分别作灰度化, 模糊化处理. 代码如下
-&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter  if __name__ == &amp;#39;__main__&amp;#39;:  # greyscale  imgfileOne = &amp;#34;Sample/1&amp;#34;  sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).convert(&amp;#39;L&amp;#39;)  sample_img.save(imgfileOne+&amp;#34;_processed_gray.jpg&amp;#34;)   # Blur  # sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BLUR) 	sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BoxBlur(5))  sample_img.save(imgfileOne + &amp;#34;_processed_blur.jpg&amp;#34;) 图片效果如下
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter if __name__ == &amp;#39;__main__&amp;#39;: # greyscale imgfileOne = &amp;#34;Sample/1&amp;#34; sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).convert(&amp;#39;L&amp;#39;) sample_img.save(imgfileOne+&amp;#34;_processed_gray.jpg&amp;#34;) # Blur # sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BLUR) sample_img = Image.open(imgfileOne+&amp;#34;.jpg&amp;#34;).filter(ImageFilter.BoxBlur(5)) sample_img.save(imgfileOne + &amp;#34;_processed_blur.jpg&amp;#34;) 图片效果如下
 灰度处理
 模糊处理
 2.对2.jpg生成手绘效果 代码如下
-&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np  if __name__ == &amp;#39;__main__&amp;#39;:  # Paint  imgfileTwo = &amp;#34;Sample/2&amp;#34;  sample_img_ary = np.</description>
+&amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np if __name__ == &amp;#39;__main__&amp;#39;: # Paint imgfileTwo = &amp;#34;Sample/2&amp;#34; sample_img_ary = np.</description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
       <guid>https://loyio.me/posts/pip-install-module-error-ctypes/</guid>
       <description>最近一直在折腾GoogleDrive，用了rclone，又装AutoClone，最近又用上了gclone
 在安装AutoClone依赖文件时报错
-ERROR: Command errored out with exit status 1:  command: /usr/local/python3/bin/python3.8 -c &amp;#39;import sys, setuptools, tokenize; sys.argv[0] = &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;; __file__=&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;;f=getattr(tokenize, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;open&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, open)(__file__);code=f.read().replace(&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\r\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;);f.close();exec(compile(code, __file__, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;exec&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;))&amp;#39; egg_info --egg-base pip-egg-info  cwd: /tmp/pip-install-c6woj60b/progress/  Complete output (11 lines):  Traceback (most recent call last):  File &amp;#34;&amp;lt;string&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt;  File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/__init__.py&amp;#34;, line 20, in &amp;lt;module&amp;gt;  from setuptools.dist import Distribution, Feature  File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/dist.py&amp;#34;, line 35, in &amp;lt;module&amp;gt;  from setuptools import windows_support  File &amp;#34;/usr/local/python3/lib/python3.</description>
+ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/python3.8 -c &amp;#39;import sys, setuptools, tokenize; sys.argv[0] = &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;; __file__=&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;;f=getattr(tokenize, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;open&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, open)(__file__);code=f.read().replace(&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\r\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;);f.close();exec(compile(code, __file__, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;exec&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;))&amp;#39; egg_info --egg-base pip-egg-info cwd: /tmp/pip-install-c6woj60b/progress/ Complete output (11 lines): Traceback (most recent call last): File &amp;#34;&amp;lt;string&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt; File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/__init__.py&amp;#34;, line 20, in &amp;lt;module&amp;gt; from setuptools.dist import Distribution, Feature File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/dist.py&amp;#34;, line 35, in &amp;lt;module&amp;gt; from setuptools import windows_support File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/windows_support.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; import ctypes File &amp;#34;/usr/local/python3/lib/python3.</description>
     </item>
     
   </channel>

@@ -17,8 +17,8 @@
       
       <guid>https://loyio.me/posts/elementary-field-theory/</guid>
       <description>1.方向导数 方向导数的计算公式 设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0, y_0, z_0)$ 处可微分，则 $u=u(x,y,z)$ 在点 $P_0$ 处沿任意方向 $l$ 的方向导数都存在，且
-$$ \frac{\partial u}{\partial l}\Bigl|_{P_{0}} =u&#39;_{x}( P_{0})\cos \alpha +u&#39;_{y}( P_{0})\cos \beta +u&#39;_{z}( P_{0})\cos \gamma $$  二元函数的情况与三元函数类似
- 2.梯度 在一个数量场中，函数在所给定点处沿不同的方向，其方向导数一般是不相同的。为研究沿哪一个方向其方向导数最大、或增加的速度最快，于是引入了一个重要的概念&amp;mdash;梯度
+$$ \frac{\partial u}{\partial l}\Bigl|_{P_{0}} =u&#39;_{x}( P_{0})\cos \alpha +u&#39;_{y}( P_{0})\cos \beta +u&#39;_{z}( P_{0})\cos \gamma $$ 二元函数的情况与三元函数类似
+2.梯度 在一个数量场中，函数在所给定点处沿不同的方向，其方向导数一般是不相同的。为研究沿哪一个方向其方向导数最大、或增加的速度最快，于是引入了一个重要的概念&amp;mdash;梯度
 设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0,y_0,z_0)$ 处具有一阶偏导数，则定义
 $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{0}) ,\ u&#39;_{z}( P_{0})) $$ 为函数$u=u(x,y,z)$ 在点$P_0$处的梯度
 3.方向导数与梯度的关系 由方向导数的计算公式 $\frac{\partial{u}}{\partial{l}}\bigl|_{P_0} = (u_x&amp;rsquo;(P_0),u_y&amp;rsquo;(P_0),u_z&amp;rsquo;(P_0))$与梯度的定义
