@@ -9,7 +9,31 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Sep 2022 15:28:21 +0800</lastBuildDate><atom:link href="https://loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Sep 2022 15:20:21 +0800</lastBuildDate><atom:link href="https://loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn Opengl - 你好三角形 (M1Pro 环境环境配置)</title>
+      <link>https://loyio.me/posts/learn-opengl-hello-triangle/</link>
+      <pubDate>Sun, 04 Sep 2022 15:20:21 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/learn-opengl-hello-triangle/</guid>
+      <description>虽然说苹果之前已经说弃用OpenGL了，全部改用Metal，但目前还是自带OpenGL库的
+首先开始是环境的配置，我这里直接放弃了使用CMake，又重新把Xcode装了回来。
+首先安装glfw,glew
+brew install glfw brew install glew 然后使用brew info ***就可以查看安装的具体路径在哪里，后续需要用到
+然后是glad，进入网站gl我选择的是3.3，然后Profile设置为Core，下面注意是否勾选了Generate a loader，然后生成即可，然后我把下载下来的include里面的文件夹放到了/usr/local/include这个目录，后续也需要用到。
+打开Xcode，新建一个C++命令行项目，在target项目设置哪里，选择Build Settings找到Header Search Paths（在Search Paths下面），添加两个路径，一个就是homebrew的头文件的路径，另一个就是local的头文件路径,以下仅供参考
+/opt/homebrew/include /usr/local/include 然后在进入Build Phase，开始配置链接库，如下图所示
+上面两个的路径就是homebrew安装库的路径，这些dylib文件就在这个文件夹下面，我上面截图用红框框住的。下面两个就是自带的直接选就行了
+然后记得把之前glad生成文件src下面的glad.c文件复制进来。
+注意事项 Mac 苹果芯片环境，需要注意下面几点，首先在申明的时候，需要设置GLFW_OPENGL_FORWARD_COMPAT,教程里面也说了
+#ifdef __APPLE__ glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); #endif 然后就是在创建窗口之后需要再加上这么一行
+#ifdef __APPLE__ glfwMakeContextCurrent(window); #endif 然后还有就是可能会报这么一个错
+需要禁止Library的验证，如果没有Hardened Runtime这个，点击左上角的+ Capability即可
+当改完之后，可能还会报这么一个错
+这时候选择执行Product下面的Clean Build Folder就可以了
+效果展示 三角形 矩形 矩形(线框模式) 更多顶点 </description>
+    </item>
+    
     <item>
       <title>直面差距，虚心求教 --- 流水账</title>
       <link>https://loyio.me/posts/find-the-gap-go-on/</link>
