@@ -9,7 +9,18 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 04 Sep 2022 15:20:21 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2022 22:23:33 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习着色器Shader - GLSL</title>
+      <link>https://loyio.me/posts/learn-opengl-learn-glsl/</link>
+      <pubDate>Mon, 05 Sep 2022 22:23:33 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/learn-opengl-learn-glsl/</guid>
+      <description>输入与输出 Uniform（随时间变化） 更多属性 然后就是Shader类，这个最后我生成的如上所示
+因为需要读取shader文件，这里不想使用绝对路径的，可以自己设置一下Xcode的Working Directory
+在Product-&amp;gt;Scheme-&amp;gt;Edit Scheme，下面是我的设置。根据你自己的项目所在路径进行设置。</description>
+    </item>
+    
     <item>
       <title>Learn OpenGL - Hello Triangle (M1Pro 环境环境配置)</title>
       <link>https://loyio.me/posts/learn-opengl-hello-triangle/</link>
