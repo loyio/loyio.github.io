@@ -9,7 +9,18 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Sep 2022 22:51:54 +0800</lastBuildDate><atom:link href="https://loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 17:57:42 +0800</lastBuildDate><atom:link href="https://loyio.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习OpenGL简单的变换</title>
+      <link>https://loyio.me/posts/learn-opengl-transformations/</link>
+      <pubDate>Sat, 10 Sep 2022 17:57:42 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/learn-opengl-transformations/</guid>
+      <description>简单的旋转与缩小
+这里更改了Y轴的方向，变成了向右轴旋转
+TexCoord = vec2(aTexCoord.x, 1 - aTexCoord.y); 随时间旋转</description>
+    </item>
+    
     <item>
       <title>学习OpenGL纹理</title>
       <link>https://loyio.me/posts/learn-opengl-learn-texture/</link>

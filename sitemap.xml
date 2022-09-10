@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://loyio.me/</loc>
-    <lastmod>2022-09-06T22:51:54+08:00</lastmod>
+    <lastmod>2022-09-10T17:57:42+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/categories/</loc>
+    <lastmod>2022-09-10T17:57:42+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/categories/learnopengl/</loc>
+    <lastmod>2022-09-10T17:57:42+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/posts/</loc>
-    <lastmod>2022-09-06T22:51:54+08:00</lastmod>
+    <lastmod>2022-09-10T17:57:42+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/posts/learn-opengl-transformations/</loc>
+    <lastmod>2022-09-10T17:57:42+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/posts/learn-opengl-learn-texture/</loc>
     <lastmod>2022-09-06T22:51:54+08:00</lastmod>
@@ -21,9 +30,6 @@
     <lastmod>2022-09-03T15:28:21+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/posts/aftership-campus-backend-exam/</loc>
-    <lastmod>2022-03-24T21:34:41+08:00</lastmod>
-  </url><url>
-    <loc>https://loyio.me/categories/</loc>
     <lastmod>2022-03-24T21:34:41+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/tags/</loc>
