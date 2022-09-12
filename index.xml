@@ -17,7 +17,6 @@
       
       <guid>https://loyio.me/posts/learn-opengl-coordinate-systems/</guid>
       <description>进入3D 更加3D 非常奇怪的立方体，没有加Z-buffer
-![Sep-10-2022 22-31-37](https://cdn.jsdelivr.net/gh/loyio/oss@main/blogs/2022/09/GZohXWSep-10-2022 22-31-37.gif)
 加了Z-buffer之后，一个正常的立方体
 添加更多的立方体 </description>
     </item>
