@@ -9,7 +9,22 @@
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Sep 2022 22:31:31 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 22:08:16 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>养成每天阅读的习惯 - 对于自己的告诫</title>
+      <link>https://loyio.me/posts/just-reading-every-day/</link>
+      <pubDate>Sat, 17 Sep 2022 22:08:16 +0800</pubDate>
+      
+      <guid>https://loyio.me/posts/just-reading-every-day/</guid>
+      <description>周三部门leader给开了个培训会，然后会前搞了个分组小游戏，也算是加强部门中不同组之间的交流。
+正常上班人与人之间的交集还是比较少的，同公司不同部门基本上不会有交集，当然我作为中台部门，自然跟项目组会有打交道的时候。
+同部门不同组基本上不认识，这在中台部门应该是比较常见的，每个组涉及到的项目天差地别，很难有共同话题。再说，组内基本上也都是抱团取暖，能有一个知心朋友我觉的就很不错了，组内大多都是工作上的交流。
+前面扯了一下工作人际关系，有些偏题了，leader在会上其实分享了很多，一个很重要的主题就是告诉我们要坚持，所有困难都是正常的。通过讲述自己的故事来给我们“提高自信“,当然大家都知道故事稍微会有一点润色。实际上，就拿我本人来说，差距太大了。不论是学历上、技术水平上、个人意志上是完全够不上大佬们的。从这两三个月的职场中来看，我就是一个不思进取、只会摆烂、甘心躺平的无志青年。需要不停反思，才能把自己给骂醒。
+职场中来看，最重要的三点也就是我们的考核标准，结果、协作、学习。不管什么行业都离不开这三点。比较深入的来说，我最看重的是效率。没有效率，一切都是白费的，最终这三点也都没有了意义。
+想着去改变、去拼，首先还是得从学习开始，需要培养自己的兴趣，这样才不至于阅读的时候总想打瞌睡。所以还是得提高自己目前技术栈的兴趣，然后强迫自己去接受新的知识。才能保证自己不被淘汰。
+就喜欢瞎写一些没有逻辑的话。以后再增删改吧。</description>
+    </item>
+    
     <item>
       <title>学习OpenGL - 摄像机</title>
       <link>https://loyio.me/posts/learn-opengl-camera-system/</link>

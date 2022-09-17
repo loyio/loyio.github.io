@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://loyio.me/</loc>
-    <lastmod>2022-09-13T22:31:31+08:00</lastmod>
+    <lastmod>2022-09-17T22:08:16+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/categories/</loc>
-    <lastmod>2022-09-13T22:31:31+08:00</lastmod>
-  </url><url>
-    <loc>https://loyio.me/categories/learnopengl/</loc>
-    <lastmod>2022-09-13T22:31:31+08:00</lastmod>
+    <lastmod>2022-09-17T22:08:16+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/posts/</loc>
+    <lastmod>2022-09-17T22:08:16+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/categories/%E4%B8%AA%E4%BA%BA/</loc>
+    <lastmod>2022-09-17T22:08:16+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/posts/just-reading-every-day/</loc>
+    <lastmod>2022-09-17T22:08:16+08:00</lastmod>
+  </url><url>
+    <loc>https://loyio.me/categories/learnopengl/</loc>
     <lastmod>2022-09-13T22:31:31+08:00</lastmod>
   </url><url>
     <loc>https://loyio.me/posts/learn-opengl-camera-system/</loc>
