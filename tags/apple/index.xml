@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apple on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/apple/</link>
     <description>Recent content in Apple on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 May 2020 17:55:10 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 01 May 2020 17:55:10 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/apple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apple Arcade 游戏评测</title>
       <link>https://loyio.me/posts/arcade-game-record/</link>
       <pubDate>Fri, 01 May 2020 17:55:10 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/arcade-game-record/</guid>
       <description>开通了Apple的游戏订阅服务，里面虽然游戏很多，但其实很多游戏是比较适合小孩子玩的，目前我个人觉得能玩的游戏有Oceanhorn2，Spyder，Tint等，这里我决定将Arcade中的每个游戏都试玩一下，写一下自己的个人感受。
 往右滑动表格，查看更多信息
 图标 游戏名称 游戏类别 推荐指数 主要任务 链接🔗 个人感觉 Oceanhorn2 冒险类 ⭐️⭐️⭐️⭐️⭐️ 做一个优秀的骑士完成各种任务、探险⚔️🛡 App Store 任务剧情都挺喜欢的 Spyder 冒险类 ⭐️⭐️⭐️⭐️⭐️ 控制机器蜘蛛完成各种繁琐的任务，拯救生命🕷️ App Store 已通关、总共六关 Frogger 动作类 ⭐️⭐️ 操作青蛙，拯救小青蛙🐸 App Store 感觉有点低智，想不懂苹果发布会当时为什么选他演示，适合小朋友玩吧 WHAT THE GOLF? 休闲类 ⭐️⭐️⭐️⭐️ 将各种物体击中目标，会有很多彩蛋，此游戏并不会教你打高尔夫 App Store 这个我发现有点晚，后面玩了才发现是真的好玩，太有趣了。 Skate City 动作类 ⭐️⭐️⭐️ 通过不同的操作完成各种花样滑板技能🛹 App Store 背景音乐以及滑板各种花式操作，但操作难度太大 https://www.icloud.com/numbers/0Hge7DDSLtiubHI8fr2a3UBMA</description>
     </item>
-    
   </channel>
 </rss>

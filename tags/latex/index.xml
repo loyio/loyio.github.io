@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latex on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/latex/</link>
     <description>Recent content in latex on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jul 2021 08:49:53 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jul 2021 08:49:53 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KaTeX(Latex)支持的TeX函数</title>
       <link>https://loyio.me/posts/latex-katex/</link>
       <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/latex-katex/</guid>
       <description>字符与Unicode 希腊字母（Greek Letters） 小写形式 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex $\alpha$ \alpha $\beta$ \beta $\gamma$ \gamma $\delta$ \delta $\epsilon$ \epsilon $\zeta$ \zeta $\eta$ \eta $\theta$ \theta $\iota$ \iota $\kappa$ \kappa $\lambda$ \lambda $\mu$ \mu $\nu$ \nu $\xi$ \xi $\omicron$ \omicron $\pi$ \pi $\rho$ \rho $\sigma$ \sigma $\tau$ \tau $\upsilon$ \upsilon $\phi$ \phi $\chi$ \chi $\psi$ \psi $\omega$ \omega $\varepsilon$ \varepsilon $\varkappa$ \varkappa $\vartheta$ \vartheta $\thetasym$ \thetasym $\varpi$ \varpi $\varrho$ \varrho $\varsigma$ \varsigma $\varphi$ \varphi $\digamma$ \digamma $\varGamma$ \varGamma $\varDelta$ \varDelta $\varTheta$ \varTheta $\varLambda$ \varLambda $\varXi$ \varXi $\varPi$ \varPi $\varSigma$ \varSigma $\varUpsilon$ \varUpsilon $\varPhi$ \varPhi $\varPsi$ \varPsi $\varOmega$ \varOmega 大写形式 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex $\Alpha$ \Alpha $\Beta$ \Beta $\Gamma$ \Gamma $\Delta$ \Delta $\Epsilon$ \Epsilon $\Zeta$ \Zeta $\Eta$ \Eta $\Theta$ \Theta $\Iota$ \Iota $\Kappa$ \Kappa $\Lambda$ \Lambda $\Mu$ \Mu $\Nu$ \Nu $\Xi$ \Xi $\Omicron$ \Omicron $\Pi$ \Pi $\Rho$ \Rho $\Sigma$ \Sigma $\Tau$ \Tau $\Upsilon$ \Upsilon $\Phi$ \Phi $\Chi$ \Chi $\Psi$ \Psi $\Omega$ \Omega 其它字符 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex $\imath$ \imath $\nabla$ \nabla $\Im$ \Im $\Reals$ \Reals $\text{\OE}$ \text{\OE} $\jmath$ \jmath $\partial$ \partial $\image$ \image $\wp$ \wp $\text{\o}$ \text{\o} $\aleph$ \aleph $\Game$ \Game $\Bbbk$ \Bbbk $\weierp$ \weierp $\text{\O}$ \text{\O} $\alef$ \alef $\Finv$ \Finv $\N$ \N $\Z$ \Z $\text{\ss}$ \text{\ss} $\alefsym$ \alefsym $\cnums$ \cnums $\natnums$ \natnums $\text{\aa}$ \text{\aa} $\text{\i}$ \text{\i} $\beth$ \beth $\Complex$ \Complex $\R$ \R $\text{\AA}$ \text{\AA} $\text{\j}$ \text{\j} $\gimel$ \gimel $\ell$ \ell $\Re$ \Re $\text{\ae}$ \text{\ae} $\daleth$ \daleth $\hbar$ \hbar $\real$ \real $\text{\AE}$ \text{\AE} $\eth$ \eth $\hslash$ \hslash $\reals$ \reals $\text{\oe}$ \text{\oe} 操作符 大操作符 渲染操作符 Katex 说明 举例 Katex函数 $\sum$ \sum 求和符号 $\displaystyle\sum_{n=1}^{6}{4n}$ \displaystyle\sum_{n=1}^{6}{4n} $\prod$ \prod 连乘、求积符号 $\displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})}$ \displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2}) $\bigotimes$ \bigotimes $\bigvee$ \bigvee $\int$ \int 积分符号 $\int_{0}^{t}{f(t)dt}$ \int_{0}^{t}{f(t)dt} </description>
     </item>
-    
   </channel>
 </rss>

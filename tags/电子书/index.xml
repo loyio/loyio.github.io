@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电子书 on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/</link>
     <description>Recent content in 电子书 on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 May 2020 19:40:12 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 05 May 2020 19:40:12 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Loyio的书籍分享</title>
       <link>https://loyio.me/posts/books-share/</link>
       <pubDate>Tue, 05 May 2020 19:40:12 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/books-share/</guid>
       <description>还是和之前一样，做一个页面来分享一些书籍文件，方便大家查找，自己也做个记录。
 我其实之前也是一个挺喜欢看书的人，静下心来，默默品读，也不知什么时候，突然我的生活进节奏加快了，后面我便不再这方面花费时间了，也买过很多实体书，为了不浪费自己的钱，还是坚持看完了，如今有时候也喜欢看一些技术类书籍，都是为了查阅资料
 一年前买了kindle，看了没多久，就开始闲置了，几天不清理就全是灰，我这里其实也没啥能分享的，都是我从各个地方保存下来的，也算是当个参考吧。</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mac on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/mac/</link>
     <description>Recent content in mac on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Mar 2022 22:04:20 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Mar 2022 22:04:20 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Mac上如何找到hosts文件</title>
       <link>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</link>
       <pubDate>Mon, 07 Mar 2022 22:04:20 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</guid>
       <description>Hosts 文件是更改您的计算机查看特定网站的方式的重要工具。虽然大多数用户永远不需要更改其 Hosts 文件，但 Web 开发人员或用户可能需要修改文件以查看仍在开发中的新站点。
 要使您的计算机显示您的测试网站而不是实时站点，您必须将测试站点的 IP 地址以及域名添加到 Hosts 文件中。只要该信息包含在您的主机文件中，您的浏览器就会重定向请求以显示指定 IP 地址上的站点。这使我们能够在不修改生产站点的 DNS 的情况下测试功能。
@@ -28,12 +30,10 @@ vim的操作请上网自行搜索
 移动到底部，新建一行，左侧为ip地址，右侧为域名，更改完后如下图所示(仅做示范)
 最后wq保存即可</description>
     </item>
-    
     <item>
       <title>如何使用强大的软件包管理器Homebrew</title>
       <link>https://loyio.me/posts/how-to-use-brew/</link>
       <pubDate>Mon, 07 Mar 2022 17:25:24 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/how-to-use-brew/</guid>
       <description>安装Homebrew 打开官网 brew.sh ，首先印入眼帘的就是 Install Homebrew
 打开Mac上的Terminal或者其他的终端软件（iTerm），将下面的命令复制到里面，然后回车，就可以了。
@@ -55,12 +55,10 @@ brew install &amp;lt;software-name&amp;gt; 就行了
 我在这里说一下，我安装软件一般是怎么操作的。
 安装 官网搜索 对于国内的软件，如果不记得name，我都是需要去官网用中文搜索一下的，比如爱奇艺</description>
     </item>
-    
     <item>
       <title>个人收藏的一些Mac软件（持续更新）</title>
       <link>https://loyio.me/posts/mac-app-sheet-link/</link>
       <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/mac-app-sheet-link/</guid>
       <description>最近在找某些软件时，总是遇到很多问题，要么就是国内的下载付费（本来就是破解的），要么就是国外下载速度特别慢，因为大多是磁力链接，而且这些都是比较冷门的资源，所以下载速度特别慢，这里我声明一下，我收集的软件仅供学习交流使用，请大家到官方网站下载正版，付费支持。
 这里我决定做一个页面，把自己收藏的软件分享出来，然后也分别做百度云和GoogleDrive链接🔗，也算是自己记录一下，方便自己以后找寻资料（再次声明，请大家支持正版）
@@ -69,6 +67,5 @@ brew install &amp;lt;software-name&amp;gt; 就行了
 这是Number表格的链接， 国内应该可以访问的吧 iCloudeNumber （分享链接全部都放在里面了）
 软件名称 版本 描述 CleanMyMac X 4.6.2 用来清理一下磁盘用的，我最喜欢的功能就是可以清楚的知道你哪个文件夹占用了多少空间，这个对于我真的太有用了 Blue-ray Player Pro 3.3.18 可以打开播放蓝光盘文件，也就是iso结尾的视频文件，这个对于喜欢追求更高品质的电影原盘的人非常有用 BetterTouchTool 3.346 这个是用来配置自己的各种设备的，比如我之前用它来自定义我的MagicMouse2，设置各种手势，比如单指轻点 Folx 5.18(13943) 一个下载工具，可以通过浏览器插件做mac的默认下载工具，同时也支持种子和磁力下载，除此之外，还支持youtube下载，不过我一直加载不出 最后说一句，破解有风险，这些分享的基本上都是TNT团队破解的，如果觉得软件对你有用的话，请支持正版</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>场论初步 on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/</link>
     <description>Recent content in 场论初步 on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Jul 2021 10:27:37 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Jul 2021 10:27:37 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/%E5%9C%BA%E8%AE%BA%E5%88%9D%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>场论初步</title>
       <link>https://loyio.me/posts/elementary-field-theory/</link>
       <pubDate>Sat, 10 Jul 2021 10:27:37 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/elementary-field-theory/</guid>
       <description>1.方向导数 方向导数的计算公式 设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0, y_0, z_0)$ 处可微分，则 $u=u(x,y,z)$ 在点 $P_0$ 处沿任意方向 $l$ 的方向导数都存在，且
 $$ \frac{\partial u}{\partial l}\Bigl|_{P_{0}} =u&#39;_{x}( P_{0})\cos \alpha +u&#39;_{y}( P_{0})\cos \beta +u&#39;_{z}( P_{0})\cos \gamma $$ 二元函数的情况与三元函数类似
@@ -24,6 +26,5 @@ $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{
 3.方向导数与梯度的关系 由方向导数的计算公式 $\frac{\partial{u}}{\partial{l}}\bigl|_{P_0} = (u_x&amp;rsquo;(P_0),u_y&amp;rsquo;(P_0),u_z&amp;rsquo;(P_0))$与梯度的定义
 $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{0}) ,\ u&#39;_{z}( P_{0})) $$ 可以得到</description>
     </item>
-    
   </channel>
 </rss>

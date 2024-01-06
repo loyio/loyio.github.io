@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/posts/</link>
     <description>Recent content in Posts on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Sep 2022 22:08:16 +0800</lastBuildDate><atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Sep 2022 22:08:16 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>养成每天阅读的习惯 - 对于自己的告诫</title>
       <link>https://loyio.me/posts/just-reading-every-day/</link>
       <pubDate>Sat, 17 Sep 2022 22:08:16 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/just-reading-every-day/</guid>
       <description>周三部门leader给开了个培训会，然后会前搞了个分组小游戏，也算是加强部门中不同组之间的交流。
 正常上班人与人之间的交集还是比较少的，同公司不同部门基本上不会有交集，当然我作为中台部门，自然跟项目组会有打交道的时候。
@@ -24,65 +26,53 @@
 想着去改变、去拼，首先还是得从学习开始，需要培养自己的兴趣，这样才不至于阅读的时候总想打瞌睡。所以还是得提高自己目前技术栈的兴趣，然后强迫自己去接受新的知识。才能保证自己不被淘汰。
 就喜欢瞎写一些没有逻辑的话。以后再增删改吧。</description>
     </item>
-    
     <item>
       <title>学习OpenGL - 摄像机</title>
       <link>https://loyio.me/posts/learn-opengl-camera-system/</link>
       <pubDate>Tue, 13 Sep 2022 22:31:31 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/learn-opengl-camera-system/</guid>
       <description>LookAt via GIPHY
 自由移动 via GIPHY
 鼠标输入 via GIPHY</description>
     </item>
-    
     <item>
       <title>学习OpenGL - 坐标系统</title>
       <link>https://loyio.me/posts/learn-opengl-coordinate-systems/</link>
       <pubDate>Sat, 10 Sep 2022 18:57:03 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/learn-opengl-coordinate-systems/</guid>
       <description>进入3D 更加3D 非常奇怪的立方体，没有加Z-buffer
 加了Z-buffer之后，一个正常的立方体
 添加更多的立方体 </description>
     </item>
-    
     <item>
       <title>学习OpenGL简单的变换</title>
       <link>https://loyio.me/posts/learn-opengl-transformations/</link>
       <pubDate>Sat, 10 Sep 2022 17:57:42 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/learn-opengl-transformations/</guid>
       <description>简单的旋转与缩小
 这里更改了Y轴的方向，变成了向右侧旋转
 TexCoord = vec2(aTexCoord.x, 1 - aTexCoord.y); 随时间旋转</description>
     </item>
-    
     <item>
       <title>学习OpenGL纹理</title>
       <link>https://loyio.me/posts/learn-opengl-learn-texture/</link>
       <pubDate>Tue, 06 Sep 2022 22:51:54 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/learn-opengl-learn-texture/</guid>
       <description>应用纹理 纹理颜色与顶点颜色混合 纹理单元 翻转Y轴 </description>
     </item>
-    
     <item>
       <title>学习着色器Shader - GLSL</title>
       <link>https://loyio.me/posts/learn-opengl-learn-glsl/</link>
       <pubDate>Mon, 05 Sep 2022 22:23:33 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/learn-opengl-learn-glsl/</guid>
       <description>输入与输出 Uniform（随时间变化） 更多属性 然后就是Shader类，这个最后我生成的如上所示
 因为需要读取shader文件，这里不想使用绝对路径的，可以自己设置一下Xcode的Working Directory
 在Product-&amp;gt;Scheme-&amp;gt;Edit Scheme，下面是我的设置。根据你自己的项目所在路径进行设置。</description>
     </item>
-    
     <item>
       <title>Learn OpenGL - Hello Triangle (M1Pro 环境环境配置)</title>
       <link>https://loyio.me/posts/learn-opengl-hello-triangle/</link>
       <pubDate>Sun, 04 Sep 2022 15:20:21 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/learn-opengl-hello-triangle/</guid>
       <description>虽然说苹果之前已经说弃用OpenGL了，全部改用Metal，但目前还是自带OpenGL库的
 首先开始是环境的配置，我这里直接放弃了使用CMake，又重新把Xcode装了回来。
@@ -101,12 +91,10 @@ brew install glfw brew install glew 然后使用brew info ***就可以查看安�
 这时候选择执行Product下面的Clean Build Folder就可以了
 效果展示 三角形 矩形 矩形(线框模式) 更多顶点 </description>
     </item>
-    
     <item>
       <title>直面差距，虚心求教 --- 流水账</title>
       <link>https://loyio.me/posts/find-the-gap-go-on/</link>
       <pubDate>Sat, 03 Sep 2022 15:28:21 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/find-the-gap-go-on/</guid>
       <description>工作两个月了，基本没有时间去停下来好好思考一下目前的一个状态，以及之后的一个规划。
 这周五在组长那里学到了很多，聊了也差不多一个小时，基本上我是一个啥也不会的状态，组长也在不停的迁就我，引导我如何去学习。
@@ -120,12 +108,10 @@ brew install glfw brew install glew 然后使用brew info ***就可以查看安�
 我也与导师争论过，当时一个需求，我觉得就很奇怪，我也问了其他同期入职做新人项目的，他们都没这要求，然而让我必须完成这个，不然又要扣分，当时想着，这种机制很不公平，想要报告给组长，不过这种行为实在太幼稚了，我想想都觉得好天真啊。每个导师都有自己的一个想法，有自己的一套理念，各有各的好处吧。就这样吧，关于这个新人项目就讲到这里。
 正式接触工作 一开始都是一些修改bug的任务，分析需求，从代码中找出出现问题的地方，然后进行修改。后续又做了一个工具，本以为能够很快的做出来，然而对于框架不太熟悉，也花了一段时间。</description>
     </item>
-    
     <item>
       <title>Aftership后端校招春招笔试</title>
       <link>https://loyio.me/posts/aftership-campus-backend-exam/</link>
       <pubDate>Thu, 24 Mar 2022 21:34:41 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/aftership-campus-backend-exam/</guid>
       <description>投了Aftership的后端开发，进了笔试，发了一个链接，是可以任意时间开发做的，只要在五天之内就行。
 昨天下午空闲的时候做的。
@@ -143,12 +129,10 @@ brew install glfw brew install glew 然后使用brew info ***就可以查看安�
 结果 今天早上的时候就收到了感谢信，Aftership效率还是挺高的。
 可能是没有HC了吧，然后我看后端主要也是用Golang，今天打开官网，发现就只招算法工程师了</description>
     </item>
-    
     <item>
       <title>小红书后端开发春招笔试</title>
       <link>https://loyio.me/posts/red-campus-first-exam/</link>
       <pubDate>Sun, 13 Mar 2022 20:56:10 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/red-campus-first-exam/</guid>
       <description>选择题 数据库事务的四大特性
 事务的四大特性主要是：原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability）。
@@ -160,12 +144,10 @@ brew install glfw brew install glew 然后使用brew info ***就可以查看安�
 斐波那契数列，1, 2, 3, 5, 8, 13, 21, 34, 55
 算法题 给你一个由0和1组成的数组，你可以有一次翻转区间的机会，即将1变成0，将0变成1，问此数组中1最多能有多少个。 给你一张 $M \times N $的地图，然后还会有 $K$ 个障碍（障碍坐标已给出），每次只能向右或者向下移动，从地图的左上角到达地图的右下角，问一共有多少种走法。 最大礼物价值。 </description>
     </item>
-    
     <item>
       <title>使用差分数组解决leetcode798题:得分最高的最小轮调问题</title>
       <link>https://loyio.me/posts/smallest-rotation-with-highest-score/</link>
       <pubDate>Wed, 09 Mar 2022 09:48:43 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/smallest-rotation-with-highest-score/</guid>
       <description>题目描述的链接如下：
 得分最高的最小轮调
@@ -174,12 +156,10 @@ brew install glfw brew install glew 然后使用brew info ***就可以查看安�
 是怎么轮调的，$n$ 为数组的长度，$k$ 为数组中的一个下标（index），轮调完后，$k$ 到数组的最后一个元素$(k, n-1)$ 这段区间会移动到原数组的最前面，然后就是$k$前面的那一段（顺序不变）$(0,k-1)$，会附加到后面来。 然后就是记分，任何值小于或等于其索引的项都可以记作一分，也就是说，如果索引值为 $i$ ,然后 $nums[i]=x$ , 当 $x = nums[i] \le i$ 时可以记一分。也可以反过来理解，当索引值大于等于当前值的时候可以记一分，即 $i \ge nums[i] = x$ 记一分。 数组 $nums$ 中的一个元素 $x$ ，只有当 $x$ 所在下标范围为 $[x, n-1]$ 时，才会记一分，当 $x$ 下标为 $[0, x-1]$ 时不记分。
 假设元素 $x$ 的当前下标为 $i$ ，如果轮调下标为 $k$ , 那么 $x$ 经过轮调过后的下标就为 $(n-k+i) \bmod n$ （或者写为 $(i-k+n) \bmod n$ ），这里最后为什么要取$n$的模，是防止超过数组范围，而如果元素 $x$ 要记一分，那么它的下标就应该是 $(n-k+i) \bmod n \ge x$ ，等价于 $ (n+i-x) \bmod n \ge k$ ，又因为元素 $x$ 记一分的下标有 $n-x$个，所以说，我们可以得到 $k \ge (i+1) \bmod n$ , 因为 $k$ 的的位置总是被移动到下标为0的地方，$k$ 的前一个值总是被移动到 $n-1$ 的位置，也就是不管怎么算都是符合条件(当前下标值大于等于当前值)的位置。</description>
     </item>
-    
     <item>
       <title>在Mac上如何找到hosts文件</title>
       <link>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</link>
       <pubDate>Mon, 07 Mar 2022 22:04:20 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/how-to-find-hosts-file-on-my-mac/</guid>
       <description>Hosts 文件是更改您的计算机查看特定网站的方式的重要工具。虽然大多数用户永远不需要更改其 Hosts 文件，但 Web 开发人员或用户可能需要修改文件以查看仍在开发中的新站点。
 要使您的计算机显示您的测试网站而不是实时站点，您必须将测试站点的 IP 地址以及域名添加到 Hosts 文件中。只要该信息包含在您的主机文件中，您的浏览器就会重定向请求以显示指定 IP 地址上的站点。这使我们能够在不修改生产站点的 DNS 的情况下测试功能。
@@ -193,12 +173,10 @@ vim的操作请上网自行搜索
 移动到底部，新建一行，左侧为ip地址，右侧为域名，更改完后如下图所示(仅做示范)
 最后wq保存即可</description>
     </item>
-    
     <item>
       <title>如何使用强大的软件包管理器Homebrew</title>
       <link>https://loyio.me/posts/how-to-use-brew/</link>
       <pubDate>Mon, 07 Mar 2022 17:25:24 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/how-to-use-brew/</guid>
       <description>安装Homebrew 打开官网 brew.sh ，首先印入眼帘的就是 Install Homebrew
 打开Mac上的Terminal或者其他的终端软件（iTerm），将下面的命令复制到里面，然后回车，就可以了。
@@ -220,12 +198,10 @@ brew install &amp;lt;software-name&amp;gt; 就行了
 我在这里说一下，我安装软件一般是怎么操作的。
 安装 官网搜索 对于国内的软件，如果不记得name，我都是需要去官网用中文搜索一下的，比如爱奇艺</description>
     </item>
-    
     <item>
       <title>在Mac(M1 Pro)上通过源码编译Fritzing最新版本</title>
       <link>https://loyio.me/posts/build-fritzing-from-source/</link>
       <pubDate>Mon, 07 Mar 2022 16:50:39 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/build-fritzing-from-source/</guid>
       <description>因为要设计一下硬件的走线，在Arduino Forum上看到大家都是用的Fritzing，于是便也想着下载安装使用，打开官网，只看到 Pay &amp;amp; Download, 上面有着两个单选框（必选），一个是8欧元和25欧元。
 显然第一次使用，我是舍不得这些钱的，便想着搜索Cracked Version， 未果，返回到官网，发现原来这个软件在Github是开源的，主要用Qt，便想着尝试自己编译一下。
@@ -241,31 +217,25 @@ cd /Users/you/Documents/fritzing-app qmake -spec macx-xcode 构建成功后，�
 我在第三步就卡了，最后报错
 objc[8754]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libamsupport.dylib (0x1fd9a3678) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107f282c8). One of the two will be used. Which one is undefined.</description>
     </item>
-    
     <item>
       <title>Leetcode个人刷题记录</title>
       <link>https://loyio.me/posts/leetcode-record/</link>
       <pubDate>Wed, 02 Mar 2022 17:19:04 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/leetcode-record/</guid>
       <description>记录Leetcode题解链接，完整测试代码见loypt/leetcode
 No. Problem(leetcode-cn) Problem Solution Link(题解) 1 两数之和 Two Sum Issues Blog 2 两数相加 Add Two Numbers Issues Blog 3 无重复字符的最长子串 Longest Substring Without Repeating Characters Issues Blog 4 寻找两个正序数组的中位数 Median of Two Sorted Arrays Issues Blog 5 最长回文子串 Longest Palindromic Substring Issues Blog 6 Z 字形变换 Zigzag Conversion Issues Blog 7 整数反转 Reverse Integer Issues Blog 8 字符串转换整数 (atoi) String to Integer (atoi) Issues Blog 9 回文数 Palindrome Number Issues Blog 10 正则表达式匹配 Regular Expression Matching Issues Blog 11 盛最多水的容器 Container With Most Water Issues Blog 12 整数转罗马数字 Integer to Roman Issues Blog 13 数字转整数 Roman to Integer Issues Blog 14 最长公共前缀 Longest Common Prefix Issues Blog 15 三数之和 3Sum Issues Blog 16 最接近的三数之和 3Sum Closest Issues Blog 17 电话号码的字母组合 Letter Combinations of a Phone Number Issues Blog 18 四数之和 4Sum Issues Blog 19 删除链表的倒数第 N 个结点 Remove Nth Node From End of List Issues Blog 20 有效的括号 Valid Parentheses Issues Blog 21 合并两个有序链表 Merge Two Sorted Lists Issues Blog 22 括号生成 Generate Parentheses Issues Blog 23 合并K个升序链表 Merge k Sorted Lists Issues Blog 24 25 26 27 28 29 30 31 题目版权©️leetcode.</description>
     </item>
-    
     <item>
       <title>Loyio&#39;s Handbook Table of Contents</title>
       <link>https://loyio.me/posts/handbook-toc/</link>
       <pubDate>Sat, 31 Jul 2021 07:32:44 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/handbook-toc/</guid>
       <description>数学 直角坐标系下的图像 初等数学常用公式 [PDF:下载] 高等数学 [PDF:下载] 线性代数 [PDF:下载] 概率论与数理统计 [PDF:下载] </description>
     </item>
-    
     <item>
       <title>场论初步</title>
       <link>https://loyio.me/posts/elementary-field-theory/</link>
       <pubDate>Sat, 10 Jul 2021 10:27:37 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/elementary-field-theory/</guid>
       <description>1.方向导数 方向导数的计算公式 设三元函数 $u=u(x,y,z)$ 在点 $P_0(x_0, y_0, z_0)$ 处可微分，则 $u=u(x,y,z)$ 在点 $P_0$ 处沿任意方向 $l$ 的方向导数都存在，且
 $$ \frac{\partial u}{\partial l}\Bigl|_{P_{0}} =u&#39;_{x}( P_{0})\cos \alpha +u&#39;_{y}( P_{0})\cos \beta +u&#39;_{z}( P_{0})\cos \gamma $$ 二元函数的情况与三元函数类似
@@ -275,12 +245,10 @@ $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{
 3.方向导数与梯度的关系 由方向导数的计算公式 $\frac{\partial{u}}{\partial{l}}\bigl|_{P_0} = (u_x&amp;rsquo;(P_0),u_y&amp;rsquo;(P_0),u_z&amp;rsquo;(P_0))$与梯度的定义
 $$ \operatorname{grad}\ u\Bigl|_{P_{0}} =( u&#39;_{x}( P_{0}) ,\ u&#39;_{y}( P_{0}) ,\ u&#39;_{z}( P_{0})) $$ 可以得到</description>
     </item>
-    
     <item>
       <title>常用函数图像</title>
       <link>https://loyio.me/posts/common-function-graphics/</link>
       <pubDate>Fri, 09 Jul 2021 07:20:24 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/common-function-graphics/</guid>
       <description>（一）直角坐标系下的图像 1. 常见图像 ⑤三角函数 （1）正弦函数与余弦函数 （二）极坐标系下的图像 1. 描点法 （1）心形线 极坐标方程：
 水平方向：$r=a(1-\cos{\theta})(a&amp;gt;0)$
@@ -291,12 +259,10 @@ $x^2+y^2+ax=a\sqrt{(x^2+y^2)}$ 或$x^2+y^2-ax=a\sqrt{(x^2+y^2)}$
 $x=a(2\cos{(t)}-\cos{(2t)})$
 $y=a(2\sin{(t)}-\sin{(2t)})$</description>
     </item>
-    
     <item>
       <title>一阶微分方程与一阶线性方程的求解</title>
       <link>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
       <pubDate>Thu, 08 Jul 2021 15:07:55 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
       <description>一.可分离变量的一阶微分方程 如果能够把一阶微分方程中所有关于 $y$ 的部分 (包括 $\mathrm{d}y$) 放在一边, 所有关于 $x$ 的部分 (包括 $\mathrm{d}x$) 放在另一边, 则该微分方程被称为是可分离变量的. 例如, 方程 $\mathrm{dy}/\mathrm{dx} = ky$ 可重新整理为 $$ \frac{1}{ky}\mathrm{d}y = \mathrm{d}x, $$ 就是可分离变量的。
 然后继续计算的方法就是两遍加积分号求积分。然后再整理求得 $y$。
@@ -304,21 +270,17 @@ $y=a(2\sin{(t)}-\sin{(2t)})$</description>
 如果在题干中，涉及到初值时，还是使用以上的求解方法，最后将初值代入求得的全解中，就可以得到未知常数$C$了。
 二.一阶线性方程的求解 1.前言 形如 $$ \frac{\mathrm{d}y}{\mathrm{d}x}+p(x)y = q(x) $$ 其中 $p$ 和 $q$ 是关于 $x$ 的函数，这样的方程就称为一阶线性微分方程， 它可能不是可分离变量的, 甚至连线性看起来也不很明显! 例如, $$ \frac{\mathrm{d} y}{\mathrm{~d} x}+6 x^{2} y=\mathrm{e}^{-2 x^{3}} \sin (x) $$ 就不像是线性的, 然而这个方程确实是一阶线性的, 因为 $y$ 和 $\mathrm{d}y/\mathrm{d}x$ 的幂次都是 1. 而方程 $$ \frac{\mathrm{d} y}{\mathrm{~d} x}+6 x^{2} y^{3}=\mathrm{e}^{-2 x^{3}} \sin (x) $$ 不是一阶线性的, 因为 $y^3$ 不是 $y$ 的一次</description>
     </item>
-    
     <item>
       <title>常系数微分方程求解</title>
       <link>https://loyio.me/posts/constant-coefficient-differential-equations/</link>
       <pubDate>Thu, 08 Jul 2021 14:55:05 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/constant-coefficient-differential-equations/</guid>
       <description>常系数微分方程的形式如下 $$ a_{n} \frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}+\cdots+a_{2} \frac{\mathrm{d}^{2} y}{\mathrm{~d} x^{2}}+a_{1} \frac{\mathrm{d} y}{\mathrm{~d} x}+a_{0} y=f(x) $$ 其中$a_n,\ldots,a_1,a_0$知识一些普通的常实数，左边式子中$\frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}$，代表的是$y$的$n$阶导数。</description>
     </item>
-    
     <item>
       <title>常用的泰勒级数</title>
       <link>https://loyio.me/posts/10staylorpolyseries/</link>
       <pubDate>Thu, 08 Jul 2021 13:08:01 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/10staylorpolyseries/</guid>
       <description>以下公式来源于South Caolina
 1.$\frac{1}{1-x}$ $$ \begin{aligned}\frac{1}{1-x} &amp;amp;=\quad1+x+x^{2}+x^{3}+x^{4}+\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty} x^{n}\end{aligned} $$
@@ -329,21 +291,17 @@ $x\in (-1,1)$
 4.$\sin{x}$ $$ \begin{aligned}\sin x \quad &amp;amp;=\quad x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\frac{x^{9}}{9 !}-\ldots \\&amp;amp;=\quad \sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{2 n-1}}{(2 n-1) !} \stackrel{\text { or }}{=} \sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{(2 n+1) !}\end{aligned} $$
 5.$\ln{(1+x)}$ $$ \begin{aligned}\ln (1+x)\quad &amp;amp;=\quad x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\frac{x^{5}}{5}-\ldots \\&amp;amp;=\quad\sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{n}}{n} \stackrel{\text { or }}{=} \sum_{n=1}^{\infty}(-1)^{n+1} \frac{x^{n}}{n}\end{aligned} $$</description>
     </item>
-    
     <item>
       <title>KaTeX(Latex)支持的TeX函数</title>
       <link>https://loyio.me/posts/latex-katex/</link>
       <pubDate>Thu, 08 Jul 2021 08:49:53 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/latex-katex/</guid>
       <description>字符与Unicode 希腊字母（Greek Letters） 小写形式 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex $\alpha$ \alpha $\beta$ \beta $\gamma$ \gamma $\delta$ \delta $\epsilon$ \epsilon $\zeta$ \zeta $\eta$ \eta $\theta$ \theta $\iota$ \iota $\kappa$ \kappa $\lambda$ \lambda $\mu$ \mu $\nu$ \nu $\xi$ \xi $\omicron$ \omicron $\pi$ \pi $\rho$ \rho $\sigma$ \sigma $\tau$ \tau $\upsilon$ \upsilon $\phi$ \phi $\chi$ \chi $\psi$ \psi $\omega$ \omega $\varepsilon$ \varepsilon $\varkappa$ \varkappa $\vartheta$ \vartheta $\thetasym$ \thetasym $\varpi$ \varpi $\varrho$ \varrho $\varsigma$ \varsigma $\varphi$ \varphi $\digamma$ \digamma $\varGamma$ \varGamma $\varDelta$ \varDelta $\varTheta$ \varTheta $\varLambda$ \varLambda $\varXi$ \varXi $\varPi$ \varPi $\varSigma$ \varSigma $\varUpsilon$ \varUpsilon $\varPhi$ \varPhi $\varPsi$ \varPsi $\varOmega$ \varOmega 大写形式 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex $\Alpha$ \Alpha $\Beta$ \Beta $\Gamma$ \Gamma $\Delta$ \Delta $\Epsilon$ \Epsilon $\Zeta$ \Zeta $\Eta$ \Eta $\Theta$ \Theta $\Iota$ \Iota $\Kappa$ \Kappa $\Lambda$ \Lambda $\Mu$ \Mu $\Nu$ \Nu $\Xi$ \Xi $\Omicron$ \Omicron $\Pi$ \Pi $\Rho$ \Rho $\Sigma$ \Sigma $\Tau$ \Tau $\Upsilon$ \Upsilon $\Phi$ \Phi $\Chi$ \Chi $\Psi$ \Psi $\Omega$ \Omega 其它字符 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex 渲染字符 Katex $\imath$ \imath $\nabla$ \nabla $\Im$ \Im $\Reals$ \Reals $\text{\OE}$ \text{\OE} $\jmath$ \jmath $\partial$ \partial $\image$ \image $\wp$ \wp $\text{\o}$ \text{\o} $\aleph$ \aleph $\Game$ \Game $\Bbbk$ \Bbbk $\weierp$ \weierp $\text{\O}$ \text{\O} $\alef$ \alef $\Finv$ \Finv $\N$ \N $\Z$ \Z $\text{\ss}$ \text{\ss} $\alefsym$ \alefsym $\cnums$ \cnums $\natnums$ \natnums $\text{\aa}$ \text{\aa} $\text{\i}$ \text{\i} $\beth$ \beth $\Complex$ \Complex $\R$ \R $\text{\AA}$ \text{\AA} $\text{\j}$ \text{\j} $\gimel$ \gimel $\ell$ \ell $\Re$ \Re $\text{\ae}$ \text{\ae} $\daleth$ \daleth $\hbar$ \hbar $\real$ \real $\text{\AE}$ \text{\AE} $\eth$ \eth $\hslash$ \hslash $\reals$ \reals $\text{\oe}$ \text{\oe} 操作符 大操作符 渲染操作符 Katex 说明 举例 Katex函数 $\sum$ \sum 求和符号 $\displaystyle\sum_{n=1}^{6}{4n}$ \displaystyle\sum_{n=1}^{6}{4n} $\prod$ \prod 连乘、求积符号 $\displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2})}$ \displaystyle\prod_{n=1}^{\infty}{(1-\frac{1}{4n^2}) $\bigotimes$ \bigotimes $\bigvee$ \bigvee $\int$ \int 积分符号 $\int_{0}^{t}{f(t)dt}$ \int_{0}^{t}{f(t)dt} </description>
     </item>
-    
     <item>
       <title>图像处理第三次实验-图像预处理</title>
       <link>https://loyio.me/posts/image-processing-cv-experiment03/</link>
       <pubDate>Fri, 26 Mar 2021 21:25:11 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/image-processing-cv-experiment03/</guid>
       <description>一.对比度优化方法CLAHE 1.使用软件fiji优化图片序列 实验过程：
 1）下载安装Fiji
@@ -364,23 +322,19 @@ blocksize = 64 histogram bins = 128 max slope = 2.0
 批处理代码实现如下：
 path=&amp;#39;images/&amp;#39; file_list = [f for f in os.listdir(path) if not f.startswith(&amp;#39;.&amp;#39;)] file_num = len(file_list) i = 1 print(&amp;#34;file_num&amp;#34;, file_num) for img_dir in file_list: im = Image.</description>
     </item>
-    
     <item>
       <title>图像处理第二次试验-裁剪图像</title>
       <link>https://loyio.me/posts/image-processing-cv-experiment02/</link>
       <pubDate>Mon, 22 Mar 2021 21:19:03 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/image-processing-cv-experiment02/</guid>
       <description>医学图像预处理 1）搭建运行环境，运行Brain Tumor Detection代码中裁剪功能 预先安装好相关模块，安装Jupyter Notebook交互式计算环境
 conda install jupyter 首先导入相关包
 import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroPadding2D, BatchNormalization, Activation, MaxPooling2D, Flatten, Dense from tensorflow.keras.models import Model, load_model from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint from sklearn.model_selection import train_test_split from sklearn.metrics import f1_score from sklearn.utils import shuffle import cv2 import imutils import numpy as np import matplotlib.pyplot as plt import time from os import listdir %matplotlib inline 因为这里只是进行图形预处理，对Brain Tumor图片进行裁剪，主要用到的包是cv2, imutils, numpy, matplotlib.</description>
     </item>
-    
     <item>
       <title>图像处理第一次实验-初识CV</title>
       <link>https://loyio.me/posts/image-processing-cv-experiment01/</link>
       <pubDate>Sat, 20 Mar 2021 21:14:43 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/image-processing-cv-experiment01/</guid>
       <description>1.jpg
 2.jpg
@@ -391,12 +345,10 @@ import tensorflow as tf from tensorflow.keras.layers import Conv2D, Input, ZeroP
 2.对2.jpg生成手绘效果 代码如下
 &amp;#34;&amp;#34;&amp;#34; @Project: imageProcessing @Author: loyio @Date: 3/20/21 &amp;#34;&amp;#34;&amp;#34; from PIL import Image, ImageFilter import numpy as np if __name__ == &amp;#39;__main__&amp;#39;: # Paint imgfileTwo = &amp;#34;Sample/2&amp;#34; sample_img_ary = np.</description>
     </item>
-    
     <item>
       <title>rclone突破750G转存限制（使用gclone和Autoclone）</title>
       <link>https://loyio.me/posts/gclone-over-750g/</link>
       <pubDate>Thu, 07 May 2020 19:59:48 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/gclone-over-750g/</guid>
       <description>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
 在之前我就讲过了用rclone挂载GoogleDrive到linux服务器上的教程，大家可以点击下面的链接查看
@@ -419,12 +371,10 @@ https://groups.google.com/
 https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?pli=1&amp;amp;supportedpurview=project
 基本上就上面这些东西，如果有不明白的可以到上面的那些链接里去问大佬，当然也可以发邮件给我，我尽力解答</description>
     </item>
-    
     <item>
       <title>Surge-For-Mac模块 Q-Search 自定义搜索</title>
       <link>https://loyio.me/posts/q-search-surge-for-mac/</link>
       <pubDate>Wed, 06 May 2020 19:55:11 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/q-search-surge-for-mac/</guid>
       <description>昨天狠下心上了SurgeForMac的车，140永久，这是继Quantumult X后的又一次剁手，我也不知道自己怎么这么折腾，本来我Mac端用Clash用的好好的，没啥其它问题，可能是头脑一热吧，不过我今天就是想介绍一下，我重写的一款Surge模块，Q-Search
 前言 在手机上用过Quantumult X和Surge的应该很熟悉这个插件，就是利用了重写的功能，实现自定义搜索命令，比如我想要在京东上搜索笔记本，我只需要在搜索栏输入 jd 笔记本 就可以了
@@ -447,23 +397,19 @@ https://raw.githubusercontent.com/loyio/SurgeMacModule/master/Q-Search.sgmodule
 回车即可返回下面的搜索页面
 如果有不明白的问题，可以邮件联系我</description>
     </item>
-    
     <item>
       <title>pip安装模块时报错 ModuleNotFoundError:No module named &#39;_ctypes&#39;</title>
       <link>https://loyio.me/posts/pip-install-module-error-ctypes/</link>
       <pubDate>Wed, 06 May 2020 19:51:51 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/pip-install-module-error-ctypes/</guid>
       <description>最近一直在折腾GoogleDrive，用了rclone，又装AutoClone，最近又用上了gclone
 在安装AutoClone依赖文件时报错
 ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/python3.8 -c &amp;#39;import sys, setuptools, tokenize; sys.argv[0] = &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;; __file__=&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;/tmp/pip-install-c6woj60b/progress/setup.py&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;;f=getattr(tokenize, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;open&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, open)(__file__);code=f.read().replace(&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\r\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;\n&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;);f.close();exec(compile(code, __file__, &amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;exec&amp;#39;&amp;#34;&amp;#39;&amp;#34;&amp;#39;))&amp;#39; egg_info --egg-base pip-egg-info cwd: /tmp/pip-install-c6woj60b/progress/ Complete output (11 lines): Traceback (most recent call last): File &amp;#34;&amp;lt;string&amp;gt;&amp;#34;, line 1, in &amp;lt;module&amp;gt; File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/__init__.py&amp;#34;, line 20, in &amp;lt;module&amp;gt; from setuptools.dist import Distribution, Feature File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/dist.py&amp;#34;, line 35, in &amp;lt;module&amp;gt; from setuptools import windows_support File &amp;#34;/usr/local/python3/lib/python3.8/site-packages/setuptools/windows_support.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; import ctypes File &amp;#34;/usr/local/python3/lib/python3.</description>
     </item>
-    
     <item>
       <title>谈谈自己为什么又开始写博客了</title>
       <link>https://loyio.me/posts/why-me-rebuilt-blog/</link>
       <pubDate>Tue, 05 May 2020 19:48:37 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/why-me-rebuilt-blog/</guid>
       <description>其实我17年刚读大一的时候，就建立了自己的博客，那时候是用的阿里云的服务器，学生机9.9，然后域名好像是在godaddy买的吧，只不过当时为了备案又把这个域名迁移到了阿里云，国内主机配国外域名真的很鸡肋啊，当时godaddy还不允许前三个月迁移，所以前面一直用的临时域名。
 一开始我用的是Wordpress，主题非常多，插件也很多，对于喜欢给自己的网站添加各种功能的人简直太友好了，我当时也用了一段时间，用户管理，插件各方面，都很不错，弄的自己网站五花八门，忽视了内容，而太过在意形式，有几次配置插件把自己的网站的内容都清除掉了，然后，还有一点就是，毕竟自己的服务器是9.9学生机，所以网站的访问速率也慢了很多。
@@ -474,34 +420,28 @@ ERROR: Command errored out with exit status 1: command: /usr/local/python3/bin/p
 人总是易变的，而我是过于如此了，不谈太多了。
 想着还是用github做一个静态博客算了，写写没人看的东西，发泄一下自己的内心，也记录一下，方便以后自己查询。</description>
     </item>
-    
     <item>
       <title>Surge神机规则备份</title>
       <link>https://loyio.me/posts/surge-connershua-rules/</link>
       <pubDate>Tue, 05 May 2020 19:43:27 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/surge-connershua-rules/</guid>
       <description>原Surge配置文件地址
 Surge3 Profiles
 [General] # [高级设置] # 日志等级 loglevel = notify # 延迟测试（以下为默认值） # &amp;gt; Internet 测试 URL # internet-test-url = http://bing.com/ # &amp;gt; 代理测速 URL # proxy-test-url = http://bing.com/ # &amp;gt; 测速超时（秒） # test-timeout = 5 # IPv6 支持 ipv6 = false # Wi-Fi 访问 # &amp;gt; 允许 Wi-Fi 访问（默认不启用） # allow-wifi-access = false # &amp;gt; HTTP 代理服务端口（默认为&amp;#34;6152&amp;#34;） # wifi-access-http-port = 6152 # &amp;gt; SOCKS5 代理服务端口（默认为&amp;#34;6153&amp;#34;） # wifi-access-socks5-port = 6153 # 外部控制器（默认不启用，以下为样例） # external-controller-access = DivineEngine@127.</description>
     </item>
-    
     <item>
       <title>Loyio的书籍分享</title>
       <link>https://loyio.me/posts/books-share/</link>
       <pubDate>Tue, 05 May 2020 19:40:12 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/books-share/</guid>
       <description>还是和之前一样，做一个页面来分享一些书籍文件，方便大家查找，自己也做个记录。
 我其实之前也是一个挺喜欢看书的人，静下心来，默默品读，也不知什么时候，突然我的生活进节奏加快了，后面我便不再这方面花费时间了，也买过很多实体书，为了不浪费自己的钱，还是坚持看完了，如今有时候也喜欢看一些技术类书籍，都是为了查阅资料
 一年前买了kindle，看了没多久，就开始闲置了，几天不清理就全是灰，我这里其实也没啥能分享的，都是我从各个地方保存下来的，也算是当个参考吧。</description>
     </item>
-    
     <item>
       <title>个人收藏的一些Mac软件（持续更新）</title>
       <link>https://loyio.me/posts/mac-app-sheet-link/</link>
       <pubDate>Mon, 04 May 2020 19:26:34 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/mac-app-sheet-link/</guid>
       <description>最近在找某些软件时，总是遇到很多问题，要么就是国内的下载付费（本来就是破解的），要么就是国外下载速度特别慢，因为大多是磁力链接，而且这些都是比较冷门的资源，所以下载速度特别慢，这里我声明一下，我收集的软件仅供学习交流使用，请大家到官方网站下载正版，付费支持。
 这里我决定做一个页面，把自己收藏的软件分享出来，然后也分别做百度云和GoogleDrive链接🔗，也算是自己记录一下，方便自己以后找寻资料（再次声明，请大家支持正版）
@@ -510,12 +450,10 @@ Surge3 Profiles
 这是Number表格的链接， 国内应该可以访问的吧 iCloudeNumber （分享链接全部都放在里面了）
 软件名称 版本 描述 CleanMyMac X 4.6.2 用来清理一下磁盘用的，我最喜欢的功能就是可以清楚的知道你哪个文件夹占用了多少空间，这个对于我真的太有用了 Blue-ray Player Pro 3.3.18 可以打开播放蓝光盘文件，也就是iso结尾的视频文件，这个对于喜欢追求更高品质的电影原盘的人非常有用 BetterTouchTool 3.346 这个是用来配置自己的各种设备的，比如我之前用它来自定义我的MagicMouse2，设置各种手势，比如单指轻点 Folx 5.18(13943) 一个下载工具，可以通过浏览器插件做mac的默认下载工具，同时也支持种子和磁力下载，除此之外，还支持youtube下载，不过我一直加载不出 最后说一句，破解有风险，这些分享的基本上都是TNT团队破解的，如果觉得软件对你有用的话，请支持正版</description>
     </item>
-    
     <item>
       <title>设置Hexo博客Next主题主页不显示全文</title>
       <link>https://loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</link>
       <pubDate>Mon, 04 May 2020 19:17:40 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/hexo-next-theme-nondisplay-fullpassage/</guid>
       <description>&lt;p&gt;使用Hexo配置自己的博客后，感觉很多方面都要轻松很多，一开始我是在Hexo Theme Page里面找到了一个比较好看的主题，奈何配置上之后，很多功能无法实现，且开发者好像也不再维护更新了，最终我还是决定使用Next博客，配置项的确是挺多的，所以功能也比较齐全，目前也有社区在维护更新&lt;/p&gt;
 &lt;p&gt;Next博客的主页总是会将你的文章全文显示出来，这样可读性是比较差的，如果你文章特别长的话，对于加载也有一定的影响，另一方面，没有目录，访问者无法清楚的找出自己要得到的内容&lt;/p&gt;
@@ -538,12 +476,10 @@ Surge3 Profiles
 &lt;p&gt;在需要截断的地方加入&lt;/p&gt;
 &lt;p&gt;`&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hexo博客SEO优化，将你的网站提交到搜索引擎</title>
       <link>https://loyio.me/posts/hexo-blog-seo/</link>
       <pubDate>Mon, 04 May 2020 19:10:17 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/hexo-blog-seo/</guid>
       <description>1.什么是SEO SEO（Search Engine Optimization）顾名思义就是搜索引擎优化，比如你想让别人在百度、google搜索某些内容时，刚好可以出现自己网站的链接，简单来说，就是提高你个人网站的流量。虽然我这人本来就没想过要什么流量，主要目的是想记录一些东西，给自己看的，但是，如果自己的博客能够帮助到别人解决问题，我感觉还是挺值得的。我下面介绍的都是Hexo静态网站博客相关的
 2.站点地图 也就是sitemap，站点地图可以告诉搜索引擎自己的网站有哪些可以抓取的内容，可以帮助搜索引擎更智能地抓取网站各个分支内容
@@ -564,12 +500,10 @@ hexo clean hexo g -d 然后点击完成验证就可以了 (❗如果验证失败
 npm install hexo-baidu-url-submit --save 然后在_config.yml文件添加以下内容
 baidu_url_submit: count: 5 ## 提交最新的五个链接 host: blog.loyio.me ## 百度站长平台中注册的域名 token: token ## 准入秘钥 path: baidu_urls.</description>
     </item>
-    
     <item>
       <title>Quantumult X 相关配置问题</title>
       <link>https://loyio.me/posts/quantumnltx-config/</link>
       <pubDate>Sun, 03 May 2020 18:43:06 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/quantumnltx-config/</guid>
       <description>之前一直用的是Shadowrocket（俗称小火箭，用了快一年多了吧，感情还是挺深的），配置起来的确要简单很多，但功能也自然谈不上丰富，今天看自己的印度Apple ID里面还有800卢比，想着放里面也是无用，不如花了痛快，于是就果断买了Quantumult x（好像大家常把它叫做圈X）。
 1.购买之前 刚开始搜的时候出现了两个软件，Quantumult 和 Quantumult x，订阅价格差了20人民币左右，于是又在网上了解这两者的区别，总结来说，就是UI不一样，然后Quantumult x支持强大的JS脚本功能，对于喜欢瞎折腾的我当然是选择第二个完整版
@@ -592,23 +526,19 @@ trojan=example.com:443, password=pwd, over-tls=true, tls-verification=true, fast
 另一个高级一点的功能就是定时任务，执行js脚本，这个我觉得也挺有用的，比如各种签到任务啊，用Quantumult X的一个比较突出的一个特点就是获取cookie方便多了，不像我搞个签到网站，还要各种抓包，最后还不一定能成功，这里我不过多赘述了，再次贴上项目合集的网址
 https://github.com/nzw9314/QuantumultX/tree/master</description>
     </item>
-    
     <item>
       <title>Apple Arcade 游戏评测</title>
       <link>https://loyio.me/posts/arcade-game-record/</link>
       <pubDate>Fri, 01 May 2020 17:55:10 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/arcade-game-record/</guid>
       <description>开通了Apple的游戏订阅服务，里面虽然游戏很多，但其实很多游戏是比较适合小孩子玩的，目前我个人觉得能玩的游戏有Oceanhorn2，Spyder，Tint等，这里我决定将Arcade中的每个游戏都试玩一下，写一下自己的个人感受。
 往右滑动表格，查看更多信息
 图标 游戏名称 游戏类别 推荐指数 主要任务 链接🔗 个人感觉 Oceanhorn2 冒险类 ⭐️⭐️⭐️⭐️⭐️ 做一个优秀的骑士完成各种任务、探险⚔️🛡 App Store 任务剧情都挺喜欢的 Spyder 冒险类 ⭐️⭐️⭐️⭐️⭐️ 控制机器蜘蛛完成各种繁琐的任务，拯救生命🕷️ App Store 已通关、总共六关 Frogger 动作类 ⭐️⭐️ 操作青蛙，拯救小青蛙🐸 App Store 感觉有点低智，想不懂苹果发布会当时为什么选他演示，适合小朋友玩吧 WHAT THE GOLF? 休闲类 ⭐️⭐️⭐️⭐️ 将各种物体击中目标，会有很多彩蛋，此游戏并不会教你打高尔夫 App Store 这个我发现有点晚，后面玩了才发现是真的好玩，太有趣了。 Skate City 动作类 ⭐️⭐️⭐️ 通过不同的操作完成各种花样滑板技能🛹 App Store 背景音乐以及滑板各种花式操作，但操作难度太大 https://www.icloud.com/numbers/0Hge7DDSLtiubHI8fr2a3UBMA</description>
     </item>
-    
     <item>
       <title>使用谷歌云搭建google drive离线下载服务器</title>
       <link>https://loyio.me/posts/gcp-create-gdrive-download-server/</link>
       <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/gcp-create-gdrive-download-server/</guid>
       <description>1.在google云中创建一个实例 选择可用的地区，这里我选择的是新加坡，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端
 2.安装rclone 我们使用官方的脚本进行安装
@@ -634,6 +564,5 @@ e/n/d/r/c/s/q&amp;gt; q 4.挂载磁盘 创建一个文件夹来挂载磁盘
 mkdir /mnt/googledrive 在挂载之前，我们要先安装fuse文件系统
 yum -y install fuse 然后输入挂载命令</description>
     </item>
-    
   </channel>
 </rss>

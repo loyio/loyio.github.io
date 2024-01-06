@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Q-Search on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/q-search/</link>
     <description>Recent content in Q-Search on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 May 2020 19:55:11 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/q-search/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 06 May 2020 19:55:11 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/q-search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surge-For-Mac模块 Q-Search 自定义搜索</title>
       <link>https://loyio.me/posts/q-search-surge-for-mac/</link>
       <pubDate>Wed, 06 May 2020 19:55:11 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/q-search-surge-for-mac/</guid>
       <description>昨天狠下心上了SurgeForMac的车，140永久，这是继Quantumult X后的又一次剁手，我也不知道自己怎么这么折腾，本来我Mac端用Clash用的好好的，没啥其它问题，可能是头脑一热吧，不过我今天就是想介绍一下，我重写的一款Surge模块，Q-Search
 前言 在手机上用过Quantumult X和Surge的应该很熟悉这个插件，就是利用了重写的功能，实现自定义搜索命令，比如我想要在京东上搜索笔记本，我只需要在搜索栏输入 jd 笔记本 就可以了
@@ -37,6 +39,5 @@ https://raw.githubusercontent.com/loyio/SurgeMacModule/master/Q-Search.sgmodule
 回车即可返回下面的搜索页面
 如果有不明白的问题，可以邮件联系我</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fritzing on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/fritzing/</link>
     <description>Recent content in Fritzing on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Mar 2022 16:50:39 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/fritzing/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Mar 2022 16:50:39 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/fritzing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Mac(M1 Pro)上通过源码编译Fritzing最新版本</title>
       <link>https://loyio.me/posts/build-fritzing-from-source/</link>
       <pubDate>Mon, 07 Mar 2022 16:50:39 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/build-fritzing-from-source/</guid>
       <description>因为要设计一下硬件的走线，在Arduino Forum上看到大家都是用的Fritzing，于是便也想着下载安装使用，打开官网，只看到 Pay &amp;amp; Download, 上面有着两个单选框（必选），一个是8欧元和25欧元。
 显然第一次使用，我是舍不得这些钱的，便想着搜索Cracked Version， 未果，返回到官网，发现原来这个软件在Github是开源的，主要用Qt，便想着尝试自己编译一下。
@@ -30,6 +32,5 @@ cd /Users/you/Documents/fritzing-app qmake -spec macx-xcode 构建成功后，�
 我在第三步就卡了，最后报错
 objc[8754]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libamsupport.dylib (0x1fd9a3678) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107f282c8). One of the two will be used. Which one is undefined.</description>
     </item>
-    
   </channel>
 </rss>

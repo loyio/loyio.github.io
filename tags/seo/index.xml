@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SEO on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/seo/</link>
     <description>Recent content in SEO on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 May 2020 19:10:17 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 04 May 2020 19:10:17 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hexo博客SEO优化，将你的网站提交到搜索引擎</title>
       <link>https://loyio.me/posts/hexo-blog-seo/</link>
       <pubDate>Mon, 04 May 2020 19:10:17 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/hexo-blog-seo/</guid>
       <description>1.什么是SEO SEO（Search Engine Optimization）顾名思义就是搜索引擎优化，比如你想让别人在百度、google搜索某些内容时，刚好可以出现自己网站的链接，简单来说，就是提高你个人网站的流量。虽然我这人本来就没想过要什么流量，主要目的是想记录一些东西，给自己看的，但是，如果自己的博客能够帮助到别人解决问题，我感觉还是挺值得的。我下面介绍的都是Hexo静态网站博客相关的
 2.站点地图 也就是sitemap，站点地图可以告诉搜索引擎自己的网站有哪些可以抓取的内容，可以帮助搜索引擎更智能地抓取网站各个分支内容
@@ -35,6 +37,5 @@ hexo clean hexo g -d 然后点击完成验证就可以了 (❗如果验证失败
 npm install hexo-baidu-url-submit --save 然后在_config.yml文件添加以下内容
 baidu_url_submit: count: 5 ## 提交最新的五个链接 host: blog.loyio.me ## 百度站长平台中注册的域名 token: token ## 准入秘钥 path: baidu_urls.</description>
     </item>
-    
   </channel>
 </rss>

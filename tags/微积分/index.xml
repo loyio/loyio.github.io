@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>微积分 on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/</link>
     <description>Recent content in 微积分 on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jul 2021 15:07:55 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jul 2021 15:07:55 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一阶微分方程与一阶线性方程的求解</title>
       <link>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</link>
       <pubDate>Thu, 08 Jul 2021 15:07:55 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/first-order-differential-equationsandlinearequations/</guid>
       <description>一.可分离变量的一阶微分方程 如果能够把一阶微分方程中所有关于 $y$ 的部分 (包括 $\mathrm{d}y$) 放在一边, 所有关于 $x$ 的部分 (包括 $\mathrm{d}x$) 放在另一边, 则该微分方程被称为是可分离变量的. 例如, 方程 $\mathrm{dy}/\mathrm{dx} = ky$ 可重新整理为 $$ \frac{1}{ky}\mathrm{d}y = \mathrm{d}x, $$ 就是可分离变量的。
 然后继续计算的方法就是两遍加积分号求积分。然后再整理求得 $y$。
@@ -22,21 +24,17 @@
 如果在题干中，涉及到初值时，还是使用以上的求解方法，最后将初值代入求得的全解中，就可以得到未知常数$C$了。
 二.一阶线性方程的求解 1.前言 形如 $$ \frac{\mathrm{d}y}{\mathrm{d}x}+p(x)y = q(x) $$ 其中 $p$ 和 $q$ 是关于 $x$ 的函数，这样的方程就称为一阶线性微分方程， 它可能不是可分离变量的, 甚至连线性看起来也不很明显! 例如, $$ \frac{\mathrm{d} y}{\mathrm{~d} x}+6 x^{2} y=\mathrm{e}^{-2 x^{3}} \sin (x) $$ 就不像是线性的, 然而这个方程确实是一阶线性的, 因为 $y$ 和 $\mathrm{d}y/\mathrm{d}x$ 的幂次都是 1. 而方程 $$ \frac{\mathrm{d} y}{\mathrm{~d} x}+6 x^{2} y^{3}=\mathrm{e}^{-2 x^{3}} \sin (x) $$ 不是一阶线性的, 因为 $y^3$ 不是 $y$ 的一次</description>
     </item>
-    
     <item>
       <title>常系数微分方程求解</title>
       <link>https://loyio.me/posts/constant-coefficient-differential-equations/</link>
       <pubDate>Thu, 08 Jul 2021 14:55:05 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/constant-coefficient-differential-equations/</guid>
       <description>常系数微分方程的形式如下 $$ a_{n} \frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}+\cdots+a_{2} \frac{\mathrm{d}^{2} y}{\mathrm{~d} x^{2}}+a_{1} \frac{\mathrm{d} y}{\mathrm{~d} x}+a_{0} y=f(x) $$ 其中$a_n,\ldots,a_1,a_0$知识一些普通的常实数，左边式子中$\frac{\mathrm{d}^{n} y}{\mathrm{~d} x^{n}}$，代表的是$y$的$n$阶导数。</description>
     </item>
-    
     <item>
       <title>常用的泰勒级数</title>
       <link>https://loyio.me/posts/10staylorpolyseries/</link>
       <pubDate>Thu, 08 Jul 2021 13:08:01 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/10staylorpolyseries/</guid>
       <description>以下公式来源于South Caolina
 1.$\frac{1}{1-x}$ $$ \begin{aligned}\frac{1}{1-x} &amp;amp;=\quad1+x+x^{2}+x^{3}+x^{4}+\ldots \\&amp;amp;=\quad\sum_{n=0}^{\infty} x^{n}\end{aligned} $$
@@ -47,6 +45,5 @@ $x\in (-1,1)$
 4.$\sin{x}$ $$ \begin{aligned}\sin x \quad &amp;amp;=\quad x-\frac{x^{3}}{3 !}+\frac{x^{5}}{5 !}-\frac{x^{7}}{7 !}+\frac{x^{9}}{9 !}-\ldots \\&amp;amp;=\quad \sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{2 n-1}}{(2 n-1) !} \stackrel{\text { or }}{=} \sum_{n=0}^{\infty}(-1)^{n} \frac{x^{2 n+1}}{(2 n+1) !}\end{aligned} $$
 5.$\ln{(1+x)}$ $$ \begin{aligned}\ln (1+x)\quad &amp;amp;=\quad x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\frac{x^{5}}{5}-\ldots \\&amp;amp;=\quad\sum_{n=1}^{\infty}(-1)^{(n-1)} \frac{x^{n}}{n} \stackrel{\text { or }}{=} \sum_{n=1}^{\infty}(-1)^{n+1} \frac{x^{n}}{n}\end{aligned} $$</description>
     </item>
-    
   </channel>
 </rss>

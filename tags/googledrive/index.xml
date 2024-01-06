@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GoogleDrive on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/googledrive/</link>
     <description>Recent content in GoogleDrive on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 May 2020 19:59:48 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/googledrive/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2020 19:59:48 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/googledrive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>rclone突破750G转存限制（使用gclone和Autoclone）</title>
       <link>https://loyio.me/posts/gclone-over-750g/</link>
       <pubDate>Thu, 07 May 2020 19:59:48 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/gclone-over-750g/</guid>
       <description>最近一直都在折腾GoogleDrive，有时候看到Tg群里面大佬分享的资源，都特别的大，本来一开始我是使用插件copy url to googledrive，应该是这个名称吧，不过比较鸡肋的是，这个只能转存到个人盘中，在没购买容量套餐前所有的人都默认是15G，远远不够用，虽然我买了一年的100G，但是依然不够用，随便转存点什么，就超过100G了，而且还要自己手动移动到团队盘
 在之前我就讲过了用rclone挂载GoogleDrive到linux服务器上的教程，大家可以点击下面的链接查看
@@ -37,6 +39,5 @@ https://groups.google.com/
 https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?pli=1&amp;amp;supportedpurview=project
 基本上就上面这些东西，如果有不明白的可以到上面的那些链接里去问大佬，当然也可以发邮件给我，我尽力解答</description>
     </item>
-    
   </channel>
 </rss>

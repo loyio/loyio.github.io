@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>服务器搭建 on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</link>
     <description>Recent content in 服务器搭建 on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate><atom:link href="https://loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Apr 2020 11:43:18 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用谷歌云搭建google drive离线下载服务器</title>
       <link>https://loyio.me/posts/gcp-create-gdrive-download-server/</link>
       <pubDate>Tue, 28 Apr 2020 11:43:18 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/gcp-create-gdrive-download-server/</guid>
       <description>1.在google云中创建一个实例 选择可用的地区，这里我选择的是新加坡，然后下面服务器配置选择Micro，允许http和https访问，最后点击创建，等待一会儿，点击右侧ssh连接服务器终端
 2.安装rclone 我们使用官方的脚本进行安装
@@ -40,6 +42,5 @@ e/n/d/r/c/s/q&amp;gt; q 4.挂载磁盘 创建一个文件夹来挂载磁盘
 mkdir /mnt/googledrive 在挂载之前，我们要先安装fuse文件系统
 yum -y install fuse 然后输入挂载命令</description>
     </item>
-    
   </channel>
 </rss>

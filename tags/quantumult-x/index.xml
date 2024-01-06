@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantumult X on Loyio&#39;s Blogs</title>
     <link>https://loyio.me/tags/quantumult-x/</link>
     <description>Recent content in Quantumult X on Loyio&#39;s Blogs</description>
     <image>
+      <title>Loyio&#39;s Blogs</title>
       <url>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://loyio.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 18:43:06 +0800</lastBuildDate><atom:link href="https://loyio.me/tags/quantumult-x/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 03 May 2020 18:43:06 +0800</lastBuildDate>
+    <atom:link href="https://loyio.me/tags/quantumult-x/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quantumult X 相关配置问题</title>
       <link>https://loyio.me/posts/quantumnltx-config/</link>
       <pubDate>Sun, 03 May 2020 18:43:06 +0800</pubDate>
-      
       <guid>https://loyio.me/posts/quantumnltx-config/</guid>
       <description>之前一直用的是Shadowrocket（俗称小火箭，用了快一年多了吧，感情还是挺深的），配置起来的确要简单很多，但功能也自然谈不上丰富，今天看自己的印度Apple ID里面还有800卢比，想着放里面也是无用，不如花了痛快，于是就果断买了Quantumult x（好像大家常把它叫做圈X）。
 1.购买之前 刚开始搜的时候出现了两个软件，Quantumult 和 Quantumult x，订阅价格差了20人民币左右，于是又在网上了解这两者的区别，总结来说，就是UI不一样，然后Quantumult x支持强大的JS脚本功能，对于喜欢瞎折腾的我当然是选择第二个完整版
@@ -37,6 +39,5 @@ trojan=example.com:443, password=pwd, over-tls=true, tls-verification=true, fast
 另一个高级一点的功能就是定时任务，执行js脚本，这个我觉得也挺有用的，比如各种签到任务啊，用Quantumult X的一个比较突出的一个特点就是获取cookie方便多了，不像我搞个签到网站，还要各种抓包，最后还不一定能成功，这里我不过多赘述了，再次贴上项目合集的网址
 https://github.com/nzw9314/QuantumultX/tree/master</description>
     </item>
-    
   </channel>
 </rss>
